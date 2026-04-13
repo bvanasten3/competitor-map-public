@@ -1,8 +1,11 @@
 [
   {
     "name": "My Dealer",
-    "address": "Bayport, MN",
-    "location": {"lat":45.0175,"lng":-92.7813},
+    "address": "3rd St N, Bayport, MN 55003",
+    "location": {
+      "lat": 45.02072,
+      "lng": -92.78105
+    },
     "status": "pre-build",
     "category": "cannabis",
     "licenseType": "retail",
@@ -13,14 +16,17 @@
     "newsLinks": [],
     "source": "Direct Intel - 2026-03-03",
     "farmBillNotes": null,
-    "notes": "Target opening August 1, 2026. Bayport buildout in progress. Bayport CUP tracked separately from Wabasha items.",
+    "notes": "Target opening August 1, 2026. Bayport buildout in progress. Bayport location is next to the post office on 3rd Street.",
     "lastVerified": "2026-04-13",
     "addedDate": "2026-03-03"
   },
   {
     "name": "Hunter Game LLC / Hunter Capital",
     "address": "330 2nd St W, Wabasha, MN 55981",
-    "location": {"lat":44.3833,"lng":-92.0348},
+    "location": {
+      "lat": 44.3833,
+      "lng": -92.0348
+    },
     "status": "cup-approved",
     "category": "cannabis",
     "licenseType": "retail",
@@ -38,7 +44,10 @@
   {
     "name": "Silver Cannabis Co.",
     "address": "1778 Greeley St S, Stillwater, MN",
-    "location": {"lat":45.0397860,"lng":-92.8211540},
+    "location": {
+      "lat": 45.039786,
+      "lng": -92.821154
+    },
     "status": "unknown",
     "category": "cannabis",
     "licenseType": null,
@@ -49,14 +58,17 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
-    "notes": "Was listed as 'Opening Soon (Feb/Mar 2026)' — needs status verification.",
+    "notes": "Was listed as 'Opening Soon (Feb/Mar 2026)' \u2014 needs status verification.",
     "lastVerified": "2026-04-12",
     "addedDate": "2026-03-03"
   },
   {
     "name": "Simply Crafted Cannabis",
     "address": "1420 Frontage Rd W, Stillwater, MN",
-    "location": {"lat":45.0363816,"lng":-92.8263750},
+    "location": {
+      "lat": 45.0363816,
+      "lng": -92.826375
+    },
     "status": "active",
     "category": "cannabis",
     "licenseType": null,
@@ -74,8 +86,11 @@
   {
     "name": "RISE Stillwater",
     "address": "1325 Curtis Ct #100, Stillwater, MN",
-    "location": {"lat":45.0368,"lng":-92.8385},
-    "status": "active",
+    "location": {
+      "lat": 45.0368,
+      "lng": -92.8385
+    },
+    "status": "unknown",
     "category": "cannabis",
     "licenseType": null,
     "cupStatus": null,
@@ -85,14 +100,17 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
-    "notes": "Verified north of MN-36 Frontage Road. Coordinates adjusted.",
+    "notes": "Legacy entry from earlier intel. Needs verification against current OCM medical/adult-use retail list before keeping on the live map.",
     "lastVerified": "2026-04-12",
     "addedDate": "2026-03-03"
   },
   {
     "name": "Turning Leaf",
     "address": "Stillwater, MN",
-    "location": {"lat":45.0560,"lng":-92.8080},
+    "location": {
+      "lat": 45.056,
+      "lng": -92.808
+    },
     "status": "active",
     "category": "cannabis",
     "licenseType": null,
@@ -110,7 +128,10 @@
   {
     "name": "Mango Cannabis",
     "address": "14608 60th St N, Oak Park Heights, MN",
-    "location": {"lat":45.0354737,"lng":-92.8087497},
+    "location": {
+      "lat": 45.0354737,
+      "lng": -92.8087497
+    },
     "status": "pending",
     "category": "cannabis",
     "licenseType": null,
@@ -128,7 +149,10 @@
   {
     "name": "HyMN LLC",
     "address": "13999 60th St N, Oak Park Heights, MN",
-    "location": {"lat":45.0351180,"lng":-92.8228200},
+    "location": {
+      "lat": 45.035118,
+      "lng": -92.82282
+    },
     "status": "pending",
     "category": "cannabis",
     "licenseType": null,
@@ -146,7 +170,10 @@
   {
     "name": "Power Plant Cannabis Shop II",
     "address": "13435 60th St N, Oak Park Heights, MN",
-    "location": {"lat":45.0358129,"lng":-92.8349081},
+    "location": {
+      "lat": 45.0358129,
+      "lng": -92.8349081
+    },
     "status": "pending",
     "category": "cannabis",
     "licenseType": null,
@@ -164,7 +191,10 @@
   {
     "name": "Cryptic Stock Movement",
     "address": "14729 60th St N, Oak Park Heights, MN",
-    "location": {"lat":45.0354800,"lng":-92.8059950},
+    "location": {
+      "lat": 45.03548,
+      "lng": -92.805995
+    },
     "status": "pending",
     "category": "cannabis",
     "licenseType": null,
@@ -182,7 +212,10 @@
   {
     "name": "Green Canopy",
     "address": "Lakeland, MN",
-    "location": {"lat":44.9450,"lng":-92.7660},
+    "location": {
+      "lat": 44.945,
+      "lng": -92.766
+    },
     "status": "active",
     "category": "cannabis",
     "licenseType": null,
@@ -200,7 +233,10 @@
   {
     "name": "Canna Club St. Croix",
     "address": "Lakeland, MN",
-    "location": {"lat":44.9480,"lng":-92.7700},
+    "location": {
+      "lat": 44.948,
+      "lng": -92.77
+    },
     "status": "active",
     "category": "cannabis",
     "licenseType": null,
@@ -218,7 +254,10 @@
   {
     "name": "Legacy Cannabis",
     "address": "9891 Hudson Pl, Woodbury, MN",
-    "location": {"lat":44.9390384,"lng":-92.9056761},
+    "location": {
+      "lat": 44.9390384,
+      "lng": -92.9056761
+    },
     "status": "active",
     "category": "cannabis",
     "licenseType": "meso",
@@ -236,7 +275,10 @@
   {
     "name": "Green Goods Woodbury",
     "address": "803 Bielenberg Dr, Building F5, Woodbury, MN 55125",
-    "location": {"lat":44.9471,"lng":-92.9013},
+    "location": {
+      "lat": 44.9471,
+      "lng": -92.9013
+    },
     "status": "active",
     "category": "cannabis",
     "licenseType": null,
@@ -254,7 +296,10 @@
   {
     "name": "The Green Room",
     "address": "Main St, Stillwater, MN",
-    "location": {"lat":45.0726951,"lng":-92.8074296},
+    "location": {
+      "lat": 45.0726951,
+      "lng": -92.8074296
+    },
     "status": "active",
     "category": "hemp",
     "licenseType": null,
@@ -272,7 +317,10 @@
   {
     "name": "Ignite Dispensary",
     "address": "Hudson, WI",
-    "location": {"lat":44.9750953,"lng":-92.7554671},
+    "location": {
+      "lat": 44.9750953,
+      "lng": -92.7554671
+    },
     "status": "active",
     "category": "hemp",
     "licenseType": null,
