@@ -3,8 +3,8 @@
     "name": "My Dealer",
     "address": "3rd St N, Bayport, MN 55003",
     "location": {
-      "lat": 45.02072,
-      "lng": -92.78105
+      "lat": 45.0178193,
+      "lng": -92.7792413
     },
     "status": "pre-build",
     "category": "cannabis",
@@ -16,7 +16,7 @@
     "newsLinks": [],
     "source": "Direct Intel - 2026-03-03",
     "farmBillNotes": null,
-    "notes": "Target opening August 1, 2026. Bayport buildout in progress. Bayport location is next to the post office on 3rd Street.",
+    "notes": "Target opening August 1, 2026. Bayport buildout in progress. Bayport location is next to the post office on 3rd Street. Address still needs street number verification, current pin is placed on the correct 3rd St N block by the Bayport post office.",
     "lastVerified": "2026-04-13",
     "addedDate": "2026-03-03"
   },
@@ -24,8 +24,8 @@
     "name": "Hunter Game LLC / Hunter Capital",
     "address": "330 2nd St W, Wabasha, MN 55981",
     "location": {
-      "lat": 44.3833,
-      "lng": -92.0348
+      "lat": 44.383949,
+      "lng": -92.0351626
     },
     "status": "cup-approved",
     "category": "cannabis",
@@ -58,7 +58,7 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
-    "notes": "Was listed as 'Opening Soon (Feb/Mar 2026)' \u2014 needs status verification.",
+    "notes": "Was listed as 'Opening Soon (Feb/Mar 2026)' — needs status verification.",
     "lastVerified": "2026-04-12",
     "addedDate": "2026-03-03"
   },
@@ -87,8 +87,8 @@
     "name": "RISE Stillwater",
     "address": "1325 Curtis Ct #100, Stillwater, MN",
     "location": {
-      "lat": 45.0368,
-      "lng": -92.8385
+      "lat": null,
+      "lng": null
     },
     "status": "unknown",
     "category": "cannabis",
@@ -100,16 +100,16 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
-    "notes": "Legacy entry from earlier intel. Needs verification against current OCM medical/adult-use retail list before keeping on the live map.",
+    "notes": "Legacy entry from earlier intel. Needs verification against current OCM medical/adult-use retail list before keeping on the live map. Unable to reliably confirm a Stillwater RISE location at this address, so coordinates are left null pending verification.",
     "lastVerified": "2026-04-12",
     "addedDate": "2026-03-03"
   },
   {
     "name": "Turning Leaf",
-    "address": "Stillwater, MN",
+    "address": "5980 Neal Ave N, Suite 300, Stillwater, MN 55082",
     "location": {
-      "lat": 45.056,
-      "lng": -92.808
+      "lat": 45.0346836,
+      "lng": -92.8461775
     },
     "status": "active",
     "category": "cannabis",
@@ -211,10 +211,10 @@
   },
   {
     "name": "Green Canopy",
-    "address": "Lakeland, MN",
+    "address": "177 Saint Croix Trail S, Lakeland Shores, MN 55043",
     "location": {
-      "lat": 44.945,
-      "lng": -92.766
+      "lat": 44.9463846,
+      "lng": -92.7710765
     },
     "status": "active",
     "category": "cannabis",
@@ -234,8 +234,8 @@
     "name": "Canna Club St. Croix",
     "address": "Lakeland, MN",
     "location": {
-      "lat": 44.948,
-      "lng": -92.77
+      "lat": null,
+      "lng": null
     },
     "status": "active",
     "category": "cannabis",
@@ -247,7 +247,7 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
-    "notes": "Drive-through dispensary, opened Jan 2026.",
+    "notes": "Drive-through dispensary, opened Jan 2026. Needs address verification. Could not reliably confirm a specific business/address for this entry, so coordinates are left null pending verification.",
     "lastVerified": "2026-04-12",
     "addedDate": "2026-03-03"
   },
@@ -276,8 +276,8 @@
     "name": "Green Goods Woodbury",
     "address": "803 Bielenberg Dr, Building F5, Woodbury, MN 55125",
     "location": {
-      "lat": 44.9471,
-      "lng": -92.9013
+      "lat": 44.9371682,
+      "lng": -92.952413
     },
     "status": "active",
     "category": "cannabis",
@@ -297,8 +297,8 @@
     "name": "The Green Room",
     "address": "Main St, Stillwater, MN",
     "location": {
-      "lat": 45.0726951,
-      "lng": -92.8074296
+      "lat": null,
+      "lng": null
     },
     "status": "active",
     "category": "hemp",
@@ -310,7 +310,7 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": "Farm Bill implications for hemp post-2026.",
-    "notes": "Boutique hemp/CBD with premium pricing.",
+    "notes": "Boutique hemp/CBD with premium pricing. Needs address verification. Search results strongly pointed to a restaurant/bar at 215 Main St S rather than a confirmed hemp retailer, so coordinates are left null pending verification.",
     "lastVerified": "2026-04-12",
     "addedDate": "2026-04-12"
   },
@@ -318,8 +318,8 @@
     "name": "Ignite Dispensary",
     "address": "Hudson, WI",
     "location": {
-      "lat": 44.9750953,
-      "lng": -92.7554671
+      "lat": null,
+      "lng": null
     },
     "status": "active",
     "category": "hemp",
@@ -331,7 +331,7 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": "CBD/Hemp and Tobacco. Wisconsin license timeline uncertain.",
-    "notes": null,
+    "notes": "Needs address verification. Current Ignite materials for Hudson route customers to New Richmond or product placement in Hudson rather than a confirmed standalone Hudson dispensary, so coordinates are left null pending verification.",
     "lastVerified": "2026-04-12",
     "addedDate": "2026-04-12"
   }
