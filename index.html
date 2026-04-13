@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Competitor Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin: 0; padding: 0; font-family: sans-serif; }
+        #map { height: 100vh; width: 100%; }
+        .info-popup { max-width: 420px; font-size: 0.9em; }
+        .info-popup b { font-size: 1.05em; }
+        .info-popup a { color: #007bff; text-decoration: none; }
+        .info-popup a:hover { text-decoration: underline; }
+        .status-active { color: green; font-weight: bold; }
+        .status-pending { color: orange; font-weight: bold; }
+        .status-unknown { color: gray; font-weight: bold; }
+        .category-hemp { border-left: 5px solid purple; padding-left: 5px; font-style: italic; }
+        .category-cannabis { border-left: 5px solid green; padding-left: 5px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        fetch('./competitors.json')
+            .then(r => {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(data => {
+                var map = L.map('map').setView([45.0, -92.8], 9);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+
+                data.forEach(function(c) {
+                    var lat = c.location && c.location.lat;
+                    var lng = c.location && c.location.lng;
+                    if (lat == null || lng == null) return;
+
+                    var statusClass = c.status === 'active' ? 'status-active' : (c.status === 'pending' ? 'status-pending' : 'status-unknown');
+                    var categoryClass = c.category === 'hemp' ? 'category-hemp' : 'category-cannabis';
+
+                    var popup = '<div class="info-popup">';
+                    popup += '<b>' + (c.name || 'Unknown') + '</b><br>';
+                    popup += '<span class="' + statusClass + '">Status: ' + (c.status || 'Unknown') + '</span><br>';
+                    popup += '<span class="' + categoryClass + '">Category: ' + (c.category || 'Unknown') + '</span><br>';
+                    if (c.address) popup += 'Address: ' + c.address + '<br>';
+                    if (c.website) popup += '<a href="' + c.website + '" target="_blank">Website</a><br>';
+                    if (Array.isArray(c.newsLinks) && c.newsLinks.length) {
+                        popup += 'News: ' + c.newsLinks.map(function(n) {
+                            if (typeof n === 'string') return '<a href="' + n + '" target="_blank">link</a>';
+                            if (n && n.url) return '<a href="' + n.url + '" target="_blank">' + (n.source || 'link') + '</a>';
+                            return '';
+                        }).filter(Boolean).join(' ') + '<br>';
+                    }
+                    if (c.notes) popup += 'Notes: ' + c.notes + '<br>';
+                    popup += '<small>Source: ' + (c.source || 'Unknown') + ', Last Verified: ' + (c.lastVerified || 'Unknown') + '</small>';
+                    popup += '</div>';
+
+                    L.circleMarker([lat, lng], {
+                        color: c.status === 'active' ? 'green' : (c.status === 'pending' ? 'orange' : 'gray'),
+                        radius: 8,
+                        fillOpacity: 0.8
+                    }).addTo(map).bindPopup(popup);
+                });
+            })
+            .catch(e => {
+                document.body.innerHTML = '<div style="padding:20px;font-family:sans-serif;">Error loading data: ' + e.message + '</div>';
+                console.error(e);
+            });
+    </script>
+</body>
+</html>
