@@ -514,5 +514,173 @@
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
     "addedDate": "2026-04-13"
+  },
+  {
+    "name": "Green Goods Minneapolis",
+    "address": "207 S 9th St, Minneapolis, MN 55402",
+    "location": {
+      "lat": 44.9736096,
+      "lng": -93.2710152
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "medical/adult-use",
+    "cupStatus": null,
+    "owner": null,
+    "website": null,
+    "socialMedia": {},
+    "newsLinks": [],
+    "source": "MN OCM / researched competitor list - 2026-04-13",
+    "farmBillNotes": null,
+    "notes": "Added from researched competitor list with refreshed geocoding.",
+    "lastVerified": "2026-04-13",
+    "addedDate": "2026-04-13"
+  },
+  {
+    "name": "Fridley Dispensary",
+    "address": "7315 Hwy 65 NE, Fridley, MN 55432",
+    "location": {
+      "lat": 45.0750081,
+      "lng": -93.2457123
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "micro",
+    "cupStatus": null,
+    "owner": null,
+    "website": null,
+    "socialMedia": {},
+    "newsLinks": [],
+    "source": "MN OCM / researched competitor list - 2026-04-13",
+    "farmBillNotes": null,
+    "notes": "Added from researched competitor list with refreshed geocoding.",
+    "lastVerified": "2026-04-13",
+    "addedDate": "2026-04-13"
+  },
+  {
+    "name": "Twin Cities Cannabis",
+    "address": "6625 Penn Ave S, Richfield, MN 55423",
+    "location": {
+      "lat": 44.8825238,
+      "lng": -93.3083606
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "micro",
+    "cupStatus": null,
+    "owner": null,
+    "website": null,
+    "socialMedia": {},
+    "newsLinks": [],
+    "source": "MN OCM / researched competitor list - 2026-04-13",
+    "farmBillNotes": null,
+    "notes": "Added from researched competitor list with refreshed geocoding.",
+    "lastVerified": "2026-04-13",
+    "addedDate": "2026-04-13"
+  },
+  {
+    "name": "Green 2 Go",
+    "address": "2103 Vermillion St, Hastings, MN 55033",
+    "location": {
+      "lat": 44.7233559,
+      "lng": -92.8519211
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "micro",
+    "cupStatus": null,
+    "owner": null,
+    "website": null,
+    "socialMedia": {},
+    "newsLinks": [],
+    "source": "MN OCM / researched competitor list - 2026-04-13",
+    "farmBillNotes": null,
+    "notes": "Added from researched competitor list with refreshed geocoding.",
+    "lastVerified": "2026-04-13",
+    "addedDate": "2026-04-13"
+  },
+  {
+    "name": "Da Spot Dispensary & Wellness",
+    "address": "2313 W 50th St, Minneapolis, MN 55410",
+    "location": {
+      "lat": 44.9122297,
+      "lng": -93.3092775
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "micro",
+    "cupStatus": null,
+    "owner": null,
+    "website": null,
+    "socialMedia": {},
+    "newsLinks": [],
+    "source": "MN OCM / researched competitor list - 2026-04-13",
+    "farmBillNotes": null,
+    "notes": "Added from researched competitor list with refreshed geocoding.",
+    "lastVerified": "2026-04-13",
+    "addedDate": "2026-04-13"
+  },
+  {
+    "name": "Legacy Cannabis Minneapolis",
+    "address": "2930 Lyndale Ave S, Minneapolis, MN 55408",
+    "location": {
+      "lat": 44.9494573,
+      "lng": -93.2882041
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "meso",
+    "cupStatus": null,
+    "owner": null,
+    "website": null,
+    "socialMedia": {},
+    "newsLinks": [],
+    "source": "MN OCM / researched competitor list - 2026-04-13",
+    "farmBillNotes": null,
+    "notes": "Added from researched competitor list with refreshed geocoding.",
+    "lastVerified": "2026-04-13",
+    "addedDate": "2026-04-13"
+  },
+  {
+    "name": "RISE Brooklyn Park",
+    "address": "8016 Brooklyn Blvd, Brooklyn Park, MN 55445",
+    "location": {
+      "lat": 45.0950108,
+      "lng": -93.3787391
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "medical/adult-use",
+    "cupStatus": null,
+    "owner": null,
+    "website": null,
+    "socialMedia": {},
+    "newsLinks": [],
+    "source": "MN OCM / researched competitor list - 2026-04-13",
+    "farmBillNotes": null,
+    "notes": "Added from researched competitor list with refreshed geocoding.",
+    "lastVerified": "2026-04-13",
+    "addedDate": "2026-04-13"
+  },
+  {
+    "name": "RISE Eagan",
+    "address": "1340 Town Centre Dr, Eagan, MN 55123",
+    "location": {
+      "lat": 44.8307724,
+      "lng": -93.1640005
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "medical/adult-use",
+    "cupStatus": null,
+    "owner": null,
+    "website": null,
+    "socialMedia": {},
+    "newsLinks": [],
+    "source": "MN OCM / researched competitor list - 2026-04-13",
+    "farmBillNotes": null,
+    "notes": "Added from researched competitor list with refreshed geocoding.",
+    "lastVerified": "2026-04-13",
+    "addedDate": "2026-04-13"
   }
 ]
