@@ -7,257 +7,67 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
-        :root {
-            --bg: #f6f7f9;
-            --panel: rgba(255,255,255,0.96);
-            --text: #1f2937;
-            --muted: #6b7280;
-            --border: #d1d5db;
-            --active: #15803d;
-            --pending: #d97706;
-            --unknown: #6b7280;
-            --cannabis: #166534;
-            --hemp: #7c3aed;
-            --prebuild: #2563eb;
-        }
-        html, body { margin: 0; padding: 0; height: 100%; font-family: Inter, system-ui, sans-serif; color: var(--text); background: var(--bg); }
+        body { margin: 0; padding: 0; font-family: sans-serif; }
         #map { height: 100vh; width: 100%; }
-        .shell { position: relative; height: 100vh; width: 100%; }
-        .panel {
-            position: absolute; z-index: 1000; top: 12px; left: 12px; width: min(360px, calc(100vw - 24px));
-            background: var(--panel); border: 1px solid var(--border); border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.16);
-            backdrop-filter: blur(8px); overflow: hidden;
-        }
-        .panel-header { padding: 14px 16px 8px; border-bottom: 1px solid #eef2f7; }
-        .panel-header h1 { margin: 0 0 6px; font-size: 18px; }
-        .panel-header p { margin: 0; font-size: 12px; color: var(--muted); line-height: 1.4; }
-        .controls { padding: 12px 16px 14px; display: grid; gap: 10px; }
-        .row { display: grid; gap: 8px; }
-        .label { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.03em; }
-        .search, select {
-            width: 100%; box-sizing: border-box; border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; font-size: 14px; background: white;
-        }
-        .toggle-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
-        .toggle-chip {
-            display: flex; align-items: center; gap: 8px; border: 1px solid var(--border); border-radius: 999px; padding: 8px 10px; font-size: 13px; background: white;
-        }
-        .toggle-chip input { margin: 0; }
-        .legend { display: flex; flex-wrap: wrap; gap: 8px; }
-        .legend span { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
-        .dot { width: 10px; height: 10px; border-radius: 999px; display: inline-block; }
-        .dot.active { background: var(--active); }
-        .dot.pending { background: var(--pending); }
-        .dot.unknown { background: var(--unknown); }
-        .stats { display: flex; gap: 10px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
-        .stat strong { color: var(--text); }
-        .results {
-            position: absolute; z-index: 1000; right: 12px; top: 12px; width: min(320px, calc(100vw - 24px));
-            max-height: min(70vh, 620px); overflow: auto; background: var(--panel); border: 1px solid var(--border);
-            border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.16); backdrop-filter: blur(8px);
-        }
-        .results-header { padding: 12px 14px; border-bottom: 1px solid #eef2f7; font-size: 13px; color: var(--muted); }
-        .result-item { padding: 12px 14px; border-bottom: 1px solid #f2f4f7; cursor: pointer; }
-        .result-item:hover { background: #f8fafc; }
-        .result-item:last-child { border-bottom: 0; }
-        .result-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
-        .result-meta { font-size: 12px; color: var(--muted); line-height: 1.4; }
-        .badge { display: inline-block; border-radius: 999px; padding: 2px 8px; font-size: 11px; font-weight: 700; margin-right: 6px; }
-        .badge.active { background: #dcfce7; color: #166534; }
-        .badge.pending, .badge.cup-approved, .badge.cup-pending { background: #fef3c7; color: #92400e; }
-        .badge.pre-build { background: #dbeafe; color: #1d4ed8; }
-        .badge.unknown { background: #e5e7eb; color: #374151; }
-        .info-popup { max-width: 420px; font-size: 13px; line-height: 1.45; }
-        .info-popup b { font-size: 15px; }
-        .info-popup a { color: #2563eb; text-decoration: none; }
+        .info-popup { max-width: 420px; font-size: 0.9em; }
+        .info-popup b { font-size: 1.05em; }
+        .info-popup a { color: #007bff; text-decoration: none; }
         .info-popup a:hover { text-decoration: underline; }
-        .popup-row { margin-top: 6px; }
-        .empty { padding: 16px; color: var(--muted); font-size: 13px; }
-        @media (max-width: 900px) {
-            .results { position: absolute; left: 12px; right: 12px; top: auto; bottom: 12px; width: auto; max-height: 34vh; }
-            .panel { width: calc(100vw - 24px); }
-        }
+        .status-active { color: green; font-weight: bold; }
+        .status-pending { color: orange; font-weight: bold; }
+        .status-unknown { color: gray; font-weight: bold; }
+        .category-hemp { border-left: 5px solid purple; padding-left: 5px; font-style: italic; }
+        .category-cannabis { border-left: 5px solid green; padding-left: 5px; font-weight: bold; }
     </style>
 </head>
 <body>
-<div class="shell">
     <div id="map"></div>
-    <div class="panel">
-        <div class="panel-header">
-            <h1>Competitor Map</h1>
-            <p>Verified exact-address pins first. Weak or unverified addresses stay off-map until confirmed.</p>
-        </div>
-        <div class="controls">
-            <div class="row">
-                <div class="label">Search</div>
-                <input id="search" class="search" type="text" placeholder="Search name, city, address..." />
-            </div>
-            <div class="row">
-                <div class="label">Status</div>
-                <select id="statusFilter">
-                    <option value="all">All statuses</option>
-                    <option value="active">Active</option>
-                    <option value="pending">Pending</option>
-                    <option value="pre-build">Pre-build</option>
-                    <option value="cup-approved">CUP approved</option>
-                    <option value="unknown">Unknown</option>
-                </select>
-            </div>
-            <div class="row">
-                <div class="label">Category</div>
-                <div class="toggle-grid">
-                    <label class="toggle-chip"><input type="checkbox" id="showCannabis" checked /> Cannabis</label>
-                    <label class="toggle-chip"><input type="checkbox" id="showHemp" checked /> Hemp</label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="label">Display</div>
-                <div class="toggle-grid">
-                    <label class="toggle-chip"><input type="checkbox" id="showUnmapped" /> Include unmapped list</label>
-                    <label class="toggle-chip"><input type="checkbox" id="fitResults" checked /> Auto-fit results</label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="legend">
-                    <span><i class="dot active"></i>Active</span>
-                    <span><i class="dot pending"></i>Pending/CUP</span>
-                    <span><i class="dot unknown"></i>Unknown</span>
-                </div>
-            </div>
-            <div class="stats" id="stats"></div>
-        </div>
-    </div>
-    <div class="results" id="resultsPanel">
-        <div class="results-header" id="resultsHeader">Loading competitors...</div>
-        <div id="resultsList"></div>
-    </div>
-</div>
-<script>
-fetch('./competitors.json')
-    .then(r => {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-    })
-    .then(data => {
-        const map = L.map('map').setView([44.95, -92.75], 9);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+    <script>
+        fetch('./competitors.json')
+            .then(r => {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(data => {
+                var map = L.map('map').setView([45.0, -92.8], 9);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
 
-        const searchInput = document.getElementById('search');
-        const statusFilter = document.getElementById('statusFilter');
-        const showCannabis = document.getElementById('showCannabis');
-        const showHemp = document.getElementById('showHemp');
-        const showUnmapped = document.getElementById('showUnmapped');
-        const fitResults = document.getElementById('fitResults');
-        const resultsList = document.getElementById('resultsList');
-        const resultsHeader = document.getElementById('resultsHeader');
-        const stats = document.getElementById('stats');
+                data.forEach(function(c) {
+                    var lat = c.location && c.location.lat;
+                    var lng = c.location && c.location.lng;
+                    if (lat == null || lng == null) return;
 
-        let markersLayer = L.layerGroup().addTo(map);
+                    var statusClass = c.status === 'active' ? 'status-active' : (c.status === 'pending' ? 'status-pending' : 'status-unknown');
+                    var categoryClass = c.category === 'hemp' ? 'category-hemp' : 'category-cannabis';
 
-        function statusColor(status) {
-            if (status === 'active') return '#15803d';
-            if (status === 'pending' || status === 'cup-approved' || status === 'cup-pending') return '#d97706';
-            if (status === 'pre-build') return '#2563eb';
-            return '#6b7280';
-        }
-
-        function popupHtml(c) {
-            let html = '<div class="info-popup">';
-            html += '<b>' + (c.name || 'Unknown') + '</b>';
-            html += '<div class="popup-row"><span class="badge ' + ((c.status || 'unknown').replace(/\s+/g,'-')) + '">' + (c.status || 'unknown') + '</span>';
-            html += '<span class="badge">' + (c.category || 'unknown') + '</span></div>';
-            if (c.address) html += '<div class="popup-row"><strong>Address:</strong> ' + c.address + '</div>';
-            if (c.licenseType) html += '<div class="popup-row"><strong>License:</strong> ' + c.licenseType + '</div>';
-            if (c.cupStatus) html += '<div class="popup-row"><strong>CUP:</strong> ' + c.cupStatus + '</div>';
-            if (c.notes) html += '<div class="popup-row"><strong>Notes:</strong> ' + c.notes + '</div>';
-            html += '<div class="popup-row"><small>Source: ' + (c.source || 'Unknown') + ' | Last Verified: ' + (c.lastVerified || 'Unknown') + '</small></div>';
-            html += '</div>';
-            return html;
-        }
-
-        function matchesFilters(c) {
-            const q = searchInput.value.trim().toLowerCase();
-            const status = statusFilter.value;
-            const categoryAllowed = (c.category === 'hemp' ? showHemp.checked : showCannabis.checked);
-            const searchable = [c.name, c.address, c.notes, c.source].filter(Boolean).join(' ').toLowerCase();
-            if (!categoryAllowed) return false;
-            if (status !== 'all' && (c.status || 'unknown') !== status) return false;
-            if (q && !searchable.includes(q)) return false;
-            return true;
-        }
-
-        function render() {
-            markersLayer.clearLayers();
-            resultsList.innerHTML = '';
-
-            const filtered = data.filter(matchesFilters);
-            const mapped = filtered.filter(c => c.location && c.location.lat != null && c.location.lng != null);
-            const unmapped = filtered.filter(c => !(c.location && c.location.lat != null && c.location.lng != null));
-
-            mapped.forEach(c => {
-                const marker = L.circleMarker([c.location.lat, c.location.lng], {
-                    color: statusColor(c.status),
-                    fillColor: statusColor(c.status),
-                    radius: 8,
-                    weight: 2,
-                    fillOpacity: 0.8
-                }).bindPopup(popupHtml(c));
-                marker.addTo(markersLayer);
-            });
-
-            const visibleResults = showUnmapped.checked ? filtered : mapped;
-            visibleResults.forEach(c => {
-                const item = document.createElement('div');
-                item.className = 'result-item';
-                item.innerHTML = `
-                    <div class="result-title">${c.name || 'Unknown'}</div>
-                    <div class="result-meta">
-                        <span class="badge ${String(c.status || 'unknown').replace(/\s+/g,'-')}">${c.status || 'unknown'}</span>
-                        ${c.address || 'Address pending verification'}<br>
-                        ${c.source || 'Unknown source'}
-                    </div>
-                `;
-                item.onclick = () => {
-                    if (c.location && c.location.lat != null && c.location.lng != null) {
-                        map.setView([c.location.lat, c.location.lng], 14);
-                        markersLayer.eachLayer(layer => {
-                            const ll = layer.getLatLng();
-                            if (Math.abs(ll.lat - c.location.lat) < 0.000001 && Math.abs(ll.lng - c.location.lng) < 0.000001) {
-                                layer.openPopup();
-                            }
-                        });
+                    var popup = '<div class="info-popup">';
+                    popup += '<b>' + (c.name || 'Unknown') + '</b><br>';
+                    popup += '<span class="' + statusClass + '">Status: ' + (c.status || 'Unknown') + '</span><br>';
+                    popup += '<span class="' + categoryClass + '">Category: ' + (c.category || 'Unknown') + '</span><br>';
+                    if (c.address) popup += 'Address: ' + c.address + '<br>';
+                    if (c.website) popup += '<a href="' + c.website + '" target="_blank">Website</a><br>';
+                    if (Array.isArray(c.newsLinks) && c.newsLinks.length) {
+                        popup += 'News: ' + c.newsLinks.map(function(n) {
+                            if (typeof n === 'string') return '<a href="' + n + '" target="_blank">link</a>';
+                            if (n && n.url) return '<a href="' + n.url + '" target="_blank">' + (n.source || 'link') + '</a>';
+                            return '';
+                        }).filter(Boolean).join(' ') + '<br>';
                     }
-                };
-                resultsList.appendChild(item);
+                    if (c.notes) popup += 'Notes: ' + c.notes + '<br>';
+                    popup += '<small>Source: ' + (c.source || 'Unknown') + ', Last Verified: ' + (c.lastVerified || 'Unknown') + '</small>';
+                    popup += '</div>';
+
+                    L.circleMarker([lat, lng], {
+                        color: c.status === 'active' ? 'green' : (c.status === 'pending' ? 'orange' : 'gray'),
+                        radius: 8,
+                        fillOpacity: 0.8
+                    }).addTo(map).bindPopup(popup);
+                });
+            })
+            .catch(e => {
+                document.body.innerHTML = '<div style="padding:20px;font-family:sans-serif;">Error loading data: ' + e.message + '</div>';
+                console.error(e);
             });
-
-            if (!visibleResults.length) {
-                resultsList.innerHTML = '<div class="empty">No competitors match the current filters.</div>';
-            }
-
-            resultsHeader.textContent = `${mapped.length} mapped competitors, ${unmapped.length} unmapped in current filter`;
-            stats.innerHTML = `
-                <div class="stat"><strong>${filtered.length}</strong> shown</div>
-                <div class="stat"><strong>${mapped.length}</strong> pinned</div>
-                <div class="stat"><strong>${unmapped.length}</strong> need address verification</div>
-            `;
-
-            if (fitResults.checked && mapped.length) {
-                const bounds = L.latLngBounds(mapped.map(c => [c.location.lat, c.location.lng]));
-                map.fitBounds(bounds.pad(0.18));
-            }
-        }
-
-        [searchInput, statusFilter, showCannabis, showHemp, showUnmapped, fitResults].forEach(el => {
-            el.addEventListener('input', render);
-            el.addEventListener('change', render);
-        });
-
-        render();
-    })
-    .catch(e => {
-        document.body.innerHTML = '<div style="padding:20px;font-family:sans-serif;">Error loading data: ' + e.message + '</div>';
-        console.error(e);
-    });
-</script>
+    </script>
 </body>
 </html>
