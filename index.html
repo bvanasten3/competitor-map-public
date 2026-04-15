@@ -32,10 +32,26 @@
                 var map = L.map('map').setView([45.0, -92.8], 9);
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
 
+                var manualOverrides = {
+                    'Silver Cannabis Co.': { lat: 45.03979, lng: -92.82045, source: 'manual verified override' },
+                    'Simply Crafted Cannabis': { lat: 45.03623, lng: -92.81756, source: 'manual verified override' },
+                    'Turning Leaf': { lat: 45.03468, lng: -92.84535, source: 'manual verified override' },
+                    'Mango Cannabis': { lat: 45.03547, lng: -92.80802, source: 'manual verified override' },
+                    'HyMN LLC': { lat: 45.03512, lng: -92.82205, source: 'manual verified override' },
+                    'Power Plant Cannabis Shop II': { lat: 45.03581, lng: -92.83415, source: 'manual verified override' },
+                    'Cryptic Stock Movement': { lat: 45.03548, lng: -92.80532, source: 'manual verified override' }
+                };
+
                 data.forEach(function(c) {
-                    var lat = c.location && c.location.lat;
-                    var lng = c.location && c.location.lng;
-                    if (lat == null || lng == null) return;
+                    var coords = null;
+                    if (manualOverrides[c.name]) {
+                        coords = manualOverrides[c.name];
+                    } else {
+                        var lat = c.location && c.location.lat;
+                        var lng = c.location && c.location.lng;
+                        if (lat != null && lng != null) coords = { lat: lat, lng: lng, source: 'stored coordinates' };
+                    }
+                    if (!coords) return;
 
                     var statusClass = c.status === 'active' ? 'status-active' : (c.status === 'pending' ? 'status-pending' : 'status-unknown');
                     var categoryClass = c.category === 'hemp' ? 'category-hemp' : 'category-cannabis';
@@ -54,10 +70,10 @@
                         }).filter(Boolean).join(' ') + '<br>';
                     }
                     if (c.notes) popup += 'Notes: ' + c.notes + '<br>';
-                    popup += '<small>Source: ' + (c.source || 'Unknown') + ', Last Verified: ' + (c.lastVerified || 'Unknown') + '</small>';
+                    popup += '<small>Source: ' + (c.source || 'Unknown') + ', Last Verified: ' + (c.lastVerified || 'Unknown') + ', Map placement: ' + coords.source + '</small>';
                     popup += '</div>';
 
-                    L.circleMarker([lat, lng], {
+                    L.circleMarker([coords.lat, coords.lng], {
                         color: c.status === 'active' ? 'green' : (c.status === 'pending' ? 'orange' : 'gray'),
                         radius: 8,
                         fillOpacity: 0.8
