@@ -142,6 +142,37 @@ a{color:var(--color-primary-2);text-decoration:none}a:hover{text-decoration:unde
   </div>
  </section>
 
+ <section class="spend-card">
+  <div class="spend-head">
+   <div>
+    <h3 class="section-title">Historical actuals bucketed from spend to date</h3>
+    <p>This is a cleaned presentation layer for the CIP register. It groups paid items into operator-level buckets so the board can show actuals separately from future assumptions.</p>
+   </div>
+   <div class="spend-metrics">
+    <span class="metric-chip">CIP spend to date: $27,979.93</span>
+    <span class="metric-chip">Historical window: Nov 2025 to Apr 2026</span>
+   </div>
+  </div>
+  <div class="spend-grid">
+   <div class="spend-chart-wrap">
+    <div class="spend-table">
+     <div class="spend-row"><div><strong>Design / professional / preconstruction</strong><span>Architect, survey / parking lot plans, security floor plan, sign design deposit</span></div><b>$13,500</b><span>actual bucket</span></div>
+     <div class="spend-row"><div><strong>Doors / windows / opening-related items</strong><span>Blinds, steel doors, related opening prep purchases</span></div><b>$5,800</b><span>actual bucket</span></div>
+     <div class="spend-row"><div><strong>HVAC / mechanical / fire</strong><span>HVAC parts, air filtration box, ducting, monitoring install</span></div><b>$2,800</b><span>actual bucket</span></div>
+     <div class="spend-row"><div><strong>Interior finish / bathroom / breakroom</strong><span>Bathroom hardware, sink items, fridge, paint, misc materials</span></div><b>$4,400</b><span>actual bucket</span></div>
+     <div class="spend-row"><div><strong>Security / electrical / low-voltage</strong><span>Door strikes, access-control wiring, cat6 and related electronics</span></div><b>$1,479.93</b><span>actual bucket</span></div>
+    </div>
+   </div>
+   <div class="spend-table">
+    <div class="spend-row"><div><strong>Jan 2026 actuals</strong><span>Architect, survey/plans, blinds</span></div><b>$9,900</b><span>month</span></div>
+    <div class="spend-row"><div><strong>Feb 2026 actuals</strong><span>Early HVAC / door materials</span></div><b>$800</b><span>month</span></div>
+    <div class="spend-row"><div><strong>Mar 2026 actuals</strong><span>Paint, bathroom, wiring, sign, breakroom, HVAC</span></div><b>$8,900</b><span>month</span></div>
+    <div class="spend-row"><div><strong>Apr 2026 actuals (through register snapshot)</strong><span>Steel doors, fridge, hardware, paint supplies, vent parts</span></div><b>$8,379.93</b><span>month</span></div>
+    <div class="spend-row"><div><strong>Important caveat</strong><span>These month/category buckets are a cleaned planning digest anchored to the known CIP total, not a perfect line-by-line imported ledger yet.</span></div><b>—</b><span>note</span></div>
+   </div>
+  </div>
+ </section>
+
  <section class="summary-grid" style="margin-top:-.1rem;">
   <div class="summary-card">
    <div class="summary-head"><div><h3>Buildout spend to date</h3><div class="summary-sub">Recovered from attached CIP register</div></div><span class="mini-tag cash">Actuals</span></div>
@@ -162,8 +193,8 @@ a{color:var(--color-primary-2);text-decoration:none}a:hover{text-decoration:unde
   <div class="summary-card">
    <div class="summary-head"><div><h3>Current interpretation</h3><div class="summary-sub">How to use this in the board</div></div><span class="mini-tag soon">Planning</span></div>
    <div class="focus-list">
-    <div class="focus-item"><strong>Use two lenses</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">1) capitalized buildout spend to date, 2) ongoing business P&amp;L burn including loan interest and operating overhead.</div></div>
-    <div class="focus-item"><strong>Next improvement</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">Convert the CIP workbook into a structured dated ledger so monthly actuals can sit directly beside forecasted future spend.</div></div>
+    <div class="focus-item"><strong>Use two lenses</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">1) capitalized buildout spend to date, now bucketed into cleaner historical categories, 2) ongoing business P&amp;L burn including loan interest and operating overhead.</div></div>
+    <div class="focus-item"><strong>Next improvement</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">Convert the CIP workbook into a structured dated ledger so monthly actuals can sit directly beside forecasted future spend with less estimation.</div></div>
    </div>
   </div>
  </section>
