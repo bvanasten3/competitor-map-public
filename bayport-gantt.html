@@ -6,51 +6,56 @@
 <title>My Dealer – Bayport Buildout Timeline</title>
 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,600,700&f[]=cabinet-grotesk@400,500,700,800&display=swap" rel="stylesheet">
 <style>
-:root, [data-theme="light"] {
- --color-bg:#f7f6f2;--color-surface:#f9f8f5;--color-surface-2:#fbfbf9;--color-surface-offset:#f0ede8;
- --color-divider:#dcd9d5;--color-border:#d4d1ca;--color-text:#28251d;--color-text-muted:#7a7974;--color-text-faint:#bab9b4;
- --color-primary:#01696f;--color-primary-hover:#0c4e54;--color-primary-hl:#cedcd8;
- --color-success:#437a22;--color-success-hl:#d4dfcc;--color-warning:#964219;--color-warning-hl:#ddcfc6;
- --color-error:#a12c7b;--color-error-hl:#e0ced7;--color-gold:#c48f00;--color-blue:#006494;
- --color-orange:#da7101;--color-purple:#7a39bb;
- --radius-sm:0.375rem;--radius-md:0.5rem;--radius-lg:0.75rem;--radius-xl:1rem;--radius-full:9999px;
- --shadow-sm:0 1px 2px oklch(0.2 0.01 80/0.06);--shadow-md:0 4px 12px oklch(0.2 0.01 80/0.08);--shadow-lg:0 12px 32px oklch(0.2 0.01 80/0.12);
+:root,[data-theme="light"]{
+ --color-bg:#f7f6f2;--color-surface:#fbfaf7;--color-surface-2:#f2efe9;--color-surface-3:#ebe7de;--color-divider:#d9d4cb;--color-border:#d4cec4;
+ --color-text:#26221b;--color-text-muted:#6f6b64;--color-text-faint:#a8a298;--color-primary:#0f7475;--color-primary-hl:#d3e7e4;--color-primary-2:#015c62;
+ --color-success:#437a22;--color-success-hl:#d9e5cf;--color-warning:#9b4b1f;--color-warning-hl:#ead7ce;--color-error:#a12c7b;--color-error-hl:#ebd4e1;
+ --color-gold:#bb8600;--color-gold-hl:#f2e3b9;--color-blue:#1e6997;--color-blue-hl:#d3e4f0;--color-purple:#7a39bb;--color-purple-hl:#e3d7f3;--color-orange:#cc6b15;--color-orange-hl:#f0dbc9;
+ --radius-sm:.4rem;--radius-md:.65rem;--radius-lg:1rem;--radius-xl:1.25rem;--radius-full:999px;
+ --shadow-sm:0 1px 2px rgba(0,0,0,.05);--shadow-md:0 8px 22px rgba(0,0,0,.08);--shadow-lg:0 18px 40px rgba(0,0,0,.12);
  --font-d:"Cabinet Grotesk","Helvetica Neue",sans-serif;--font-b:"Satoshi","Inter",sans-serif;
- --tx-xs:clamp(0.72rem,0.68rem + 0.2vw,0.8rem);--tx-sm:clamp(0.82rem,0.78rem + 0.25vw,0.9rem);
- --tx-base:clamp(0.9rem,0.85rem + 0.25vw,1rem);--tx-lg:clamp(1.1rem,0.95rem + 0.7vw,1.4rem);
- --tx-xl:clamp(1.4rem,1.1rem + 1.2vw,2rem);
- --tr:180ms cubic-bezier(0.16,1,0.3,1);
+ --tx-xs:clamp(.72rem,.68rem + .2vw,.8rem);--tx-sm:clamp(.84rem,.8rem + .2vw,.92rem);--tx-base:clamp(.94rem,.9rem + .2vw,1rem);--tx-lg:clamp(1.15rem,1rem + .6vw,1.5rem);--tx-xl:clamp(1.5rem,1.2rem + 1vw,2.25rem);
+ --tr:180ms cubic-bezier(.16,1,.3,1);
 }
-[data-theme="dark"] {
- --color-bg:#171614;--color-surface:#1c1b19;--color-surface-2:#201f1d;--color-surface-offset:#22211f;
- --color-divider:#262523;--color-border:#393836;--color-text:#cdccca;--color-text-muted:#797876;--color-text-faint:#5a5957;
- --color-primary:#4f98a3;--color-primary-hover:#227f8b;--color-primary-hl:#313b3b;
- --color-success:#6daa45;--color-success-hl:#3a4435;--color-warning:#bb653b;--color-warning-hl:#564942;
- --color-error:#d163a7;--color-error-hl:#4c3d46;--color-gold:#e8af34;--color-blue:#5591c7;
- --color-orange:#fdab43;--color-purple:#a86fdf;
- --shadow-sm:0 1px 2px oklch(0 0 0/0.25);--shadow-md:0 4px 12px oklch(0 0 0/0.35);--shadow-lg:0 12px 32px oklch(0 0 0/0.45);
+[data-theme="dark"]{
+ --color-bg:#141311;--color-surface:#1b1917;--color-surface-2:#22201d;--color-surface-3:#282521;--color-divider:#2d2a27;--color-border:#3a3632;
+ --color-text:#d8d4cf;--color-text-muted:#97918a;--color-text-faint:#68635d;--color-primary:#56a5a6;--color-primary-hl:#233938;--color-primary-2:#76c2c1;
+ --color-success:#79b457;--color-success-hl:#2f4028;--color-warning:#d27a48;--color-warning-hl:#46342c;--color-error:#d96caf;--color-error-hl:#4a3340;
+ --color-gold:#f0ba46;--color-gold-hl:#443820;--color-blue:#72a8d2;--color-blue-hl:#243746;--color-purple:#b285e4;--color-purple-hl:#3b304a;--color-orange:#f3a04b;--color-orange-hl:#473424;
+ --shadow-sm:0 1px 2px rgba(0,0,0,.28);--shadow-md:0 8px 22px rgba(0,0,0,.34);--shadow-lg:0 18px 40px rgba(0,0,0,.44);
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-font-smoothing:antialiased;scroll-behavior:smooth}
-body{min-height:100dvh;font-family:var(--font-b);font-size:var(--tx-base);color:var(--color-text);background:var(--color-bg);transition:background var(--tr),color var(--tr)}
+body{min-height:100dvh;font-family:var(--font-b);font-size:var(--tx-base);color:var(--color-text);background:radial-gradient(circle at top,var(--color-surface-2),var(--color-bg) 32%);transition:background var(--tr),color var(--tr)}
 button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
+a{color:var(--color-primary-2);text-decoration:none}a:hover{text-decoration:underline}
 :focus-visible{outline:2px solid var(--color-primary);outline-offset:3px;border-radius:var(--radius-sm)}
-.hdr{position:sticky;top:0;z-index:100;background:var(--color-surface);border-bottom:1px solid var(--color-divider);box-shadow:var(--shadow-sm);padding:.75rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
-.logo-area{display:flex;align-items:center;gap:.75rem}.logo-icon{width:34px;height:34px;color:var(--color-primary);flex-shrink:0}.logo-text h1{font-family:var(--font-d);font-size:var(--tx-lg);font-weight:800;line-height:1.1}.logo-text p{font-size:var(--tx-xs);color:var(--color-text-muted)}
-.hdr-right{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}.badge-deadline{display:flex;align-items:center;gap:.5rem;background:var(--color-success-hl);color:var(--color-success);padding:.3rem .9rem;border-radius:var(--radius-full);font-size:var(--tx-xs);font-weight:600}.btn-toggle{width:34px;height:34px;border-radius:var(--radius-full);display:flex;align-items:center;justify-content:center;color:var(--color-text-muted);border:1px solid var(--color-border);background:var(--color-surface-2)}.btn-toggle:hover{color:var(--color-text);background:var(--color-surface-offset)}
-.wrap{max-width:1440px;margin:0 auto;padding:1.25rem 1.25rem}
-.callout{background:var(--color-success-hl);border:1px solid var(--color-success);border-radius:var(--radius-lg);padding:1rem 1.25rem;margin-bottom:1.25rem;display:flex;gap:.75rem;align-items:flex-start}.callout-text{font-size:var(--tx-sm);color:var(--color-success);line-height:1.55}.callout-text strong{font-weight:700}
-.stats-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:.75rem;margin-bottom:1.25rem}.stat-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.875rem 1rem;box-shadow:var(--shadow-sm)}.stat-val{font-family:var(--font-d);font-size:var(--tx-xl);font-weight:800;line-height:1;margin-bottom:.2rem;font-variant-numeric:tabular-nums}.stat-lbl{font-size:var(--tx-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em}
-.legend{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem;align-items:center}.leg-item{display:flex;align-items:center;gap:.375rem;font-size:var(--tx-xs);color:var(--color-text-muted);cursor:pointer;padding:.2rem .7rem;border-radius:var(--radius-full);border:1px solid transparent;transition:all var(--tr);user-select:none}.leg-item:hover{background:var(--color-surface-offset)}.leg-item.on{border-color:var(--color-border);background:var(--color-surface)}.leg-item.off{opacity:.38}.leg-dot{width:9px;height:9px;border-radius:var(--radius-full);flex-shrink:0}
-.gantt-box{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);box-shadow:var(--shadow-md);overflow:hidden;margin-bottom:1.5rem}.gantt-scroll{overflow-x:auto}.gantt-grid{min-width:1050px}
-.g-hdr{display:grid;grid-template-columns:260px 88px 1fr;background:var(--color-surface-offset);border-bottom:2px solid var(--color-divider);position:sticky;top:0;z-index:5}.g-hdr-cell{padding:.5rem .875rem;font-size:var(--tx-xs);font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted)}.g-months{display:flex;border-left:1px solid var(--color-divider)}.g-month{flex:1;text-align:center;padding:.5rem .25rem;font-size:var(--tx-xs);font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);border-right:1px solid var(--color-divider)}.g-month:last-child{border-right:none}.g-month.cur{color:var(--color-primary);background:color-mix(in oklab,var(--color-primary) 7%,var(--color-surface))}
-.g-row{display:grid;grid-template-columns:260px 88px 1fr;border-bottom:1px solid var(--color-divider);transition:background var(--tr);cursor:pointer}.g-row:last-child{border-bottom:none}.g-row:hover{background:color-mix(in oklab,var(--color-primary) 4%,var(--color-surface))}.g-row.cat-hdr{background:var(--color-surface-offset);cursor:default}.g-row.cat-hdr:hover{background:var(--color-surface-offset)}
-.g-name{padding:.5rem .875rem;display:flex;align-items:center;gap:.5rem;min-width:0}.cat-label{font-family:var(--font-d);font-size:var(--tx-xs);font-weight:700;text-transform:uppercase;letter-spacing:.07em}.task-name-txt{font-size:var(--tx-sm);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.imp-chip{display:inline-flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;letter-spacing:.05em;padding:2px 5px;border-radius:var(--radius-full);background:var(--color-error-hl);color:var(--color-error);flex-shrink:0}.dep-note{font-size:var(--tx-xs);color:var(--color-text-muted);margin-top:.2rem}.task-indent{padding-left:1.25rem}.s-dot{width:7px;height:7px;border-radius:var(--radius-full);flex-shrink:0}
-.g-status{padding:.4rem .25rem;display:flex;align-items:center;justify-content:center;border-left:1px solid var(--color-divider)}.s-badge{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:2px 6px;border-radius:var(--radius-full);white-space:nowrap}.s-todo{background:var(--color-surface-offset);color:var(--color-text-muted)}.s-active{background:var(--color-primary-hl);color:var(--color-primary)}.s-blocked{background:var(--color-warning-hl);color:var(--color-warning)}.s-done{background:var(--color-success-hl);color:var(--color-success)}.s-ordered{background:#c6d8e4;color:#006494}[data-theme="dark"] .s-ordered{background:#3a4550;color:#5591c7}
-.g-bar-area{position:relative;border-left:1px solid var(--color-divider);display:flex;align-items:center;padding:4px 0;overflow:hidden}.g-mo-col{flex:1;align-self:stretch;border-right:1px solid var(--color-divider)}.g-mo-col:last-child{border-right:none}.g-mo-col.cur-mo{background:color-mix(in oklab,var(--color-primary) 5%,transparent)}.g-bar{position:absolute;height:18px;border-radius:var(--radius-sm);display:flex;align-items:center;overflow:hidden;transition:height var(--tr),opacity var(--tr)}.g-bar:hover{height:22px}.g-bar-fill{position:absolute;left:0;top:0;bottom:0;background:white;opacity:.25;border-radius:var(--radius-sm);transition:width 600ms cubic-bezier(0.16,1,0.3,1)}.g-bar-lbl{font-size:9px;font-weight:600;color:white;padding:0 5px;position:relative;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.85}.today-ln{position:absolute;top:0;bottom:0;width:2px;background:var(--color-error);z-index:6;pointer-events:none}.today-ln::before{content:"TODAY";position:absolute;top:-17px;left:50%;transform:translateX(-50%);font-size:8px;font-weight:700;letter-spacing:.06em;color:var(--color-error);white-space:nowrap}.dl-ln{position:absolute;top:0;bottom:0;width:2px;background:var(--color-success);z-index:6;pointer-events:none}.dl-ln::before{content:"AUG 1";position:absolute;top:-17px;left:50%;transform:translateX(-50%);font-size:8px;font-weight:700;letter-spacing:.06em;color:var(--color-success);white-space:nowrap}
-.panel-ov{position:fixed;inset:0;background:oklch(0 0 0/0.55);z-index:200;display:none;align-items:flex-end;justify-content:flex-end;padding:1rem;backdrop-filter:blur(3px)}.panel-ov.open{display:flex}.panel{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);box-shadow:var(--shadow-lg);width:100%;max-width:420px;max-height:82dvh;overflow-y:auto;padding:1.25rem;animation:slideUp 200ms cubic-bezier(0.16,1,0.3,1)}@keyframes slideUp{from{transform:translateY(16px);opacity:0}to{transform:translateY(0);opacity:1}}.panel-hdr{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1.25rem}.panel-ttl{font-family:var(--font-d);font-size:var(--tx-lg);font-weight:700;line-height:1.2}.panel-cls{width:30px;height:30px;border-radius:var(--radius-full);background:var(--color-surface-offset);color:var(--color-text-muted);display:flex;align-items:center;justify-content:center;flex-shrink:0}.panel-cls:hover{background:var(--color-divider);color:var(--color-text)}.panel-fld{margin-bottom:1rem}.panel-lbl{font-size:var(--tx-xs);font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:.375rem}.panel-sel,.panel-inp,.panel-ta{width:100%;background:var(--color-surface-offset);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:.45rem .75rem;font:inherit;font-size:var(--tx-sm);color:var(--color-text);transition:border-color var(--tr)}.panel-sel:focus,.panel-inp:focus,.panel-ta:focus{outline:none;border-color:var(--color-primary);box-shadow:0 0 0 3px color-mix(in oklab,var(--color-primary) 15%,transparent)}.panel-ta{resize:vertical;min-height:76px}.pct-row{display:flex;align-items:center;gap:.75rem}.pct-inp{width:80px}.pct-bar{flex:1;height:8px;background:var(--color-surface-offset);border-radius:var(--radius-full);overflow:hidden}.pct-fill{height:100%;background:var(--color-primary);border-radius:var(--radius-full);transition:width 400ms cubic-bezier(0.16,1,0.3,1)}.btn-save{width:100%;background:var(--color-primary);color:white;padding:.65rem 1rem;border-radius:var(--radius-md);font-weight:600;font-size:var(--tx-sm);margin-top:1rem;transition:background var(--tr),transform var(--tr)}.btn-save:hover{background:var(--color-primary-hover);transform:translateY(-1px)}.btn-save:active{transform:translateY(0)}.dates-row{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
-.notes-box{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);padding:1.25rem;box-shadow:var(--shadow-sm)}.notes-ttl{font-family:var(--font-d);font-size:var(--tx-base);font-weight:700;margin-bottom:.75rem}.notes-ta{width:100%;background:var(--color-surface-offset);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:.75rem;font:inherit;font-size:var(--tx-sm);color:var(--color-text);resize:vertical;min-height:160px;transition:border-color var(--tr)}.notes-ta:focus{outline:none;border-color:var(--color-primary)}
-@media(max-width:640px){.wrap{padding:.875rem}.hdr{padding:.625rem .875rem}.badge-deadline span{display:none}.stats-row{grid-template-columns:repeat(2,1fr)}}
+.hdr{position:sticky;top:0;z-index:100;background:rgba(27,25,23,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--color-divider);box-shadow:var(--shadow-sm);padding:.85rem 1.25rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+[data-theme="light"] .hdr{background:rgba(251,250,247,.92)}
+.logo-area{display:flex;align-items:center;gap:.8rem}.logo-icon{width:36px;height:36px;color:var(--color-primary);flex-shrink:0}.logo-text h1{font-family:var(--font-d);font-size:var(--tx-lg);font-weight:800;line-height:1.05}.logo-text p{font-size:var(--tx-xs);color:var(--color-text-muted)}
+.hdr-right{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}.badge-deadline{display:flex;align-items:center;gap:.5rem;background:var(--color-success-hl);color:var(--color-success);padding:.35rem .9rem;border-radius:var(--radius-full);font-size:var(--tx-xs);font-weight:700}.btn-toggle{width:36px;height:36px;border-radius:var(--radius-full);display:flex;align-items:center;justify-content:center;color:var(--color-text-muted);border:1px solid var(--color-border);background:var(--color-surface-2)}.btn-toggle:hover{background:var(--color-surface-3);color:var(--color-text)}
+.wrap{max-width:1480px;margin:0 auto;padding:1.25rem}
+.hero{display:grid;grid-template-columns:1.35fr .95fr;gap:1rem;margin-bottom:1rem}.hero-card,.panel-card,.gantt-box,.notes-box,.summary-card,.spend-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);box-shadow:var(--shadow-md)}
+.hero-card{padding:1.2rem 1.25rem}.hero-title{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:.75rem}.hero-title h2{font-family:var(--font-d);font-size:var(--tx-xl);line-height:1;font-weight:800}.hero-title p{font-size:var(--tx-sm);color:var(--color-text-muted);max-width:48rem;line-height:1.5}
+.pill-row{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.8rem}.pill{display:inline-flex;align-items:center;gap:.35rem;padding:.38rem .7rem;border-radius:var(--radius-full);font-size:var(--tx-xs);font-weight:700;border:1px solid var(--color-border);background:var(--color-surface-2);color:var(--color-text-muted)}.pill.primary{background:var(--color-primary-hl);color:var(--color-primary);border-color:transparent}.pill.warning{background:var(--color-warning-hl);color:var(--color-warning);border-color:transparent}.pill.gold{background:var(--color-gold-hl);color:var(--color-gold);border-color:transparent}
+.hero-side{display:grid;gap:1rem}.callout{padding:1rem 1.05rem;border-radius:var(--radius-xl);border:1px solid var(--color-success);background:linear-gradient(180deg,var(--color-success-hl),transparent)}.callout strong{display:block;margin-bottom:.35rem;color:var(--color-success)}.callout p{font-size:var(--tx-sm);color:var(--color-text);line-height:1.5}
+.stats-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.75rem;margin-bottom:1rem}.stat-card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:.9rem 1rem;box-shadow:var(--shadow-sm)}.stat-val{font-family:var(--font-d);font-size:var(--tx-xl);font-weight:800;line-height:1;margin-bottom:.25rem;font-variant-numeric:tabular-nums}.stat-lbl{font-size:var(--tx-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em}
+.summary-grid{display:grid;grid-template-columns:1.05fr 1.05fr .9fr;gap:1rem;margin-bottom:1rem}.summary-card{padding:1rem 1.1rem}.summary-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-bottom:.7rem}.summary-head h3,.section-title{font-family:var(--font-d);font-size:var(--tx-base);font-weight:800}.summary-sub{font-size:var(--tx-xs);color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.06em}
+.focus-list,.tight-list{display:grid;gap:.6rem}.focus-item{padding:.8rem .85rem;border-radius:var(--radius-md);border:1px solid var(--color-border);background:var(--color-surface-2)}.focus-item strong{display:block;font-size:var(--tx-sm);margin-bottom:.22rem}.focus-meta{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.45rem}.mini-tag{display:inline-flex;align-items:center;gap:.25rem;padding:.18rem .45rem;border-radius:var(--radius-full);font-size:11px;font-weight:700;letter-spacing:.03em;background:var(--color-surface-3);color:var(--color-text-muted)}.mini-tag.urgent{background:var(--color-error-hl);color:var(--color-error)}.mini-tag.soon{background:var(--color-gold-hl);color:var(--color-gold)}.mini-tag.blocked{background:var(--color-warning-hl);color:var(--color-warning)}.mini-tag.cash{background:var(--color-blue-hl);color:var(--color-blue)}.mini-tag.done{background:var(--color-success-hl);color:var(--color-success)}
+.legend-wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}.legend{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center}.leg-item{display:flex;align-items:center;gap:.35rem;font-size:var(--tx-xs);color:var(--color-text-muted);cursor:pointer;padding:.24rem .68rem;border-radius:var(--radius-full);border:1px solid transparent;transition:all var(--tr);user-select:none}.leg-item:hover{background:var(--color-surface-2)}.leg-item.on{border-color:var(--color-border);background:var(--color-surface-2)}.leg-item.off{opacity:.35}.leg-dot{width:10px;height:10px;border-radius:50%}
+.toolbar-right{display:flex;align-items:center;gap:.85rem;flex-wrap:wrap}.toggle-label{display:flex;align-items:center;gap:.45rem;font-size:var(--tx-xs);color:var(--color-text-muted)}.toggle-label input{accent-color:var(--color-primary)}
+.gantt-box{overflow:hidden;margin-bottom:1rem}.gantt-top{padding:1rem 1.1rem;border-bottom:1px solid var(--color-divider);display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap}.gantt-top p{font-size:var(--tx-sm);color:var(--color-text-muted);max-width:52rem;line-height:1.45}
+.gantt-scroll{overflow:auto}.gantt-grid{min-width:1120px}.g-hdr{display:grid;grid-template-columns:310px 88px 1fr;background:var(--color-surface-2);border-bottom:2px solid var(--color-divider);position:sticky;top:0;z-index:5}.g-hdr-cell{padding:.55rem .9rem;font-size:var(--tx-xs);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted)}.g-months{display:flex;border-left:1px solid var(--color-divider)}.g-month{flex:1;text-align:center;padding:.55rem .25rem;font-size:var(--tx-xs);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);border-right:1px solid var(--color-divider)}.g-month:last-child{border-right:none}.g-month.cur{color:var(--color-primary);background:color-mix(in oklab,var(--color-primary) 9%,var(--color-surface-2))}
+.g-row{display:grid;grid-template-columns:310px 88px 1fr;border-bottom:1px solid var(--color-divider);transition:background var(--tr),opacity var(--tr);cursor:pointer}.g-row:hover{background:color-mix(in oklab,var(--color-primary) 5%,var(--color-surface))}.g-row:last-child{border-bottom:none}.g-row.cat-hdr{background:var(--color-surface-2);cursor:default}.g-row.cat-hdr:hover{background:var(--color-surface-2)}.g-row.dim{opacity:.55}
+.g-name{padding:.65rem .9rem;display:flex;align-items:flex-start;gap:.55rem;min-width:0}.cat-label{font-family:var(--font-d);font-size:var(--tx-xs);font-weight:800;text-transform:uppercase;letter-spacing:.08em}.task-indent{padding-left:1.2rem}.s-dot{width:8px;height:8px;border-radius:50%;margin-top:.38rem;flex-shrink:0}.task-main{min-width:0;display:flex;flex-direction:column;gap:.18rem}.task-name-row{display:flex;align-items:center;gap:.45rem;min-width:0}.task-name-txt{font-size:var(--tx-sm);font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.task-sub{font-size:var(--tx-xs);color:var(--color-text-muted);display:flex;flex-wrap:wrap;gap:.35rem}.imp-chip,.focus-chip{display:inline-flex;align-items:center;justify-content:center;font-size:10px;font-weight:800;letter-spacing:.05em;padding:2px 6px;border-radius:var(--radius-full);flex-shrink:0}.imp-chip{background:var(--color-error-hl);color:var(--color-error)}.focus-chip{background:var(--color-gold-hl);color:var(--color-gold)}
+.g-status{padding:.4rem .25rem;display:flex;align-items:center;justify-content:center;border-left:1px solid var(--color-divider)}.s-badge{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:3px 7px;border-radius:var(--radius-full);white-space:nowrap}.s-todo{background:var(--color-surface-3);color:var(--color-text-muted)}.s-active{background:var(--color-primary-hl);color:var(--color-primary)}.s-blocked{background:var(--color-warning-hl);color:var(--color-warning)}.s-done{background:var(--color-success-hl);color:var(--color-success)}.s-ordered{background:var(--color-blue-hl);color:var(--color-blue)}
+.g-bar-area{position:relative;border-left:1px solid var(--color-divider);display:flex;align-items:center;padding:7px 0;overflow:hidden}.g-mo-col{flex:1;align-self:stretch;border-right:1px solid var(--color-divider)}.g-mo-col:last-child{border-right:none}.g-mo-col.cur-mo{background:color-mix(in oklab,var(--color-primary) 5%,transparent)}.g-bar{position:absolute;height:20px;border-radius:var(--radius-sm);display:flex;align-items:center;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08)}.g-bar.near{outline:2px solid color-mix(in oklab,var(--color-gold) 60%,transparent)}.g-bar.critical{box-shadow:0 0 0 1px rgba(255,255,255,.08),0 0 0 3px color-mix(in oklab,var(--color-error) 25%,transparent)}.g-bar-fill{position:absolute;left:0;top:0;bottom:0;background:white;opacity:.22;border-radius:var(--radius-sm)}.g-bar-lbl{font-size:9px;font-weight:700;color:white;padding:0 6px;position:relative;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.9}.today-ln,.dl-ln{position:absolute;top:0;bottom:0;width:2px;z-index:6;pointer-events:none}.today-ln{background:var(--color-error)}.dl-ln{background:var(--color-success)}.today-ln::before,.dl-ln::before{position:absolute;top:-17px;left:50%;transform:translateX(-50%);font-size:8px;font-weight:800;letter-spacing:.06em;white-space:nowrap}.today-ln::before{content:"TODAY";color:var(--color-error)}.dl-ln::before{content:"AUG 1";color:var(--color-success)}
+.spend-card{padding:1rem 1.1rem;margin-bottom:1rem}.spend-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:.85rem}.spend-head p{font-size:var(--tx-sm);color:var(--color-text-muted);max-width:44rem;line-height:1.45}.spend-metrics{display:flex;gap:.6rem;flex-wrap:wrap}.metric-chip{padding:.4rem .65rem;border-radius:var(--radius-full);font-size:var(--tx-xs);font-weight:700;background:var(--color-surface-2);border:1px solid var(--color-border);color:var(--color-text-muted)}
+.spend-grid{display:grid;grid-template-columns:1.25fr .95fr;gap:1rem}.spend-chart-wrap{border:1px solid var(--color-border);background:var(--color-surface-2);border-radius:var(--radius-lg);padding:.85rem}.spend-scale{display:grid;grid-template-columns:repeat(6,1fr);gap:.45rem;align-items:end;height:230px}.spend-col{display:flex;flex-direction:column;justify-content:flex-end;gap:.45rem;min-height:100%}.spend-stack{display:flex;flex-direction:column-reverse;gap:2px;height:180px}.spend-seg{border-radius:6px 6px 2px 2px;min-height:2px}.spend-amt{font-size:var(--tx-xs);font-weight:800;text-align:center;color:var(--color-text)}.spend-lbl{font-size:var(--tx-xs);text-align:center;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.05em}.spend-table{display:grid;gap:.55rem}.spend-row{display:grid;grid-template-columns:1fr auto auto;gap:.6rem;align-items:center;padding:.6rem .7rem;border-radius:var(--radius-md);border:1px solid var(--color-border);background:var(--color-surface-2)}.spend-row strong{font-size:var(--tx-sm)}.spend-row span{font-size:var(--tx-xs);color:var(--color-text-muted)}.spend-row b{font-size:var(--tx-sm);font-variant-numeric:tabular-nums}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.notes-box{padding:1rem 1.05rem}.notes-ttl{font-family:var(--font-d);font-size:var(--tx-base);font-weight:800;margin-bottom:.75rem}.notes-ta{width:100%;background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:.8rem;font:inherit;font-size:var(--tx-sm);color:var(--color-text);resize:vertical;min-height:160px;line-height:1.5}.notes-ta:focus{outline:none;border-color:var(--color-primary)}
+.panel-ov{position:fixed;inset:0;background:rgba(0,0,0,.58);z-index:200;display:none;align-items:flex-end;justify-content:flex-end;padding:1rem;backdrop-filter:blur(3px)}.panel-ov.open{display:flex}.panel{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-xl);box-shadow:var(--shadow-lg);width:100%;max-width:460px;max-height:88dvh;overflow-y:auto;padding:1.25rem}.panel-hdr{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:1.25rem}.panel-ttl{font-family:var(--font-d);font-size:var(--tx-lg);font-weight:800;line-height:1.15}.panel-cls{width:32px;height:32px;border-radius:var(--radius-full);background:var(--color-surface-2);color:var(--color-text-muted);display:flex;align-items:center;justify-content:center;flex-shrink:0}.panel-cls:hover{background:var(--color-surface-3);color:var(--color-text)}.panel-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}.panel-fld{margin-bottom:1rem}.panel-lbl{font-size:var(--tx-xs);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--color-text-muted);margin-bottom:.35rem}.panel-sel,.panel-inp,.panel-ta{width:100%;background:var(--color-surface-2);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:.52rem .75rem;font:inherit;font-size:var(--tx-sm);color:var(--color-text)}.panel-ta{resize:vertical;min-height:90px}.panel-sel:focus,.panel-inp:focus,.panel-ta:focus{outline:none;border-color:var(--color-primary);box-shadow:0 0 0 3px color-mix(in oklab,var(--color-primary) 15%,transparent)}.btn-save{width:100%;background:var(--color-primary);color:white;padding:.7rem 1rem;border-radius:var(--radius-md);font-weight:700;font-size:var(--tx-sm);margin-top:.4rem}.btn-save:hover{background:var(--color-primary-2)}
+@media(max-width:1100px){.hero,.summary-grid,.spend-grid,.two-col{grid-template-columns:1fr}.stats-row{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:720px){.wrap{padding:.8rem}.hdr{padding:.7rem .85rem}.badge-deadline span{display:none}.stats-row{grid-template-columns:repeat(2,minmax(0,1fr))}.g-hdr,.g-row{grid-template-columns:240px 84px 1fr}.gantt-grid{min-width:980px}}
 </style>
 </head>
 <body>
@@ -64,7 +69,7 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
  </svg>
  <div class="logo-text">
  <h1>My Dealer — Bayport</h1>
- <p>Dispensary Buildout · Project Timeline</p>
+ <p>Buildout command center · focus, blockers, and cash timing</p>
  </div>
  </div>
  <div class="hdr-right">
@@ -78,237 +83,231 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
  </div>
 </header>
 <main class="wrap">
- <div class="callout">
- <span style="font-size:1.1rem;flex-shrink:0">📋</span>
- <p class="callout-text">
- <strong>OCM Submission Window:</strong> Submit your Plan of Record once all systems are operational. OCM has 90 days to review; historical average is ~45 days. 
- <strong>Target submission: late May 2026</strong> so the store is operational well ahead of the Aug 1 target. This timeline should be managed off the true dependency chain, not optimistic guesses.
- </p>
- </div>
+ <section class="hero">
+  <div class="hero-card">
+   <div class="hero-title">
+    <div>
+     <h2>Near-term operator view</h2>
+     <p>The goal of this version is simple: make the next few moves obvious, keep the critical path visible, and stop hiding money timing inside notes.</p>
+    </div>
+   </div>
+   <div class="pill-row">
+    <span class="pill primary">Top priority tomorrow: order vault garage door / rolling shutter</span>
+    <span class="pill warning">Main gate: building permit + sprinkler scheduling</span>
+    <span class="pill gold">Big win: Tom quote is $15k and can start shortly after permit</span>
+   </div>
+  </div>
+  <div class="hero-side">
+   <div class="callout">
+    <strong>OCM timing rule</strong>
+    <p>Submit the Plan of Record once systems are actually operational, not just promised. OCM can take up to 90 days, with historical average around 45, so late-May readiness still matters.</p>
+   </div>
+   <div class="callout" style="border-color:var(--color-blue);background:linear-gradient(180deg,var(--color-blue-hl),transparent)">
+    <strong style="color:var(--color-blue)">Cash logic</strong>
+    <p>Working Vireo consulting today instead of driving to Bayport makes sense. Bayport progress matters, but preserving runway at ~$150/hour is still directly helping the build.</p>
+   </div>
+  </div>
+ </section>
+
  <div class="stats-row" id="stats-row"></div>
- <div class="notes-box" style="margin-bottom:1rem;">
- <div class="notes-ttl">🎯 What should I work on next?</div>
- <textarea class="notes-ta" id="next-actions" style="min-height:120px;">TOP ACTIONS
-• Same-day permit escalation: call MNSPECT / SAFEbuilt first at 952-442-7520 and ask whether the Bayport file is still in active building-plan review, every remaining open item, who owns the review right now, and the earliest realistic issuance date if open items are cleared. If it is not sitting in active plan review, call Bayport City Hall at 651-275-4404 or office@ci.bayport.mn.us the same day and identify the exact city-side hold point, because Bayport's own guidance distinguishes SAFEbuilt plan review from City Hall administrative / zoning processing.
-• Request quotes from White Bear Glass and Hallmark Glass for two interior checkpoint windows around 40 in x 36 in, fixed security glazing with a document/pass-through slot as the base option.
-• Ask whether either shop can also quote a sliding transaction-window variant, and only keep that path alive if the employee corridor will be upgraded to true restricted-access control with audit logging and camera coverage.
+
+ <section class="summary-grid">
+  <div class="summary-card">
+   <div class="summary-head"><div><h3>Top 3 next moves</h3><div class="summary-sub">Near-term execution</div></div><span class="mini-tag urgent">Focus</span></div>
+   <div class="focus-list" id="top-focus"></div>
+  </div>
+  <div class="summary-card">
+   <div class="summary-head"><div><h3>Critical blockers</h3><div class="summary-sub">What can stall framing</div></div><span class="mini-tag blocked">Watch</span></div>
+   <div class="focus-list" id="blocker-list"></div>
+  </div>
+  <div class="summary-card">
+   <div class="summary-head"><div><h3>Completed recently</h3><div class="summary-sub">Momentum check</div></div><span class="mini-tag done">Wins</span></div>
+   <div class="tight-list" id="recent-wins"></div>
+  </div>
+ </section>
+
+ <section class="spend-card">
+  <div class="spend-head">
+   <div>
+    <h3 class="section-title">Projected cash spend over time</h3>
+    <p>This is a planning view, not accounting. It is meant to show when cash probably starts hitting based on the current build sequence, quotes, and known purchases.</p>
+   </div>
+   <div class="spend-metrics" id="spend-metrics"></div>
+  </div>
+  <div class="spend-grid">
+   <div class="spend-chart-wrap">
+    <div class="spend-scale" id="spend-chart"></div>
+   </div>
+   <div class="spend-table" id="spend-table"></div>
+  </div>
+ </section>
+
+ <div class="legend-wrap">
+  <div class="legend" id="legend"></div>
+  <div class="toolbar-right">
+   <label class="toggle-label"><input type="checkbox" id="toggle-done" checked> Hide done tasks</label>
+   <span class="mini-tag soon">Gold outline = near-term</span>
+   <span class="mini-tag urgent">Red glow = critical path</span>
+  </div>
+ </div>
+
+ <section class="gantt-box">
+  <div class="gantt-top">
+   <div>
+    <h3 class="section-title">Timeline with urgency + spend context</h3>
+    <p>Tasks marked DEP matter downstream. Near-term work gets highlighted. Critical path tasks glow red. Done tasks stay hidden by default so the board points toward action, not clutter.</p>
+   </div>
+  </div>
+  <div class="gantt-scroll"><div class="gantt-grid" id="gantt-grid"></div></div>
+ </section>
+
+ <section class="two-col">
+  <div class="notes-box">
+   <div class="notes-ttl">🎯 What should I work on next?</div>
+   <textarea class="notes-ta" id="next-actions">TOP ACTIONS
 • Order the vault garage door / rolling shutter tomorrow after final field sizing. This is the top priority because lead time is about one month.
 • Meet Per Mar on site tomorrow (10:30 to ~2:00) and tighten scope/compliance confidence.
 • Get Dynamic Fire Protection on the calendar for sprinkler-head moves so framing is not blocked.
+• Keep permit pressure on SAFEbuilt / Bayport until the exact hold point is confirmed and cleared.
 • Pick up the steel doors from Home Depot on the next hardware-store trip so framing stays unblocked.
-• List the property at 257 up for rent on Facebook.
-• Condition and stain the four on-site oak interior doors (buy conditioner or bring it from home).
-• Review the vault garage door / day-stock proposal and decide whether a fallback barrier behind day-stock should be preserved.
-• Lock garage-door / rolling-shutter dimensions and order timing early because lead times may run to mid-May and framing needs exact opening sizes.
+• Keep checkpoint window quoting moving with Hallmark and local alternatives.
 
-BLOCKED / WAITING
-• Building permit and sign permit remain with Safebuild for review, with Bayport expecting more insight next week after Michael meets with them.
-• Framing start still depends on permit timing plus sprinkler coordination.
-• Final security vendor decision still needs apples-to-apples comparison, though Per Mar became more competitive after clarifications.
+WHY THIS ORDER
+• The real near-term sequence is permit -> sprinkler calendar -> garage door order -> framing start.
+• Tom's $15k framing quote is a major savings, but it only helps if the dependencies are cleared in time.
+• Working Vireo today is still rational because it protects runway while tomorrow already has a defined Bayport execution block.</textarea>
+  </div>
+  <div class="notes-box">
+   <div class="notes-ttl">📒 Decision & Vendor Log</div>
+   <textarea class="notes-ta" id="decision-log">SECURITY
+• Lloyd still appears stronger on audit logging / perimeter access coverage.
+• Per Mar became much more credible after clarifying scope, labor, recurring charges, front/back door adders, and strike compatibility.
+• Tomorrow's on-site Per Mar visit should tighten the final choice.
 
-MORPHEUS CAN HELP WITH
-• Finalize compliant day-stock vs true-vault design around the shutter-access concept using the Apr 14 rule check: each product storage area needs locked restricted access, required signage, and an access record showing who entered, when, and what product moved.
-• Checkpoint window recommendation: decide before framing to use either (A) fixed glazing with a controlled pass-through slot, or (B) a sliding transaction window only if the employee corridor is upgraded into a clearly locked restricted-access area with badge/audit logging and camera coverage.
-• Draft operating rules for Metrc transfers, AM/PM counts, and vault replenishment workflow.
-• Surface tax return as a general to-do item in morning checkins until complete.</textarea>
- </div>
- <div class="notes-box" style="margin-bottom:1rem;">
- <div class="notes-ttl">📒 Decision & Vendor Log</div>
- <textarea class="notes-ta" id="decision-log" style="min-height:140px;">SECURITY
-• Lloyd appears stronger on door access coverage and audit logging, but Per Mar is now much more competitive after clarifications.
-• Per Mar clarified that $298/month includes monitoring, video/access/cloud services, ~70 labor hours are included, adding front/back doors would be +$10/month per door, and Brandon's HES 5000C strikes could remove about $960 from the proposal.
-• Decision rule: compliant enough + total installed cost matters more than fanciest tech.
+BUILDOUT / CASH
+• Tom / father-son crew quoted $15k for interior buildout and can start a few days after permit issuance. This is a meaningful cost improvement.
+• Hallmark Glass RFQ has been sent.
+• The vault garage door / rolling shutter is now top priority because the lead time is about one month and framing needs the opening size soon.
 
-BUILDOUT DECISIONS / OPEN QUESTIONS
-• Security checkpoint window decision still unresolved and should be finalized before framing.
-• Local custom-glass option now looks promising after seeing City Hall's pass-through security/document window.
-• Apr 15 research: White Bear Glass publicly lists transaction windows and security glass systems in its Twin Cities commercial offering, Hallmark Glass publicly lists drive-thru and pass-thru windows, and Midland Glass publicly markets custom entrance/storefront and specialty glazing work. These are now the best local-first leads for checkpoint-window quoting before framing.
-• Apr 16 permit-path refinement: Bayport public guidance and permit materials point to a two-part workflow, not one generic queue. Bayport's building page says the city contracts with MNSPECT / SAFEbuilt for building inspection and plan review services and directs general questions / inspection scheduling to 952-442-7520, while a Bayport permit brochure says administrative and zoning permits are typically reviewed and processed at City Hall within 5 business days, with City Hall at 651-275-4404 and office@ci.bayport.mn.us. Working implication: next escalation should start with SAFEbuilt review ownership, then immediately confirm any City Hall hold point instead of assuming the whole delay sits with one desk.
-• Preferred direction: treat shutter-access shelves as separate day-stock, not true vault, during business hours.
-• Current lower-risk checkpoint direction: fixed-pane Andersen-style security glazing with a pass-through slot, or a sliding unit only after the behind-counter employee corridor is upgraded to a clearly restricted-access boundary with controlled entry, signage, audit trail, and camera coverage.
-• Need final design decision on whether true vault begins behind day-stock shelves or if a secondary barrier/gate should remain available as fallback.
-• Steel doors have arrived from Home Depot and need pickup.
+COMPLIANCE / DESIGN
+• Preferred path remains split day-stock vs true vault, not trying to force the shutter opening to be treated as the vault itself.
+• Checkpoint window direction still leans toward fixed glazing + controlled pass-through unless a stronger restricted-access corridor is created.</textarea>
+  </div>
+ </section>
 
-VENDORS / KEY PARTIES
-• Zintel = likely framing/drywall contractor.
-• Lloyd = likely security vendor unless Per Mar economics become more compelling.
-• Safebuild = active permit pressure point.
-• ACT = parking lot follow-up.
-• Canopyspire = SOP / operating plan support.</textarea>
- </div>
- <div style="display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:1rem;"><div class="legend" id="legend"></div><label style="display:flex;align-items:center;gap:.45rem;font-size:var(--tx-xs);color:var(--color-text-muted);"><input type="checkbox" id="toggle-done" checked style="accent-color:var(--color-primary)"> Hide done tasks</label></div>
- <div class="gantt-box">
- <div class="gantt-scroll"><div class="gantt-grid" id="gantt-grid"></div></div>
- </div>
- <div class="notes-box">
- <div class="notes-ttl">📝 Project Notes & Open Items</div><div class="dep-note">Tasks marked <span class="imp-chip">DEP</span> have important downstream dependencies and should be actively managed.</div>
- <textarea class="notes-ta" id="global-notes">OPEN BLOCKERS
+ <section class="notes-box" style="margin-top:1rem;">
+  <div class="notes-ttl">📝 Project notes, procurement, and assumptions</div>
+  <textarea class="notes-ta" id="global-notes">OPEN BLOCKERS
 • Building permit issuance is still the primary gate.
-• Building permit is still the main gate. Apr 16 source check suggests the actual hold point should be verified between MNSPECT / SAFEbuilt plan review (952-442-7520) and Bayport City Hall (651-275-4404, office@ci.bayport.mn.us), instead of assuming all delay sits with one party.
-• Bayport public guidance now supports a two-step escalation logic: SAFEbuilt owns building inspection / plan review, while Bayport materials say administrative and zoning permits are typically processed at City Hall within 5 business days. That means the fastest escalation path is SAFEbuilt first for reviewer/open-item status, then City Hall for any municipal routing, zoning, payment, or completeness hold.
-• Fence permit was submitted to the city today.
-• Sign permit packet/documentation was provided to Bayport today so they can submit it to Safebuild for commercial code review.
-• Security checkpoint window decision must be finalized before framing.
-• Final security vendor decision is still open but Per Mar became more competitive after clarifying labor, recurring scope, front/back door adders, and strike compatibility.
-• Security checkpoint window decision can now be narrowed to two viable paths: lower-risk fixed glazing with pass-through, or sliding transaction windows only if the employee corridor becomes a true restricted-access control point with logging and coverage.
+• The hold point should be verified explicitly between SAFEbuilt / MNSPECT and Bayport City Hall instead of assuming the delay sits with one party.
+• Dynamic Fire Protection scheduling matters because sprinkler-head moves can block framing.
+• Security checkpoint window decision still needs to be finalized before framing.
 
-CRITICAL DEPENDENCY CHAIN
+CURRENT CRITICAL PATH
 1. Building permit issuance
-2. Immediately request sprinkler relocation
-3. Immediately lock Zintel framing start date
-4. Ensure steel doors are on site before framing/drywall work
-5. Finalize security checkpoint windows before framing
-6. Complete framing/drywall
-7. Run security/electrical rough-in and complete system installations
-8. Finalize SOPs/operating plan and submit Plan of Record
-9. Be operational for OCM inspection ahead of Aug 1 target
+2. Dynamic Fire Protection sprinkler-head scheduling
+3. Vault garage door / rolling shutter sizing and order
+4. Ensure steel doors are on site
+5. Finalize security window direction before framing
+6. Framing / drywall start
+7. Rough-in and system installs
+8. SOP / operating plan + Plan of Record
+9. OCM review / inspection / opening
 
-RECENTLY COMPLETED
-• Two smart thermostats installed
-• Air filtration unit #1 for the bathroom fan installed
-• Front HVAC vent installation completed before ceiling paint
-• Ceiling painted black
-• Three steel doors from Home Depot have arrived
+RECENT WINS
+• Ceiling paint completed and lights/sprinklers restored
 • Vault HVAC vent modification completed
 • Remaining HVAC vent fixed
 • Thermostat moved
-• Electrical relocated around wall being removed
+• Electrical relocated around the wall being removed
+• Fence permit submitted
 • Hallmark Glass RFQ sent
-• Tom / father-son framing crew quoted $15k for interior buildout and can start a few days after building permit issuance
+• Tom quoted $15k and can start quickly after permit
 
 PROCUREMENT / WAITING
-• Reinstall lightbulbs and evaluate black touch-up on visible bulb trim/edging
-• Parking lot contractor selection pending, ACT needs follow-up
+• Pick up steel doors
+• Buy vinyl adhesive / seam sealer for the floor patch
 • Bathroom wallpaper + tile still need to be ordered
+• Parking lot contractor selection still pending
 • 2nd air filtration unit for front still needs to be purchased
-• Buy vinyl adhesive / floor seam sealer (or suitable construction adhesive) to finish the floor drain patch piece
-• Fence permit should be submitted tomorrow
-• Bayport clarified the CUP overrides the normal fence permit rules for this project
-• Bayport fence permit is still a city application with up to 7 business days processing and a $50 fee
-• Permit packet should still include a property diagram showing front/side/rear yards, any required site triangle on a corner lot, house/garage, street or alley context, proposed fence line, section heights, and distances to all property lines
-• If any fence segment sits within 2 feet of a property line, Bayport requires written permission from the abutting property owner on the application
-• Bayport code says any fence over 6 feet above finished grade needs a building permit in addition to the fence permit
-
-SECURITY DECISION FRAME
-• Lloyd appears stronger on door access coverage and audit logging
-• Per Mar clarified that monthly includes monitoring/video/access/cloud services, about 70 labor hours are included, adding front/back entry doors would be +$10/month per door, and Brandon's HES 5000C strikes could reduce proposal cost by about $960
-• Decision likely turns on compliant-enough + total installed cost, not fanciest tech
-
-OCM STORAGE RULE CHECK (official MN rule 9810.1104 reviewed Apr 14)
-• Each product storage area must be kept locked with access restricted only to authorized personnel
-• Entrance signage must say: "Restricted Access. Authorized Personnel Only"
-• Business must keep records for each storage-area access event showing date/time, person, and products added or removed
-• Products must be stored at least 6 inches above the ground
-• Practical implication: an all-day open shutter directly into true vault shelving remains the riskier interpretation; lower-risk path is separate locked day-stock storage plus documented replenishment from the true vault
 
 HARD DATES TO PROTECT
+• Fence complete by July 1, 2026
 • Parking lot complete by mid-June and no later than July 1, 2026
-• Fence has hard municipal/CUP deadline of July 1, 2026
 • Target opening: Aug 1, 2026</textarea>
- </div>
+ </section>
 </main>
-<div class="panel-ov" id="panel-ov"><div class="panel" id="panel"><div class="panel-hdr"><div class="panel-ttl" id="panel-ttl">Task</div><button class="panel-cls" id="panel-cls" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div><div class="panel-fld"><div class="panel-lbl">Status</div><select class="panel-sel" id="p-status"><option value="todo">To Do</option><option value="active">In Progress</option><option value="blocked">Waiting / Blocked</option><option value="ordered">Ordered / Pending</option><option value="done">✓ Done</option></select></div><div class="dates-row"><div class="panel-fld"><div class="panel-lbl">Start Date</div><input type="date" class="panel-inp" id="p-start"></div><div class="panel-fld"><div class="panel-lbl">End Date</div><input type="date" class="panel-inp" id="p-end"></div></div><div class="panel-fld"><div class="panel-lbl">% Complete</div><div class="pct-row"><input type="number" class="panel-inp pct-inp" id="p-pct" min="0" max="100" value="0"><div class="pct-bar"><div class="pct-fill" id="p-pct-fill" style="width:0%"></div></div><span id="p-pct-label" style="font-size:var(--tx-xs);color:var(--color-text-muted);min-width:30px">0%</span></div></div><div class="panel-fld"><div class="panel-lbl">Notes / Updates</div><textarea class="panel-ta" id="p-notes" placeholder="Add notes, blockers, vendor contacts..."></textarea></div><button class="btn-save" id="p-save">Save Changes</button></div></div></div>
+
+<div class="panel-ov" id="panel-ov">
+ <div class="panel" id="panel">
+  <div class="panel-hdr">
+   <div class="panel-ttl" id="panel-ttl">Task</div>
+   <button class="panel-cls" id="panel-cls" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+  </div>
+  <div class="panel-grid">
+   <div class="panel-fld"><div class="panel-lbl">Status</div><select class="panel-sel" id="p-status"><option value="todo">To Do</option><option value="active">In Progress</option><option value="blocked">Waiting / Blocked</option><option value="ordered">Ordered / Pending</option><option value="done">✓ Done</option></select></div>
+   <div class="panel-fld"><div class="panel-lbl">Priority</div><select class="panel-sel" id="p-priority"><option value="later">Later</option><option value="soon">Soon</option><option value="now">Now</option></select></div>
+   <div class="panel-fld"><div class="panel-lbl">Start Date</div><input type="date" class="panel-inp" id="p-start"></div>
+   <div class="panel-fld"><div class="panel-lbl">End Date</div><input type="date" class="panel-inp" id="p-end"></div>
+   <div class="panel-fld"><div class="panel-lbl">% Complete</div><input type="number" class="panel-inp" id="p-pct" min="0" max="100" value="0"></div>
+   <div class="panel-fld"><div class="panel-lbl">Projected Spend ($)</div><input type="number" class="panel-inp" id="p-cost" min="0" step="50" value="0"></div>
+  </div>
+  <div class="panel-fld"><div class="panel-lbl">Notes / Updates</div><textarea class="panel-ta" id="p-notes"></textarea></div>
+  <button class="btn-save" id="p-save">Save Changes</button>
+ </div>
+</div>
+
 <script>
-(function(){const t=document.querySelector('[data-theme-toggle]'),r=document.documentElement;let d=r.getAttribute('data-theme')||'dark';function set(m){d=m;r.setAttribute('data-theme',d);if(t)t.innerHTML=d==='dark'?'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>':'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'} set(d);t&&t.addEventListener('click',()=>set(d==='dark'?'light':'dark'));})();
+(function(){const t=document.querySelector('[data-theme-toggle]'),r=document.documentElement;let d=r.getAttribute('data-theme')||'dark';function set(m){d=m;r.setAttribute('data-theme',d);if(t)t.innerHTML=d==='dark'?'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>':'<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>'}set(d);t&&t.addEventListener('click',()=>set(d==='dark'?'light':'dark'));})();
 const MONTHS=['Apr','May','Jun','Jul','Aug','Sep'];
 const MSTART=[new Date(2026,3,1),new Date(2026,4,1),new Date(2026,5,1),new Date(2026,6,1),new Date(2026,7,1),new Date(2026,8,1)];
-const CS=new Date(2026,3,1),CE=new Date(2026,8,30);
-const TODAY=new Date(), DEADLINE=new Date(2026,7,1);
-TODAY.setHours(0,0,0,0);
-const IMPORTANT_IDS=new Set(['p1','s1','s2','s5','sec1','sec2','sec3','e1','pos1','pos2','c1','c2','c3','c4','ex4']);
+const CS=new Date(2026,3,1),CE=new Date(2026,8,30),DEADLINE=new Date(2026,7,1),TODAY=new Date();TODAY.setHours(0,0,0,0);
+const IMPORTANT_IDS=new Set(['p1','s2','sec2','sec4','c5','c5b','c2']);
 let hideDone=true;
-const CATS={permits:{l:'Permits & Approvals', c:'#7a39bb'},structural:{l:'Structural / Framing', c:'#964219'},hvac:{l:'HVAC & Air Systems', c:'#006494'},electrical:{l:'Electrical', c:'#c48f00'},security:{l:'Security System', c:'#a12c7b'},exterior:{l:'Exterior / Parking / Fence', c:'#437a22'},interior:{l:'Interior Finishes', c:'#da7101'},pos:{l:'Point of Sale', c:'#01696f'},compliance:{l:'Compliance & OCM', c:'#5591c7'}};
+const CATS={permits:{l:'Permits & Approvals',c:'var(--color-purple)'},structural:{l:'Structural / Framing',c:'var(--color-warning)'},hvac:{l:'HVAC / Fire',c:'var(--color-blue)'},security:{l:'Security',c:'var(--color-error)'},interior:{l:'Interior',c:'var(--color-orange)'},compliance:{l:'Compliance',c:'var(--color-primary)'},exterior:{l:'Exterior',c:'var(--color-success)'}};
 let tasks=[
-{id:'p1',cat:'permits',n:'Building permit (interior walls)',s:'2026-04-01',e:'2026-04-22',st:'blocked',pct:80,notes:`Owner: Brandon\nNext step: Call MNSPECT / SAFEbuilt at 952-442-7520 and ask for (1) exact current review status, (2) every remaining outstanding item, (3) who currently owns the review right now, (4) whether the file is waiting on plan review or has been routed back to Bayport, and (5) the earliest realistic issuance date if open items are cleared. If the file is not actively sitting with MNSPECT plan review, call Bayport City Hall at 651-275-4404 or office@ci.bayport.mn.us the same day and ask for the exact city-side hold point, including whether anything is waiting on zoning, planner review, payment, or routing.\nBlocker: Permit still not issued as of Apr 16, 2026, and the real bottleneck may be either MNSPECT / SAFEbuilt plan review or Bayport-side processing.\nDependency: Unlocks sprinkler relocation and framing start.\nLatest safe timing: Any meaningful slip beyond late April compresses the full interior critical path.\nVendor / external: City of Bayport permit review, MNSPECT / SAFEbuilt.\nResearch note: Bayport's official Building page says the city contracts with MNSPECT for building inspection and plan review services for construction projects and directs general questions / inspection scheduling to MNSPECT at 952-442-7520. Source: https://www.ci.bayport.mn.us/168/Building (checked Apr 16, 2026).\nResearch note: Bayport's official Building / Zoning Forms page says specific questions related to code, construction, and permit submittal requirements should be directed to the city's building inspection firm MNSPECT at 952-442-7520. Source: https://www.ci.bayport.mn.us/209/Building-Zoning-Forms (checked Apr 16, 2026).\nResearch note: A Bayport permit brochure says administrative and zoning permits are typically reviewed and processed at City Hall within 5 business days, while new construction and larger remodeling / improvement projects require a building permit with plan review by SAFEbuilt. Source: Bayport public permit brochure surfaced via bayportmn.gov search result, checked Apr 16, 2026.
-Research note: City-published Bayport brochures list City Hall at 651-275-4404 and office@ci.bayport.mn.us, and also show MNSPECT / SAFEbuilt contacts as info@mnspect.com and infoMN@safebuilt.com. SAFEbuilt's MNSPECT page confirms the transition from MNSPECT to SAFEbuilt, reinforcing that either naming may appear in Bayport materials. Source set checked Apr 16, 2026 from Bayport brochures and SAFEbuilt's MNSPECT page.`},
-{id:'p2',cat:'permits',n:'Sign permit (Sir Metalman custom sign)',s:'2026-04-01',e:'2026-05-08',st:'active',pct:20,notes:`Owner: Brandon\nNext step: Push city review and confirm whether Bayport is treating this as a City Hall sign-permit review first, with any building-code review routed only after zoning/sign completeness is confirmed. Ask for the exact reviewer owner and whether any structural, electrical, mounting, or illumination details are still missing from Sir Metalman's packet.\nBlocker: City had not started review as of Apr 7, and the exact handoff sequence between zoning sign approval and any building-permit component should be confirmed instead of assumed.\nDependency: Sign fabrication / installation should not be scheduled on assumptions alone.\nLatest safe timing: Delay hurts exterior finish timing, but this is secondary to occupancy-critical work.\nVendor / external: Sir Metalman, City review, Safebuild / MNSPECT as applicable.\nResearch note: Bayport sign ordinance Section 727.03 says all permanent signs require a city permit unless exempt, and permit applications should generally include property/business info, applicant/contractor contacts, existing sign photos/dimensions/location, and proposed sign style, materials, dimensions, location, and elevations sufficient to represent construction and placement. Source: https://www.ci.bayport.mn.us/DocumentCenter/View/556/Number-897-Appendix-B---Zoning-Section-727-Signs-PDF (checked Apr 16, 2026).\nResearch note: Bayport's 2025 fee schedule lists commercial/industrial sign permits for nameplate, monument, or pedestal signs at $50 plus cost incurred for building permit. Source: https://www.ci.bayport.mn.us/DocumentCenter/View/587/Number-904-Appendix-D---Fee-schedule-for-2025 (checked Apr 16, 2026).`},
-{id:'p3',cat:'permits',n:'Fence permit (south property line)',s:'2026-04-08',e:'2026-04-18',st:'active',pct:70,notes:`Owner: Brandon
-Next step: Submit the city fence permit tomorrow under the clarified CUP override path.
-Blocker: Still needs filing and review.
-Dependency: Needed before fence install execution.
-Latest safe timing: Cannot drift because fence must be complete by July 1.
-Vendor / external: City of Bayport.
-Research note: Bayport clarified the CUP overrides the normal fence rules for this project, but the city still requires its fence permit application before installation.
-Research note: Official Bayport fence permit application says processing can take up to 7 business days and the fee is $50. Source: https://www.ci.bayport.mn.us/DocumentCenter/View/234/Permit---Fence-PDF
-Research note: If any fence segment is within 2 feet of a property line, the permit form requires written permission from the abutting property owner on the application.
-Research note: Diagram should show front/side/rear yards, any required site triangle on a corner lot, house/garage, adjacent street/alley context, proposed fence line, section heights, and distance from fence to all property lines.
-Research note: Bayport commercial-district fence code allows up to 4 ft along a front lot line and up to 6 ft along side/rear lot lines beginning at the front building line, unless another project-specific approval controls. Source: same city permit packet Appendix B, Section 705.04.
-Research note: Bayport code also says fences over 6 ft above finished grade require a building permit in addition to the fence permit. Source: same permit packet Appendix B, Section 705.01.
-City contact on permit form: 651-275-4404, office@ci.bayport.mn.us, 294 N 3rd St, Bayport, MN 55003.`},
-{id:'s1',cat:'structural',n:'Fire sprinkler relocation',s:'2026-04-21',e:'2026-04-22',st:'blocked',pct:0,notes:`Owner: Brandon\nNext step: Request sprinkler relocation the same day the permit is issued.\nBlocker: Cannot start before building permit issuance.\nDependency: Framing should not begin until sprinkler heads are moved.\nLatest safe timing: This is one of the most important schedule gates, every slip pushes framing.\nVendor / external: Sprinkler contractor, permit approval.\nNotes: 1–2 week lead time, only 1 day on site.`},
-{id:'s2',cat:'structural',n:'Interior framing & drywall (vault, breakroom, office)',s:'2026-04-24',e:'2026-05-23',st:'blocked',pct:0,notes:`Owner: Brandon\nNext step: Lock Zintel start date immediately after permit issuance and sprinkler scheduling.\nBlocker: Waiting on permit, sprinkler relocation, checkpoint window decision, and ideally doors on site.\nDependency: Major critical path item that unlocks rough-in and downstream interior buildout.\nLatest safe timing: If framing drifts materially, security/electrical and Plan of Record readiness will tighten fast.\nVendor / external: Zintel likely, sprinkler contractor, Home Depot door delivery.`},
-{id:'s3',cat:'structural',n:'Steel door purchase (3 doors)',s:'2026-04-07',e:'2026-04-17',st:'ordered',pct:100,notes:`Owner: Brandon\nNext step: Pick up doors from Home Depot once timing is convenient.\nBlocker: None on delivery, doors have arrived.\nDependency: Ideally doors are on site before framing/drywall starts.\nLatest safe timing: Should be in-hand before framing mobilization.\nVendor / external: Home Depot.`},
-{id:'s4',cat:'structural',n:'Steel door installation',s:'2026-05-07',e:'2026-05-23',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Sequence install with framing/drywall crew and final field conditions.\nBlocker: Doors must be on site and framing sequence must support install.\nDependency: Tied to structural build sequence.\nLatest safe timing: Should not float too far behind framing close-out.\nVendor / external: Framing/drywall contractor, door supplier.`},
-{id:'s5',cat:'structural',n:'Security checkpoint windows (2) — select, buy, install',s:'2026-04-08',e:'2026-05-15',st:'active',pct:45,notes:`Owner: Brandon\nNext step: Request local quotes from White Bear Glass and Hallmark Glass for two interior checkpoint windows around 40 in wide x 36 in tall, using fixed security glazing with a document/pass-through slot as the base option. Ask for a second quote only if Brandon still wants to price a sliding transaction-window variant.\nBlocker: Design decision still unresolved, and the boundary/access-control package is not yet defined well enough to rely on an always-open day boundary.\nDependency: Framing should not proceed on this area without the window plan locked.\nLatest safe timing: Must be decided before framing layout gets fixed.\nVendor / external: White Bear Glass, Hallmark Glass, Midland Glass backup option, security vendor input.\nResearch note: White Bear Glass publicly lists transaction windows and security glass systems in its Twin Cities commercial offering. Source: https://whitebearglass.com/faq-commercial/\nResearch note: Hallmark Glass publicly lists drive thru and pass thru windows in its commercial storefront offering. Source: https://www.hallmarkglassmn.com/commercial-storefronts\nResearch note: Midland Glass publicly markets custom entrance solutions, storefronts, partitions, and specialty glazing for retail and financial projects. Source: https://midlandglass.com\nResearch note: Total Security Solutions' transaction-window guidance supports fixed voice-transfer glazing, baffle, or sliding transaction windows, with sliding best reserved for cases where the opening itself is intended to serve as the transaction/pass-through point. Source: https://www.tssbulletproof.com/product/windows/transaction/\nNotes: Compliance-leaning recommendation remains fixed glazing plus pass-through unless Brandon explicitly wants to fund/access-control the stronger sliding-window boundary package.`},
-{id:'h1',cat:'hvac',n:'Vault HVAC vent modification',s:'2026-04-07',e:'2026-04-21',st:'ordered',pct:10,notes:`Owner: Brandon\nNext step: Confirm part arrival and install as soon as practical.\nBlocker: Waiting on part arrival.\nDependency: Better to complete before later interior close-in.\nLatest safe timing: Moderate, but should be done before walls/finishes complicate access.\nVendor / external: Parts supplier.`},
-{id:'h2',cat:'hvac',n:'Drop-ceiling vent relocation (front of building)',s:'2026-04-07',e:'2026-04-21',st:'done',pct:100,notes:`Owner: Brandon\nStatus: Completed this weekend before ceiling paint.\nDependency: Cleared before front walls go in.\nVendor / external: None currently.`},
-{id:'h3',cat:'hvac',n:'Air filtration unit #1 install (bathroom fan)',s:'2026-04-07',e:'2026-04-07',st:'done',pct:100,notes:`Owner: Brandon\nStatus: Completed Apr 7.`},
-{id:'h4',cat:'hvac',n:'Air filtration unit #2 — purchase + install (front)',s:'2026-04-14',e:'2026-05-07',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Purchase second unit and schedule install.\nBlocker: Procurement.\nDependency: Front airflow readiness.\nLatest safe timing: Should not slip into final readiness crunch.\nVendor / external: Equipment supplier.`},
-{id:'h5',cat:'hvac',n:'Install two smart thermostats',s:'2026-04-07',e:'2026-04-07',st:'done',pct:100,notes:`Owner: Brandon\nStatus: Completed Apr 7.`},
-{id:'e1',cat:'electrical',n:'POS counter electrical rough-in',s:'2026-05-23',e:'2026-06-06',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Coordinate electrician once framing is far enough along.\nBlocker: Framing / layout readiness.\nDependency: POS counter build sequence and downstream documentation.\nLatest safe timing: Should happen well before final POS install and Plan of Record finalization.\nVendor / external: Electrician.`},
-{id:'e2',cat:'electrical',n:'Electrician final walkthrough & documentation',s:'2026-06-16',e:'2026-06-30',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Hold electrician close enough to the project for timely closeout.\nBlocker: Completion of rough-in / final install work.\nDependency: Important for documentation support and closeout package.\nLatest safe timing: Needs to be wrapped before final compliance push.\nVendor / external: Electrician.`},
-{id:'sec1',cat:'security',n:'Security vendor selection (Lloyd vs Per Mar)',s:'2026-04-07',e:'2026-04-18',st:'active',pct:75,notes:`Owner: Brandon\nNext step: Wait for Per Mar response, then do apples-to-apples compare against Lloyd using installed cost, monthly recurring, access-control coverage, panic type, storage approach, and compliance confidence.\nBlocker: Need Per Mar clarification on labor value, monitoring, front/rear access-control adders, and HES 5000C strike compatibility.\nDependency: Security install lead time is long enough that indecision can become critical.\nLatest safe timing: Authorization should happen early enough to avoid compressing June.\nVendor / external: Lloyd, Per Mar.\nNotes: Brandon currently sees Lloyd as a bit nicer, but is price sensitive and likes Per Mar on-camera storage if it proves compliant and cheaper.`},
-{id:'sec2',cat:'security',n:'Access control & camera cable rough-in',s:'2026-05-23',e:'2026-06-06',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Confirm cable plan after framing conditions are fixed.\nBlocker: Needs framing sufficiently complete first.\nDependency: Must happen before final security commissioning.\nLatest safe timing: Should not slip into final install window.\nVendor / external: Security vendor / electrician as needed.`},
-{id:'sec3',cat:'security',n:'Security system installation & commissioning',s:'2026-06-07',e:'2026-06-28',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Authorize installation early enough to preserve a clean June window.\nBlocker: Vendor authorization and rough-in readiness.\nDependency: Critical path item before OCM inspection readiness.\nLatest safe timing: This should be operational with margin before Plan of Record / inspection.\nVendor / external: Lloyd.\nNotes: Full installation timeline is about 3 weeks from authorization to installed/operational.`},
-{id:'ex1',cat:'exterior',n:'Tree removal (2 on-property trees)',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Schedule DIY removal.\nBlocker: Time / execution.\nDependency: Supports exterior readiness but not top critical path.\nLatest safe timing: Better completed before parking/fence sequencing tightens.\nVendor / external: None, DIY.`},
-{id:'ex2',cat:'exterior',n:'Parking lot contractor selection',s:'2026-04-07',e:'2026-04-14',st:'active',pct:65,notes:`Owner: Brandon\nNext step: Follow up with ACT and lock the contractor.\nBlocker: Pending selection.\nDependency: Parking lot timing drives toward mid-June and supports fence coordination.\nLatest safe timing: Selection should happen immediately so June execution is protected.\nVendor / external: ACT / parking lot contractors.`},
-{id:'ex3',cat:'exterior',n:'Parking lot construction (paving, grading, downspouts)',s:'2026-05-15',e:'2026-06-15',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Get contractor locked and confirm mobilization window.\nBlocker: Contractor selection and site sequencing.\nDependency: Exterior readiness and potential fence post coordination.\nLatest safe timing: Must complete by mid-June and no later than July 1.\nVendor / external: Selected parking lot contractor.`},
-{id:'ex4',cat:'exterior',n:'South fence install (white vinyl, 6-ft) — DUE JULY 1',s:'2026-05-20',e:'2026-06-21',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Advance permit, order materials, and coordinate install plan.\nBlocker: Permit and install sequencing.\nDependency: Hard municipal/CUP deadline.\nLatest safe timing: Cannot miss July 1.\nVendor / external: City permit review, fence material supplier, possible installer.\nNotes: Ask parking crew if they can dig post holes during lot work.`},
-{id:'ex5',cat:'exterior',n:'Custom sign installation (Sir Metalman)',s:'2026-05-14',e:'2026-07-07',st:'blocked',pct:0,notes:`Owner: Brandon\nNext step: Push permit review and confirm design/fabrication schedule.\nBlocker: Sign permit and final design sequence.\nDependency: Exterior finish / launch readiness, but secondary to occupancy-critical work.\nLatest safe timing: Can trail core build path, but should not drift into final opening chaos.\nVendor / external: Sir Metalman, city, Safebuild.`},
-{id:'i0',cat:'interior',n:'Ceiling paint prep (remove bulbs, mask, protect sprinklers)',s:'2026-04-08',e:'2026-04-09',st:'done',pct:100,notes:`Owner: Brandon\nStatus: Completed as part of ceiling paint work.\nDependency: Supported ceiling spray paint task.\nVendor / external: None.`},
-{id:'i1',cat:'interior',n:'Ceiling spray paint black (HVAC, sprinklers)',s:'2026-04-08',e:'2026-04-12',st:'active',pct:90,notes:`Owner: Brandon\nNext step: Put the lightbulbs back in and inspect for touch-up needs. The removable bulb trim/edging may need black touch-up so the finished look is clean.\nBlocker: Minor touch-up and reinstall work remains.\nDependency: Better completed before later interior work accumulates.\nLatest safe timing: Near-term execution item, should be closed out quickly.\nVendor / external: None.\nNotes: Ceiling black paint was completed yesterday.`},
-{id:'i1c',cat:'interior',n:'Finish floor drain patch / vinyl insert',s:'2026-04-15',e:'2026-04-18',st:'active',pct:80,notes:`Owner: Brandon
-Next step: Buy vinyl adhesive / seam sealer (or suitable construction adhesive) and secure the patch piece in place.
-Blocker: Need adhesive/material to finish the last step.
-Dependency: Small interior punch item, but nice to close out cleanly now that major progress was made.
-Latest safe timing: Can be finished on the next hardware-store trip.
-Vendor / external: Hardware store / adhesive supplier.`},
-{id:'i2',cat:'interior',n:'Bathroom remodel (wallpaper, tile, toilet, sink)',s:'2026-04-14',e:'2026-05-21',st:'active',pct:20,notes:`Owner: Brandon\nNext step: Order wallpaper and tile, then keep pushing DIY execution.\nBlocker: Remaining materials not yet ordered.\nDependency: Interior readiness, but not first-order critical path compared with permit/framing/security.\nLatest safe timing: Should be substantially complete before late-June final readiness.\nVendor / external: Material suppliers.`},
-{id:'i3',cat:'interior',n:'ADA grab bars (bathroom)',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Install with supplies already purchased.\nBlocker: None beyond execution time.\nDependency: Bathroom completion.\nLatest safe timing: Easy win, should be cleared early.\nVendor / external: None.`},
-{id:'i4a',cat:'interior',n:'POS counter design / layout',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Finalize counter dimensions, ADA section, employee gate, and workflow.\nBlocker: Design finalization time.\nDependency: Materials ordering and later build/assembly.\nLatest safe timing: Needs to finish before materials are ordered.\nVendor / external: None currently.`},
-{id:'i4b',cat:'interior',n:'POS counter materials selection + ordering',s:'2026-04-28',e:'2026-05-15',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Order materials immediately after layout is finalized.\nBlocker: Waiting on design/layout.\nDependency: Build / assembly cannot move without this.\nLatest safe timing: Keep this from becoming a hidden long-lead issue.\nVendor / external: Material suppliers.`},
-{id:'i4c',cat:'interior',n:'POS counter build / assembly',s:'2026-06-01',e:'2026-07-10',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Build once more critical path items are under control.\nBlocker: Earlier build sequence and materials availability.\nDependency: Finish work and final store readiness.\nLatest safe timing: Should not push against final late-July punch list too tightly.\nVendor / external: Possibly partial contractor help, otherwise Brandon-led.`},
-{id:'i4d',cat:'interior',n:'POS counter finish work / install top / punch list',s:'2026-07-10',e:'2026-07-24',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Finish all top/install details and close punch items.\nBlocker: Upstream POS counter build completion.\nDependency: Final front-of-house readiness.\nLatest safe timing: Needs to be wrapped before final inspection / opening prep.\nVendor / external: Material supplier / fabricator as needed.`},
-{id:'pos1',cat:'pos',n:'POS system vendor selection (Blaze)',s:'2026-05-01',e:'2026-05-21',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Finalize Blaze selection and onboarding path.\nBlocker: Vendor commitment.\nDependency: METRC integration and operational readiness.\nLatest safe timing: Should be decided before late-May compliance crunch.\nVendor / external: Blaze.`},
-{id:'pos2',cat:'pos',n:'Blaze onboarding + METRC integration',s:'2026-05-21',e:'2026-06-21',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Execute onboarding and test transaction flows.\nBlocker: POS vendor finalization.\nDependency: Plan of Record / operational readiness.\nLatest safe timing: Should be comfortably done before inspection prep.\nVendor / external: Blaze, METRC.`},
-{id:'c1',cat:'compliance',n:'SOP + Operating Plan drafting (Canopyspire)',s:'2026-04-21',e:'2026-05-14',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Kick off with Canopyspire and begin customization.\nBlocker: Time/attention and enough build clarity to draft accurately.\nDependency: Plan of Record assembly and submission.\nLatest safe timing: Needs to stay ahead of final submission, not become a late scramble.\nVendor / external: Canopyspire.`},
-{id:'c2',cat:'compliance',n:'Final Plan of Record assembly & OCM submission',s:'2026-05-21',e:'2026-05-28',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Assemble final package once systems are operational enough to support the inspection path.\nBlocker: Security, electrical, SOPs, and operational readiness all need to be in credible shape.\nDependency: OCM review window starts here.\nLatest safe timing: Late-May target is important if Aug 1 is the goal.\nVendor / external: OCM / Canopyspire / supporting vendors.`},
-{id:'c3',cat:'compliance',n:'OCM Review Period (up to 90 days, avg ~45)',s:'2026-05-28',e:'2026-08-26',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Keep the store inspection-ready and documentation clean while review runs.\nBlocker: OCM timing is external.\nDependency: Final inspection / opening sequence.\nLatest safe timing: Historical average may be around 45 days, but official review can take up to 90.\nVendor / external: OCM / LCM review process.`},
-{id:'c4',cat:'compliance',n:'OCM Inspection & Store Opening',s:'2026-07-14',e:'2026-08-01',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Have the store fully operational and inspection-ready ahead of target date.\nBlocker: Any remaining construction, security, documentation, or operational gaps.\nDependency: Entire critical path converges here.\nLatest safe timing: This is the finish line for Aug 1, 2026.\nVendor / external: OCM inspection and approval.`},
-{id:'c5',cat:'compliance',n:'OCM interpretation check: shutter-access day-stock vs true vault concept',s:'2026-04-14',e:'2026-04-24',st:'active',pct:70,notes:`Owner: Brandon
-Next step: Lock the preferred compliance direction around a split between true vault storage and shutter-access day-stock shelves, then carry that decision into security/layout requirements.
-Blocker: Need final rule-based design recommendation and operating model before layout/security details are fully committed.
-Dependency: Could materially affect vault layout, access-control design, camera plan, SOPs, and operational efficiency.
-Latest safe timing: Should be resolved before security/final layout decisions are locked.
-Vendor / external: OCM rules, security vendor input, floor plan review.
-Working recommendation: lowest-risk path is separate locked day-stock storage at the checkpoint with true vault storage remaining behind its own controlled boundary. Sliding shutter/window access becomes more defensible only if the employee corridor itself is upgraded to a clearly restricted-access area with logging, signage, and coverage.
-Notes: Official Minnesota rule 9810.1104 was reviewed Apr 14. It requires each product storage area to be locked, restricted to authorized personnel, posted with "Restricted Access. Authorized Personnel Only," and supported by records showing date/time, person, and products added or removed for each storage-area access event.
-Working conclusion: the cleaner lower-risk path is Approach A, treat shutter-access shelves as separate locked day-stock storage rather than the true vault itself during business hours. Replenish from the true vault with logged transfers, keep AM/PM counts, maintain clear signage, and preserve the option for a secondary barrier behind day-stock shelves if OCM/security interpretation tightens.`},
-{id:'c5b',cat:'compliance',n:'Lock rolling-shutter opening size and place order',s:'2026-04-16',e:'2026-04-17',st:'active',pct:40,notes:`Owner: Brandon
-Next step: This is tomorrow's top priority. Measure and visualize the vault garage-door / rolling-shutter opening in Bayport, decide final size, and place the order immediately.
-Blocker: Final opening size decision still needs on-site measurement.
-Dependency: Long lead time (about one month) means framing needs exact opening dimensions quickly.
-Latest safe timing: Order immediately after sizing to avoid becoming a schedule bottleneck.
-Vendor / external: Rolling shutter / steel door supplier.`},
-{id:'c6',cat:'compliance',n:'Finalize day-stock design and operating plan',s:'2026-04-21',e:'2026-05-05',st:'todo',pct:0,notes:`Owner: Brandon
-Next step: Approve final design and written operating model for the day-stock / true-vault workflow.
-Blocker: Need design-options analysis, camera/access-control implications, and compliance-risk ranking first.
-Dependency: Follows the OCM interpretation/design study and should feed security implementation plus SOP/Plan-of-Record work.
-Latest safe timing: Should be settled before final security/layout procurement and definitely before operating-plan finalization.
-Vendor / external: Security vendor, Canopyspire, and possible legal/compliance review.
-Notes: Preferred structure is day-stock shelves accessible from the employee side during the day, shuttered/secured after hours, with a cleaner true-vault boundary behind them or at minimum a fallback path to add one later.
-Draft operating minimums to carry forward: locked access point for each storage area, restricted-access signage, access-event logging, products stored 6+ inches off floor, documented replenishment from true vault to day-stock, and AM/PM counts for day-stock shelves.`}
+{id:'p1',cat:'permits',n:'Building permit (interior walls)',s:'2026-04-01',e:'2026-04-22',st:'blocked',pct:80,priority:'now',cost:0,notes:`Owner: Brandon\nNext step: keep pressure on SAFEbuilt / Bayport and confirm the exact hold point.\nBlocker: still not issued.\nDependency: unlocks sprinkler scheduling and framing start.`},
+{id:'p2',cat:'permits',n:'Sign permit review',s:'2026-04-01',e:'2026-05-08',st:'active',pct:20,priority:'later',cost:500,notes:`Owner: Brandon\nNext step: keep city / Safebuild review moving.`},
+{id:'p3',cat:'permits',n:'Fence permit submission and processing',s:'2026-04-08',e:'2026-04-18',st:'done',pct:100,priority:'soon',cost:50,notes:`Owner: Brandon\nStatus: submitted.`},
+{id:'s2',cat:'structural',n:'Interior framing & drywall',s:'2026-04-24',e:'2026-05-23',st:'active',pct:20,priority:'now',cost:15000,notes:`Owner: Brandon\nTom quote is $15k and they can start a few days after permit issuance.\nBlockers: permit + sprinkler scheduling.`},
+{id:'s2b',cat:'structural',n:'Framing prep: electrical moved around removed wall',s:'2026-04-15',e:'2026-04-15',st:'done',pct:100,priority:'soon',cost:0,notes:`Completed.`},
+{id:'h1',cat:'hvac',n:'Vault HVAC vent modification',s:'2026-04-07',e:'2026-04-16',st:'done',pct:100,priority:'soon',cost:300,notes:`Owner: Brandon\nStatus: completed.`},
+{id:'h1b',cat:'hvac',n:'Schedule Dynamic Fire Protection for sprinkler-head moves',s:'2026-04-16',e:'2026-04-18',st:'active',pct:15,priority:'now',cost:1200,notes:`Owner: Brandon\nNext step: get on the calendar immediately so framing is not blocked.`},
+{id:'sec2',cat:'security',n:'Compare Lloyd vs Per Mar and choose direction',s:'2026-04-14',e:'2026-04-21',st:'active',pct:65,priority:'soon',cost:0,notes:`Owner: Brandon / Morpheus\nNext step: on-site Per Mar meeting tomorrow around 10:30 to 2.`},
+{id:'sec4',cat:'security',n:'Checkpoint window dimensions + Hallmark quote path',s:'2026-04-15',e:'2026-04-18',st:'active',pct:45,priority:'soon',cost:2500,notes:`Hallmark Glass RFQ sent. Need exact field dimensions.`},
+{id:'i1c',cat:'interior',n:'Finish floor drain patch / vinyl insert',s:'2026-04-15',e:'2026-04-18',st:'active',pct:80,priority:'soon',cost:50,notes:`Need adhesive / seam sealer.`},
+{id:'i2',cat:'interior',n:'Bathroom remodel materials + work',s:'2026-04-14',e:'2026-05-21',st:'active',pct:20,priority:'later',cost:2500,notes:`Wallpaper, tile, toilet, sink still moving.`},
+{id:'i3',cat:'interior',n:'ADA grab bars',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,priority:'later',cost:150,notes:`Easy win once time opens up.`},
+{id:'e1',cat:'exterior',n:'Pick up steel doors from Home Depot',s:'2026-04-17',e:'2026-04-21',st:'todo',pct:0,priority:'soon',cost:0,notes:`Needed on site before framing/drywall.`},
+{id:'e2',cat:'exterior',n:'Parking lot contractor selection',s:'2026-05-01',e:'2026-05-20',st:'todo',pct:0,priority:'later',cost:12000,notes:`Still pending follow-up.`},
+{id:'c5',cat:'compliance',n:'Lock day-stock vs true-vault direction',s:'2026-04-14',e:'2026-04-24',st:'active',pct:70,priority:'soon',cost:0,notes:`Preferred path remains split day-stock vs true vault.`},
+{id:'c5b',cat:'compliance',n:'Lock rolling-shutter opening size and place order',s:'2026-04-16',e:'2026-04-17',st:'active',pct:40,priority:'now',cost:6500,notes:`Tomorrow's top priority. One month lead time risk.`},
+{id:'c1',cat:'compliance',n:'SOP + operating plan drafting',s:'2026-04-21',e:'2026-05-14',st:'todo',pct:0,priority:'later',cost:3000,notes:`Kick off once design/build path is clearer.`},
+{id:'c2',cat:'compliance',n:'Final Plan of Record assembly & OCM submission',s:'2026-05-21',e:'2026-05-28',st:'todo',pct:0,priority:'later',cost:0,notes:`Late-May target still matters for Aug 1.`}
 ];
 function days(a,b){return (b-a)/(864e5)}
-function px(d){const tot=days(CS,CE),off=days(CS,d);return Math.max(0,Math.min(100,(off/tot)*100))}
 function pd(s){const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)}
+function px(d){const tot=days(CS,CE),off=days(CS,d);return Math.max(0,Math.min(100,(off/tot)*100))}
+function money(n){return '$'+Math.round(n).toLocaleString()}
 const SL={todo:'To Do',active:'In Progress',blocked:'Waiting',ordered:'Ordered',done:'Done'};
-function renderStats(){const visible=hideDone?tasks.filter(t=>t.st!=='done'):tasks,done=tasks.filter(t=>t.st==='done').length,active=visible.filter(t=>t.st==='active'||t.st==='ordered').length,blocked=visible.filter(t=>t.st==='blocked').length,dl=Math.ceil(days(TODAY,DEADLINE));document.getElementById('stats-row').innerHTML=`<div class="stat-card"><div class="stat-val">${visible.length}</div><div class="stat-lbl">Visible Tasks</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-success)">${done}</div><div class="stat-lbl">Completed</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-primary)">${active}</div><div class="stat-lbl">In Progress</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-warning)">${blocked}</div><div class="stat-lbl">Blocked</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-gold)">${dl}</div><div class="stat-lbl">Days to Aug 1</div></div>`}
+function isNearTerm(t){return pd(t.e)<=new Date(2026,3,23)||t.priority==='now'}
+function isCritical(t){return IMPORTANT_IDS.has(t.id)}
+function visibleTasks(){return hideDone?tasks.filter(t=>t.st!=='done'):tasks}
+function renderStats(){const visible=visibleTasks(),done=tasks.filter(t=>t.st==='done').length,active=visible.filter(t=>t.st==='active'||t.st==='ordered').length,blocked=visible.filter(t=>t.st==='blocked').length,near=visible.filter(isNearTerm).length,spend14=visible.filter(t=>pd(t.e)<=new Date(2026,3,30)).reduce((s,t)=>s+(t.cost||0),0),dl=Math.ceil(days(TODAY,DEADLINE));document.getElementById('stats-row').innerHTML=`<div class="stat-card"><div class="stat-val">${visible.length}</div><div class="stat-lbl">Visible Tasks</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-error)">${near}</div><div class="stat-lbl">Near-Term Items</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-warning)">${blocked}</div><div class="stat-lbl">Blocked</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-success)">${done}</div><div class="stat-lbl">Completed</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-blue)">${money(spend14)}</div><div class="stat-lbl">Spend Next 14 Days</div></div><div class="stat-card"><div class="stat-val" style="color:var(--color-gold)">${dl}</div><div class="stat-lbl">Days to Aug 1</div></div>`}
+function renderFocus(){const sorted=[...visibleTasks()].sort((a,b)=>{const pa={now:0,soon:1,later:2}[a.priority]??3,pb={now:0,soon:1,later:2}[b.priority]??3;if(pa!==pb)return pa-pb;return pd(a.e)-pd(b.e)});const top=sorted.filter(t=>t.st!=='blocked').slice(0,3);document.getElementById('top-focus').innerHTML=top.map(t=>`<div class="focus-item"><strong>${t.n}</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted);line-height:1.45">${(t.notes||'').split('\n')[1]||t.notes||''}</div><div class="focus-meta"><span class="mini-tag ${t.priority==='now'?'urgent':'soon'}">${t.priority}</span><span class="mini-tag cash">${money(t.cost||0)}</span><span class="mini-tag">due ${t.e}</span></div></div>`).join('');
+const blockers=sorted.filter(t=>t.st==='blocked'||(IMPORTANT_IDS.has(t.id)&&t.st!=='done')).slice(0,4);document.getElementById('blocker-list').innerHTML=blockers.map(t=>`<div class="focus-item"><strong>${t.n}</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted);line-height:1.45">${(t.notes||'').split('\n')[2]||t.notes||''}</div><div class="focus-meta"><span class="mini-tag blocked">${SL[t.st]}</span>${IMPORTANT_IDS.has(t.id)?'<span class="mini-tag urgent">critical path</span>':''}</div></div>`).join('');
+const wins=tasks.filter(t=>t.st==='done').slice(-6).reverse();document.getElementById('recent-wins').innerHTML=wins.map(t=>`<div class="focus-item" style="padding:.7rem .75rem"><strong>${t.n}</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">Done by ${t.e}</div></div>`).join('')}
 function renderLegend(){document.getElementById('legend').innerHTML=Object.entries(CATS).map(([k,c])=>`<div class="leg-item on" data-cat="${k}"><div class="leg-dot" style="background:${c.c}"></div><span>${c.l}</span></div>`).join('');document.querySelectorAll('.leg-item').forEach(el=>el.addEventListener('click',()=>{el.classList.toggle('on');el.classList.toggle('off');filterGantt();}))}
-function filterGantt(){const on=new Set([...document.querySelectorAll('.leg-item.on')].map(e=>e.dataset.cat));document.querySelectorAll('.g-row[data-cat]').forEach(r=>{const isDone=r.dataset.status==='done';r.style.display=(on.has(r.dataset.cat)&&(!hideDone||!isDone))?'':'none'});document.querySelectorAll('.g-row[data-ch]').forEach(r=>{const cat=r.dataset.ch;const anyVisible=[...document.querySelectorAll('.g-row[data-cat=+cat+]')].some(x=>x.style.display!=='none');r.style.display=anyVisible?'':'none'})}
-function renderGantt(){const todayX=px(TODAY),dlX=px(DEADLINE);const monthCols=MONTHS.map((_,i)=>{const isCur=TODAY.getMonth()===MSTART[i].getMonth()&&TODAY.getFullYear()===MSTART[i].getFullYear();return `<div class="g-mo-col${isCur?' cur-mo':''}"></div>`}).join('');let html=`<div class="g-hdr"><div class="g-hdr-cell">Task</div><div class="g-hdr-cell" style="border-left:1px solid var(--color-divider)">Status</div><div class="g-months">${MONTHS.map((m,i)=>{const isCur=TODAY.getMonth()===MSTART[i].getMonth();return `<div class="g-month${isCur?' cur':''}">${m} '26</div>`}).join('')}</div></div>`;const grouped={};tasks.forEach(t=>{if(!grouped[t.cat])grouped[t.cat]=[];grouped[t.cat].push(t)});Object.entries(grouped).forEach(([catKey,catTasks])=>{const cat=CATS[catKey];html+=`<div class="g-row cat-hdr" data-ch="${catKey}"><div class="g-name"><span class="cat-label" style="color:${cat.c}">${cat.l}</span></div><div class="g-status"></div><div class="g-bar-area">${monthCols}<div class="today-ln" style="left:${todayX}%"></div><div class="dl-ln" style="left:${dlX}%"></div></div></div>`;catTasks.forEach(task=>{const x1=px(pd(task.s)),x2=px(pd(task.e)),w=Math.max(0.4,x2-x1);const op=task.st==='done'?0.4:task.st==='blocked'?0.5:0.88;html+=`<div class="g-row" data-cat="${catKey}" data-status="${task.st}" data-id="${task.id}" role="button" tabindex="0" aria-label="Edit task: ${task.n}"><div class="g-name task-indent"><div class="s-dot" style="background:${cat.c}"></div>${IMPORTANT_IDS.has(task.id)?'<span class="imp-chip">DEP</span>':''}<span class="task-name-txt" title="${task.n}">${task.n}</span></div><div class="g-status"><span class="s-badge s-${task.st}">${SL[task.st]}</span></div><div class="g-bar-area">${monthCols}<div class="today-ln" style="left:${todayX}%"></div><div class="dl-ln" style="left:${dlX}%"></div><div class="g-bar" style="left:${x1}%;width:${w}%;background:${cat.c};opacity:${op}"><div class="g-bar-fill" style="width:${task.pct}%"></div><span class="g-bar-lbl">${task.n}</span></div></div></div>`})});document.getElementById('gantt-grid').innerHTML=html;document.querySelectorAll('.g-row[data-id]').forEach(r=>{r.addEventListener('click',()=>openPanel(r.dataset.id));r.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')openPanel(r.dataset.id)})})}
-let curId=null;function openPanel(id){curId=id;const t=tasks.find(x=>x.id===id);if(!t)return;document.getElementById('panel-ttl').textContent=t.n;document.getElementById('p-status').value=t.st;document.getElementById('p-start').value=t.s;document.getElementById('p-end').value=t.e;document.getElementById('p-pct').value=t.pct;document.getElementById('p-pct-fill').style.width=t.pct+'%';document.getElementById('p-pct-label').textContent=t.pct+'%';document.getElementById('p-notes').value=t.notes||'';document.getElementById('panel-ov').classList.add('open')}function closePanel(){document.getElementById('panel-ov').classList.remove('open');curId=null}
-document.getElementById('panel-cls').addEventListener('click',closePanel);document.getElementById('panel-ov').addEventListener('click',e=>{if(e.target===document.getElementById('panel-ov'))closePanel()});document.getElementById('p-pct').addEventListener('input',function(){const v=Math.max(0,Math.min(100,+this.value||0));document.getElementById('p-pct-fill').style.width=v+'%';document.getElementById('p-pct-label').textContent=v+'%'});document.getElementById('p-save').addEventListener('click',()=>{if(!curId)return;const idx=tasks.findIndex(t=>t.id===curId);if(idx<0)return;tasks[idx].st=document.getElementById('p-status').value;tasks[idx].s=document.getElementById('p-start').value;tasks[idx].e=document.getElementById('p-end').value;tasks[idx].pct=parseInt(document.getElementById('p-pct').value)||0;tasks[idx].notes=document.getElementById('p-notes').value;closePanel();renderStats();renderGantt();filterGantt()});document.getElementById('toggle-done').checked=hideDone;document.getElementById('toggle-done').addEventListener('change',e=>{hideDone=e.target.checked;renderStats();filterGantt()});renderStats();renderLegend();renderGantt();filterGantt();
+function renderSpend(){const buckets=MONTHS.map((m,i)=>({label:m,total:0,items:[],idx:i}));visibleTasks().forEach(t=>{const d=pd(t.e),idx=(d.getFullYear()-2026)*12 + d.getMonth()-3;if(idx>=0&&idx<buckets.length){buckets[idx].total+=(t.cost||0);if(t.cost)buckets[idx].items.push(t)}});const max=Math.max(...buckets.map(b=>b.total),1);document.getElementById('spend-chart').innerHTML=buckets.map(b=>{const items=b.items.sort((a,b)=>b.cost-a.cost);const stack=items.map(t=>`<div class="spend-seg" title="${t.n}: ${money(t.cost)}" style="height:${Math.max(6,(t.cost/b.total)*160)}px;background:${catColor(t.cat)}"></div>`).join('');return `<div class="spend-col"><div class="spend-amt">${b.total?money(b.total):'—'}</div><div class="spend-stack">${stack}</div><div class="spend-lbl">${b.label}</div></div>`}).join('');const total=buckets.reduce((s,b)=>s+b.total,0),next30=buckets.slice(0,2).reduce((s,b)=>s+b.total,0),peak=buckets.reduce((a,b)=>b.total>a.total?b:a,buckets[0]);document.getElementById('spend-metrics').innerHTML=`<span class="metric-chip">Projected total in board: ${money(total)}</span><span class="metric-chip">Next 30 days: ${money(next30)}</span><span class="metric-chip">Peak month: ${peak.label} ${peak.total?money(peak.total):'—'}</span>`;const topSpend=[...visibleTasks()].filter(t=>t.cost).sort((a,b)=>b.cost-a.cost).slice(0,6);document.getElementById('spend-table').innerHTML=topSpend.map(t=>`<div class="spend-row"><div><strong>${t.n}</strong><span>${t.e} · ${CATS[t.cat]?.l||t.cat}</span></div><b>${money(t.cost)}</b><span>${t.priority}</span></div>`).join('')}
+function catColor(cat){const map={permits:'#8d62c2',structural:'#c96f41',hvac:'#5a9aca',security:'#cc69a1',interior:'#de8b3e',compliance:'#5ea7a7',exterior:'#74a95c'};return map[cat]||'#999'}
+function filterGantt(){const on=new Set([...document.querySelectorAll('.leg-item.on')].map(e=>e.dataset.cat));document.querySelectorAll('.g-row[data-cat]').forEach(r=>{const isDone=r.dataset.status==='done';r.style.display=(on.has(r.dataset.cat)&&(!hideDone||!isDone))?'':'none'});document.querySelectorAll('.g-row[data-ch]').forEach(r=>{const cat=r.dataset.ch;const rows=[...document.querySelectorAll(`.g-row[data-cat="${cat}"]`)];r.style.display=rows.some(x=>x.style.display!=='none')?'':'none'})}
+function renderGantt(){const todayX=px(TODAY),dlX=px(DEADLINE),monthCols=MONTHS.map((_,i)=>`<div class="g-mo-col${TODAY.getMonth()===MSTART[i].getMonth()?' cur-mo':''}"></div>`).join('');let html=`<div class="g-hdr"><div class="g-hdr-cell">Task</div><div class="g-hdr-cell" style="border-left:1px solid var(--color-divider)">Status</div><div class="g-months">${MONTHS.map((m,i)=>`<div class="g-month${TODAY.getMonth()===MSTART[i].getMonth()?' cur':''}">${m} '26</div>`).join('')}</div></div>`;const grouped={};tasks.forEach(t=>{if(!grouped[t.cat])grouped[t.cat]=[];grouped[t.cat].push(t)});Object.entries(grouped).forEach(([catKey,catTasks])=>{const cat=CATS[catKey];html+=`<div class="g-row cat-hdr" data-ch="${catKey}"><div class="g-name"><span class="cat-label" style="color:${cat.c}">${cat.l}</span></div><div class="g-status"></div><div class="g-bar-area">${monthCols}<div class="today-ln" style="left:${todayX}%"></div><div class="dl-ln" style="left:${dlX}%"></div></div></div>`;catTasks.forEach(task=>{const x1=px(pd(task.s)),x2=px(pd(task.e)),w=Math.max(.4,x2-x1);const classes=['g-bar'];if(isNearTerm(task)&&task.st!=='done')classes.push('near');if(isCritical(task)&&task.st!=='done')classes.push('critical');const op=task.st==='done'?0.4:task.st==='blocked'?0.55:0.9;html+=`<div class="g-row${task.priority==='later'&&task.st!=='active'&&task.st!=='blocked'?' dim':''}" data-cat="${catKey}" data-status="${task.st}" data-id="${task.id}" role="button" tabindex="0"><div class="g-name task-indent"><div class="s-dot" style="background:${cat.c}"></div><div class="task-main"><div class="task-name-row">${isCritical(task)?'<span class="imp-chip">DEP</span>':''}${isNearTerm(task)&&task.st!=='done'?'<span class="focus-chip">NEAR</span>':''}<span class="task-name-txt" title="${task.n}">${task.n}</span></div><div class="task-sub"><span>Due ${task.e}</span><span>${money(task.cost||0)}</span><span>${task.priority}</span></div></div></div><div class="g-status"><span class="s-badge s-${task.st}">${SL[task.st]}</span></div><div class="g-bar-area">${monthCols}<div class="today-ln" style="left:${todayX}%"></div><div class="dl-ln" style="left:${dlX}%"></div><div class="${classes.join(' ')}" style="left:${x1}%;width:${w}%;background:${catColor(task.cat)};opacity:${op}"><div class="g-bar-fill" style="width:${task.pct}%"></div><span class="g-bar-lbl">${task.n}</span></div></div></div>`})});document.getElementById('gantt-grid').innerHTML=html;document.querySelectorAll('.g-row[data-id]').forEach(r=>{r.addEventListener('click',()=>openPanel(r.dataset.id));r.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')openPanel(r.dataset.id)})})}
+let curId=null;function openPanel(id){curId=id;const t=tasks.find(x=>x.id===id);if(!t)return;document.getElementById('panel-ttl').textContent=t.n;document.getElementById('p-status').value=t.st;document.getElementById('p-priority').value=t.priority||'later';document.getElementById('p-start').value=t.s;document.getElementById('p-end').value=t.e;document.getElementById('p-pct').value=t.pct;document.getElementById('p-cost').value=t.cost||0;document.getElementById('p-notes').value=t.notes||'';document.getElementById('panel-ov').classList.add('open')}
+function closePanel(){document.getElementById('panel-ov').classList.remove('open');curId=null}
+document.getElementById('panel-cls').addEventListener('click',closePanel);document.getElementById('panel-ov').addEventListener('click',e=>{if(e.target===document.getElementById('panel-ov'))closePanel()});document.getElementById('p-save').addEventListener('click',()=>{if(!curId)return;const idx=tasks.findIndex(t=>t.id===curId);if(idx<0)return;tasks[idx].st=document.getElementById('p-status').value;tasks[idx].priority=document.getElementById('p-priority').value;tasks[idx].s=document.getElementById('p-start').value;tasks[idx].e=document.getElementById('p-end').value;tasks[idx].pct=parseInt(document.getElementById('p-pct').value)||0;tasks[idx].cost=parseFloat(document.getElementById('p-cost').value)||0;tasks[idx].notes=document.getElementById('p-notes').value;closePanel();refresh()});
+document.getElementById('toggle-done').checked=hideDone;document.getElementById('toggle-done').addEventListener('change',e=>{hideDone=e.target.checked;refresh()});
+function refresh(){renderStats();renderFocus();renderSpend();renderGantt();renderLegend();filterGantt()}
+refresh();
 </script>
 </body>
 </html>
