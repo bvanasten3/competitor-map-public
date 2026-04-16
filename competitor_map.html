@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Competitor Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin: 0; padding: 0; font-family: sans-serif; }
+        #map-toolbar { position: absolute; top: 10px; left: 10px; z-index: 1000; background: rgba(255,255,255,.95); padding: 10px 12px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,.15); max-width: 420px; font-size: 13px; line-height: 1.35; }
+        #map-toolbar b { display:block; margin-bottom:4px; }
+        #map-toolbar a { color: #007bff; text-decoration: none; }
+        #map-toolbar a:hover { text-decoration: underline; }
+        #map { height: 100vh; width: 100%; }
+        .info-popup { max-width: 420px; font-size: 0.9em; }
+        .info-popup b { font-size: 1.05em; }
+        .info-popup a { color: #007bff; text-decoration: none; }
+        .info-popup a:hover { text-decoration: underline; }
+        .status-active { color: green; font-weight: bold; }
+        .status-pending { color: orange; font-weight: bold; }
+        .status-unknown { color: gray; font-weight: bold; }
+        .category-hemp { border-left: 5px solid purple; padding-left: 5px; font-style: italic; }
+        .category-cannabis { border-left: 5px solid green; padding-left: 5px; font-weight: bold; }
+        .link-row { margin-top: 6px; }
+        .link-row a { display: inline-block; margin-right: 10px; margin-bottom: 4px; }
+        .source-list { margin: 6px 0 0 16px; padding: 0; }
+        .source-list li { margin: 2px 0; }
+    </style>
+</head>
+<body>
+    <div id="map-toolbar">
+        <b>Reference source</b>
+        <div>Star Tribune retail cannabis map article: <a href="https://www.startribune.com/map-see-where-you-can-legally-buy-marijuana-in-minnesota/601422464" target="_blank" rel="noopener noreferrer">open article</a></div>
+        <div style="margin-top:4px;color:#555;">Use as a secondary active-store reference until we extract the embedded data source directly.</div>
+    </div>
+    <div id="map"></div>
+    <script>
+        fetch('./competitors.json')
+            .then(r => {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(data => {
+                var map = L.map('map').setView([45.0, -92.8], 9);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
+
+                var manualOverrides = {
+                    'Silver Cannabis Co.': { lat: 45.03979, lng: -92.82045, source: 'manual verified override' },
+                    'Simply Crafted Cannabis': { lat: 45.03623, lng: -92.81756, source: 'manual verified override' },
+                    'Turning Leaf': { lat: 45.03468, lng: -92.84535, source: 'manual verified override' },
+                    'Mango Cannabis': { lat: 45.03547, lng: -92.80802, source: 'manual verified override' },
+                    'HyMN LLC': { lat: 45.03512, lng: -92.82205, source: 'manual verified override' },
+                    'Power Plant Cannabis Shop II': { lat: 45.03581, lng: -92.83415, source: 'manual verified override' },
+                    'Cryptic Stock Movement': { lat: 45.03548, lng: -92.80532, source: 'manual verified override' }
+                };
+
+                function esc(v) {
+                    return String(v == null ? '' : v)
+                        .replace(/&/g, '&amp;')
+                        .replace(/</g, '&lt;')
+                        .replace(/>/g, '&gt;')
+                        .replace(/"/g, '&quot;')
+                        .replace(/'/g, '&#39;');
+                }
+
+                function link(url, label) {
+                    return '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(label) + '</a>';
+                }
+
+                data.forEach(function(c) {
+                    var coords = null;
+                    if (manualOverrides[c.name]) {
+                        coords = manualOverrides[c.name];
+                    } else {
+                        var lat = c.location && c.location.lat;
+                        var lng = c.location && c.location.lng;
+                        if (lat != null && lng != null) coords = { lat: lat, lng: lng, source: 'stored coordinates' };
+                    }
+                    if (!coords) return;
+
+                    var statusClass = c.status === 'active' ? 'status-active' : (c.status === 'pending' ? 'status-pending' : 'status-unknown');
+                    var categoryClass = c.category === 'hemp' ? 'category-hemp' : 'category-cannabis';
+                    var socials = c.socialMedia || {};
+                    var primaryLinks = [];
+                    if (c.website) primaryLinks.push(link(c.website, 'Website'));
+                    if (c.menuUrl) primaryLinks.push(link(c.menuUrl, 'Menu'));
+                    if (!c.website && socials.instagram) primaryLinks.push(link(socials.instagram, 'Instagram'));
+                    if (!c.website && !socials.instagram && socials.facebook) primaryLinks.push(link(socials.facebook, 'Facebook'));
+                    if (c.website && socials.instagram) primaryLinks.push(link(socials.instagram, 'Instagram'));
+                    if (c.website && socials.facebook) primaryLinks.push(link(socials.facebook, 'Facebook'));
+
+                    var popup = '<div class="info-popup">';
+                    popup += '<b>' + esc(c.name || 'Unknown') + '</b><br>';
+                    popup += '<span class="' + statusClass + '">Status: ' + esc(c.status || 'Unknown') + '</span><br>';
+                    popup += '<span class="' + categoryClass + '">Category: ' + esc(c.category || 'Unknown') + '</span><br>';
+                    if (c.confidence) popup += 'Confidence: ' + esc(c.confidence) + '<br>';
+                    if (c.address) popup += 'Address: ' + esc(c.address) + '<br>';
+                    if (primaryLinks.length) popup += '<div class="link-row">' + primaryLinks.join(' ') + '</div>';
+                    if (Array.isArray(c.newsLinks) && c.newsLinks.length) {
+                        popup += '<div class="link-row"><b>News:</b> ' + c.newsLinks.map(function(n) {
+                            if (typeof n === 'string') return link(n, 'link');
+                            if (n && n.url) return link(n.url, n.source || n.label || 'link');
+                            return '';
+                        }).filter(Boolean).join(' ') + '</div>';
+                    }
+                    if (Array.isArray(c.sourceLinks) && c.sourceLinks.length) {
+                        popup += '<div><b>Sources</b><ul class="source-list">' + c.sourceLinks.map(function(s) {
+                            if (!s || !s.url) return '';
+                            var label = s.label || s.type || 'source';
+                            var suffix = s.date ? ' (' + esc(s.date) + ')' : '';
+                            return '<li>' + link(s.url, label) + suffix + '</li>';
+                        }).filter(Boolean).join('') + '</ul></div>';
+                    }
+                    if (c.notes) popup += 'Notes: ' + esc(c.notes) + '<br>';
+                    popup += '<small>Source: ' + esc(c.source || 'Unknown') + ', Last Verified: ' + esc(c.lastVerified || 'Unknown') + ', Map placement: ' + esc(coords.source) + '</small>';
+                    popup += '</div>';
+
+                    L.circleMarker([coords.lat, coords.lng], {
+                        color: c.status === 'active' ? 'green' : (c.status === 'pending' ? 'orange' : 'gray'),
+                        radius: 8,
+                        fillOpacity: 0.8
+                    }).addTo(map).bindPopup(popup);
+                });
+            })
+            .catch(e => {
+                document.body.innerHTML = '<div style="padding:20px;font-family:sans-serif;">Error loading data: ' + e.message + '</div>';
+                console.error(e);
+            });
+    </script>
+</body>
+</html>
