@@ -89,9 +89,11 @@ button{cursor:pointer;background:none;border:none;font:inherit;color:inherit}
  <div class="notes-box" style="margin-bottom:1rem;">
  <div class="notes-ttl">🎯 What should I work on next?</div>
  <textarea class="notes-ta" id="next-actions" style="min-height:120px;">TOP ACTIONS
+• Same-day permit escalation: call MNSPECT first at 952-442-7520 and ask for the exact current review status, every remaining open item, who currently owns the review, and the earliest realistic issuance date if open items are cleared. If the file is not actively sitting with MNSPECT plan review, call Bayport City Hall at 651-275-4404 or office@ci.bayport.mn.us the same day and identify the exact city-side hold point.
 • Request quotes from White Bear Glass and Hallmark Glass for two interior checkpoint windows around 40 in x 36 in, fixed security glazing with a document/pass-through slot as the base option.
 • Ask whether either shop can also quote a sliding transaction-window variant, and only keep that path alive if the employee corridor will be upgraded to true restricted-access control with audit logging and camera coverage.
-• Pick up the steel doors from Home Depot so framing stays unblocked.
+• Measure and decide the steel garage-door / rolling-shutter opening size tomorrow in Bayport so the order can be placed ASAP despite the ~1 month lead time.
+• Pick up the steel doors from Home Depot on the next hardware-store trip so framing stays unblocked.
 • Move the thermostat.
 • List the property at 257 up for rent on Facebook.
 • Condition and stain the four on-site oak interior doors (buy conditioner or bring it from home).
@@ -120,6 +122,7 @@ BUILDOUT DECISIONS / OPEN QUESTIONS
 • Security checkpoint window decision still unresolved and should be finalized before framing.
 • Local custom-glass option now looks promising after seeing City Hall's pass-through security/document window.
 • Apr 15 research: White Bear Glass publicly lists transaction windows and security glass systems in its Twin Cities commercial offering, Hallmark Glass publicly lists drive-thru and pass-thru windows, and Midland Glass publicly markets custom entrance/storefront and specialty glazing work. These are now the best local-first leads for checkpoint-window quoting before framing.
+• Apr 15 permit-path research: Bayport's building page says the city contracts with MNSPECT for building inspection and plan review services and directs general permit questions / inspection scheduling to 952-442-7520. City-published forms and brochures also show Bayport City Hall at 651-275-4404 and office@ci.bayport.mn.us. Working implication: next escalation should start with MNSPECT/SAFEbuilt review ownership, then immediately confirm any city-side hold point instead of assuming the whole delay is at one desk.
 • Preferred direction: treat shutter-access shelves as separate day-stock, not true vault, during business hours.
 • Current lower-risk checkpoint direction: fixed-pane Andersen-style security glazing with a pass-through slot, or a sliding unit only after the behind-counter employee corridor is upgraded to a clearly restricted-access boundary with controlled entry, signage, audit trail, and camera coverage.
 • Need final design decision on whether true vault begins behind day-stock shelves or if a secondary barrier/gate should remain available as fallback.
@@ -141,6 +144,7 @@ VENDORS / KEY PARTIES
  <textarea class="notes-ta" id="global-notes">OPEN BLOCKERS
 • Building permit issuance is still the primary gate.
 • Building permit is still the main gate. Apr 15 source check suggests the actual hold point should be verified between MNSPECT / SAFEbuilt plan review (952-442-7520) and Bayport City Hall (651-275-4404, office@ci.bayport.mn.us), instead of assuming all delay sits with one party.
+• Bayport's public building page explicitly says the city contracts with MNSPECT for building inspection and plan review services, so the most efficient escalation sequence is MNSPECT first for active reviewer/open items, then City Hall if the file is waiting on municipal processing, zoning, or routing.
 • Fence permit was submitted to the city today.
 • Sign permit packet/documentation was provided to Bayport today so they can submit it to Safebuild for commercial code review.
 • Security checkpoint window decision must be finalized before framing.
@@ -165,12 +169,16 @@ RECENTLY COMPLETED
 • Ceiling painted black
 • Three steel doors from Home Depot have arrived
 • Vault HVAC vent modification completed
+• Remaining HVAC vent fixed
+• Thermostat moved
+• Electrical relocated around wall being removed
 
 PROCUREMENT / WAITING
 • Reinstall lightbulbs and evaluate black touch-up on visible bulb trim/edging
 • Parking lot contractor selection pending, ACT needs follow-up
 • Bathroom wallpaper + tile still need to be ordered
 • 2nd air filtration unit for front still needs to be purchased
+• Buy vinyl adhesive / floor seam sealer (or suitable construction adhesive) to finish the floor drain patch piece
 • Fence permit should be submitted tomorrow
 • Bayport clarified the CUP overrides the normal fence permit rules for this project
 • Bayport fence permit is still a city application with up to 7 business days processing and a $50 fee
@@ -209,7 +217,7 @@ let hideDone=true;
 const CATS={permits:{l:'Permits & Approvals', c:'#7a39bb'},structural:{l:'Structural / Framing', c:'#964219'},hvac:{l:'HVAC & Air Systems', c:'#006494'},electrical:{l:'Electrical', c:'#c48f00'},security:{l:'Security System', c:'#a12c7b'},exterior:{l:'Exterior / Parking / Fence', c:'#437a22'},interior:{l:'Interior Finishes', c:'#da7101'},pos:{l:'Point of Sale', c:'#01696f'},compliance:{l:'Compliance & OCM', c:'#5591c7'}};
 let tasks=[
 {id:'p1',cat:'permits',n:'Building permit (interior walls)',s:'2026-04-01',e:'2026-04-22',st:'blocked',pct:80,notes:`Owner: Brandon\nNext step: Call MNSPECT / SAFEbuilt at 952-442-7520 and ask for (1) exact current review status, (2) every remaining outstanding item, (3) who currently owns the review, and (4) what the earliest realistic issuance date is if all open items are cleared. If the file is sitting with the city on zoning/planning rather than plan review, also call Bayport City Hall at 651-275-4404 or office@ci.bayport.mn.us the same day to identify the actual municipal hold point.\nBlocker: Permit still not issued as of Apr 15, 2026, and the real bottleneck may be either MNSPECT / SAFEbuilt plan review or Bayport-side processing.\nDependency: Unlocks sprinkler relocation and framing start.\nLatest safe timing: Any meaningful slip beyond late April compresses the full interior critical path.\nVendor / external: City of Bayport permit review, MNSPECT / SAFEbuilt.\nResearch note: Bayport's building page says the city contracts with MNSPECT for building inspection and plan review services and directs general questions / inspection scheduling to 952-442-7520. Source captured Apr 15, 2026 from Bayport building page search snippet.\nResearch note: Bayport's forms / permit guidance also points permit and code questions to MNSPECT / SAFEbuilt at 952-442-7520, with info@mnspect.com or infomn@safebuilt.com appearing in city-published materials. Source captured Apr 15, 2026 from Bayport city search snippets / brochure text.\nResearch note: Bayport City Hall general contact published in city materials is 651-275-4404 and office@ci.bayport.mn.us.`},
-{id:'p2',cat:'permits',n:'Sign permit (Sir Metalman custom sign)',s:'2026-04-01',e:'2026-05-08',st:'active',pct:20,notes:`Owner: Brandon\nNext step: Push city review and confirm Safebuild sequence after city review starts.\nBlocker: City had not started review as of Apr 7.\nDependency: Sign fabrication / installation should not be scheduled on assumptions alone.\nLatest safe timing: Delay hurts exterior finish timing, but this is secondary to occupancy-critical work.\nVendor / external: Sir Metalman, City review, Safebuild.`},
+{id:'p2',cat:'permits',n:'Sign permit (Sir Metalman custom sign)',s:'2026-04-01',e:'2026-05-08',st:'active',pct:20,notes:`Owner: Brandon\nNext step: Push city review and confirm whether Bayport wants the sign permit packet completed first at City Hall before any building-code review item is routed onward. Ask for the exact reviewer owner and whether any electrical/sign-construction details are still missing from Sir Metalman's packet.\nBlocker: City had not started review as of Apr 7, and the exact handoff sequence between zoning sign approval and any building-permit component should be confirmed instead of assumed.\nDependency: Sign fabrication / installation should not be scheduled on assumptions alone.\nLatest safe timing: Delay hurts exterior finish timing, but this is secondary to occupancy-critical work.\nVendor / external: Sir Metalman, City review, Safebuild / MNSPECT as applicable.\nResearch note: Bayport sign ordinance Section 727.03 says all permanent signs require a city permit unless exempt, and permit applications should generally include property/business info, applicant/contractor contacts, existing sign photos/dimensions/location, and proposed sign style, materials, dimensions, location, and elevations sufficient to represent construction and placement. Source: Bayport Ordinance No. 897, Appendix B, Section 727 Signs, adopted June 3, 2024.\nResearch note: Bayport 2025 fee schedule lists commercial/industrial sign permits for nameplate, monument, or pedestal signs at $50 plus cost incurred for building permit. Source: Bayport Appendix D fee schedule for 2025.`},
 {id:'p3',cat:'permits',n:'Fence permit (south property line)',s:'2026-04-08',e:'2026-04-18',st:'active',pct:70,notes:`Owner: Brandon
 Next step: Submit the city fence permit tomorrow under the clarified CUP override path.
 Blocker: Still needs filing and review.
@@ -245,6 +253,12 @@ City contact on permit form: 651-275-4404, office@ci.bayport.mn.us, 294 N 3rd St
 {id:'ex5',cat:'exterior',n:'Custom sign installation (Sir Metalman)',s:'2026-05-14',e:'2026-07-07',st:'blocked',pct:0,notes:`Owner: Brandon\nNext step: Push permit review and confirm design/fabrication schedule.\nBlocker: Sign permit and final design sequence.\nDependency: Exterior finish / launch readiness, but secondary to occupancy-critical work.\nLatest safe timing: Can trail core build path, but should not drift into final opening chaos.\nVendor / external: Sir Metalman, city, Safebuild.`},
 {id:'i0',cat:'interior',n:'Ceiling paint prep (remove bulbs, mask, protect sprinklers)',s:'2026-04-08',e:'2026-04-09',st:'done',pct:100,notes:`Owner: Brandon\nStatus: Completed as part of ceiling paint work.\nDependency: Supported ceiling spray paint task.\nVendor / external: None.`},
 {id:'i1',cat:'interior',n:'Ceiling spray paint black (HVAC, sprinklers)',s:'2026-04-08',e:'2026-04-12',st:'active',pct:90,notes:`Owner: Brandon\nNext step: Put the lightbulbs back in and inspect for touch-up needs. The removable bulb trim/edging may need black touch-up so the finished look is clean.\nBlocker: Minor touch-up and reinstall work remains.\nDependency: Better completed before later interior work accumulates.\nLatest safe timing: Near-term execution item, should be closed out quickly.\nVendor / external: None.\nNotes: Ceiling black paint was completed yesterday.`},
+{id:'i1c',cat:'interior',n:'Finish floor drain patch / vinyl insert',s:'2026-04-15',e:'2026-04-18',st:'active',pct:80,notes:`Owner: Brandon
+Next step: Buy vinyl adhesive / seam sealer (or suitable construction adhesive) and secure the patch piece in place.
+Blocker: Need adhesive/material to finish the last step.
+Dependency: Small interior punch item, but nice to close out cleanly now that major progress was made.
+Latest safe timing: Can be finished on the next hardware-store trip.
+Vendor / external: Hardware store / adhesive supplier.`},
 {id:'i2',cat:'interior',n:'Bathroom remodel (wallpaper, tile, toilet, sink)',s:'2026-04-14',e:'2026-05-21',st:'active',pct:20,notes:`Owner: Brandon\nNext step: Order wallpaper and tile, then keep pushing DIY execution.\nBlocker: Remaining materials not yet ordered.\nDependency: Interior readiness, but not first-order critical path compared with permit/framing/security.\nLatest safe timing: Should be substantially complete before late-June final readiness.\nVendor / external: Material suppliers.`},
 {id:'i3',cat:'interior',n:'ADA grab bars (bathroom)',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Install with supplies already purchased.\nBlocker: None beyond execution time.\nDependency: Bathroom completion.\nLatest safe timing: Easy win, should be cleared early.\nVendor / external: None.`},
 {id:'i4a',cat:'interior',n:'POS counter design / layout',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,notes:`Owner: Brandon\nNext step: Finalize counter dimensions, ADA section, employee gate, and workflow.\nBlocker: Design finalization time.\nDependency: Materials ordering and later build/assembly.\nLatest safe timing: Needs to finish before materials are ordered.\nVendor / external: None currently.`},
@@ -266,6 +280,12 @@ Vendor / external: OCM rules, security vendor input, floor plan review.
 Working recommendation: lowest-risk path is separate locked day-stock storage at the checkpoint with true vault storage remaining behind its own controlled boundary. Sliding shutter/window access becomes more defensible only if the employee corridor itself is upgraded to a clearly restricted-access area with logging, signage, and coverage.
 Notes: Official Minnesota rule 9810.1104 was reviewed Apr 14. It requires each product storage area to be locked, restricted to authorized personnel, posted with "Restricted Access. Authorized Personnel Only," and supported by records showing date/time, person, and products added or removed for each storage-area access event.
 Working conclusion: the cleaner lower-risk path is Approach A, treat shutter-access shelves as separate locked day-stock storage rather than the true vault itself during business hours. Replenish from the true vault with logged transfers, keep AM/PM counts, maintain clear signage, and preserve the option for a secondary barrier behind day-stock shelves if OCM/security interpretation tightens.`},
+{id:'c5b',cat:'compliance',n:'Lock rolling-shutter opening size and place order',s:'2026-04-16',e:'2026-04-21',st:'active',pct:25,notes:`Owner: Brandon
+Next step: Measure and visualize the steel garage-door / rolling-shutter opening in Bayport tomorrow, decide final size, and place the order ASAP.
+Blocker: Final opening size decision still needs on-site measurement.
+Dependency: Long lead time (about one month) means framing needs exact opening dimensions quickly.
+Latest safe timing: Order immediately after sizing to avoid becoming a schedule bottleneck.
+Vendor / external: Rolling shutter / steel door supplier.`},
 {id:'c6',cat:'compliance',n:'Finalize day-stock design and operating plan',s:'2026-04-21',e:'2026-05-05',st:'todo',pct:0,notes:`Owner: Brandon
 Next step: Approve final design and written operating model for the day-stock / true-vault workflow.
 Blocker: Need design-options analysis, camera/access-control implications, and compliance-risk ranking first.
