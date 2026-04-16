@@ -130,7 +130,7 @@ a{color:var(--color-primary-2);text-decoration:none}a:hover{text-decoration:unde
   <div class="spend-head">
    <div>
     <h3 class="section-title">Projected cash spend over time</h3>
-    <p>This is a planning view, not accounting. It is meant to show when cash probably starts hitting based on current quotes, likely purchase timing, and working assumptions. Replace placeholders as real quotes land.</p>
+    <p>This is a planning view, not accounting. It now sits beside recovered spend-to-date context. Use it to compare what has already gone out the door versus what is still likely ahead. Replace placeholders as real quotes land.</p>
    </div>
    <div class="spend-metrics" id="spend-metrics"></div>
   </div>
@@ -139,6 +139,32 @@ a{color:var(--color-primary-2);text-decoration:none}a:hover{text-decoration:unde
     <div class="spend-scale" id="spend-chart"></div>
    </div>
    <div class="spend-table" id="spend-table"></div>
+  </div>
+ </section>
+
+ <section class="summary-grid" style="margin-top:-.1rem;">
+  <div class="summary-card">
+   <div class="summary-head"><div><h3>Buildout spend to date</h3><div class="summary-sub">Recovered from attached CIP register</div></div><span class="mini-tag cash">Actuals</span></div>
+   <div class="focus-list">
+    <div class="focus-item"><strong>Known CIP total paid to date</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">$27,979.93 ending balance shown in the Construction in Process register.</div></div>
+    <div class="focus-item"><strong>Largest known paid items</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted);line-height:1.5">Architect / construction docs, survey / parking lot plans check, security floor plan, sign design deposit, blinds, doors, HVAC parts, paint, wiring, and early bathroom / sink / hardware purchases.</div></div>
+    <div class="focus-item"><strong>Important caveat</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">This is a first-pass digest from the legacy Excel register and should be tightened once the workbook is converted into a cleaner ledger extract.</div></div>
+   </div>
+  </div>
+  <div class="summary-card">
+   <div class="summary-head"><div><h3>Non-capitalized P&amp;L expenses</h3><div class="summary-sub">Separate from buildout capitalization</div></div><span class="mini-tag blocked">Ops</span></div>
+   <div class="focus-list">
+    <div class="focus-item"><strong>Total expenses</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">$17,185.82 shown in the P&amp;L screenshot.</div></div>
+    <div class="focus-item"><strong>Total other expenses</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">$12,313.25, primarily interest expense.</div></div>
+    <div class="focus-item"><strong>Net income</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">-$28,595.84 shown in the P&amp;L screenshot.</div></div>
+   </div>
+  </div>
+  <div class="summary-card">
+   <div class="summary-head"><div><h3>Current interpretation</h3><div class="summary-sub">How to use this in the board</div></div><span class="mini-tag soon">Planning</span></div>
+   <div class="focus-list">
+    <div class="focus-item"><strong>Use two lenses</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">1) capitalized buildout spend to date, 2) ongoing business P&amp;L burn including loan interest and operating overhead.</div></div>
+    <div class="focus-item"><strong>Next improvement</strong><div style="font-size:var(--tx-xs);color:var(--color-text-muted)">Convert the CIP workbook into a structured dated ledger so monthly actuals can sit directly beside forecasted future spend.</div></div>
+   </div>
   </div>
  </section>
 
@@ -232,6 +258,10 @@ PROCUREMENT / WAITING
 • Bathroom wallpaper + tile still need to be ordered
 • Parking lot contractor selection still pending
 • 2nd air filtration unit for front still needs to be purchased
+
+SPEND SNAPSHOT
+• Construction in Process register attached Apr 16 shows ending balance / spend to date of $27,979.93
+• P&L screenshot shows total expenses of $17,185.82 plus other expenses of $12,313.25, largely interest expense
 
 HARD DATES TO PROTECT
 • Fence complete by July 1, 2026
