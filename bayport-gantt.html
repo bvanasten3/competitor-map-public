@@ -130,7 +130,7 @@ a{color:var(--color-primary-2);text-decoration:none}a:hover{text-decoration:unde
   <div class="spend-head">
    <div>
     <h3 class="section-title">Projected cash spend over time</h3>
-    <p>This is a planning view, not accounting. It is meant to show when cash probably starts hitting based on the current build sequence, quotes, and known purchases.</p>
+    <p>This is a planning view, not accounting. It is meant to show when cash probably starts hitting based on current quotes, likely purchase timing, and working assumptions. Replace placeholders as real quotes land.</p>
    </div>
    <div class="spend-metrics" id="spend-metrics"></div>
   </div>
@@ -187,7 +187,9 @@ WHY THIS ORDER
 BUILDOUT / CASH
 • Tom / father-son crew quoted $15k for interior buildout and can start a few days after permit issuance. This is a meaningful cost improvement.
 • Hallmark Glass RFQ has been sent.
+• Twin City Garage RFQ has been sent.
 • The vault garage door / rolling shutter is now top priority because the lead time is about one month and framing needs the opening size soon.
+• Menards-style cheaper steel door path may save money, but key watchouts are security, durability, mounting/fit, cycle life, and whether it still supports the actual controlled-access/security concept you want.
 
 COMPLIANCE / DESIGN
 • Preferred path remains split day-stock vs true vault, not trying to force the shutter opening to be treated as the vault itself.
@@ -267,22 +269,22 @@ let hideDone=true;
 const CATS={permits:{l:'Permits & Approvals',c:'var(--color-purple)'},structural:{l:'Structural / Framing',c:'var(--color-warning)'},hvac:{l:'HVAC / Fire',c:'var(--color-blue)'},security:{l:'Security',c:'var(--color-error)'},interior:{l:'Interior',c:'var(--color-orange)'},compliance:{l:'Compliance',c:'var(--color-primary)'},exterior:{l:'Exterior',c:'var(--color-success)'}};
 let tasks=[
 {id:'p1',cat:'permits',n:'Building permit (interior walls)',s:'2026-04-01',e:'2026-04-22',st:'blocked',pct:80,priority:'now',cost:0,notes:`Owner: Brandon\nNext step: keep pressure on SAFEbuilt / Bayport and confirm the exact hold point.\nBlocker: still not issued.\nDependency: unlocks sprinkler scheduling and framing start.`},
-{id:'p2',cat:'permits',n:'Sign permit review',s:'2026-04-01',e:'2026-05-08',st:'active',pct:20,priority:'later',cost:500,notes:`Owner: Brandon\nNext step: keep city / Safebuild review moving.`},
+{id:'p2',cat:'permits',n:'Sign permit review',s:'2026-04-01',e:'2026-05-08',st:'active',pct:20,priority:'later',cost:250,notes:`Owner: Brandon\nNext step: keep city / Safebuild review moving.\nCash assumption: city permit/admin cost placeholder only, not full fabricated sign cost.`},
 {id:'p3',cat:'permits',n:'Fence permit submission and processing',s:'2026-04-08',e:'2026-04-18',st:'done',pct:100,priority:'soon',cost:50,notes:`Owner: Brandon\nStatus: submitted.`},
-{id:'s2',cat:'structural',n:'Interior framing & drywall',s:'2026-04-24',e:'2026-05-23',st:'active',pct:20,priority:'now',cost:15000,notes:`Owner: Brandon\nTom quote is $15k and they can start a few days after permit issuance.\nBlockers: permit + sprinkler scheduling.`},
+{id:'s2',cat:'structural',n:'Interior framing & drywall',s:'2026-04-24',e:'2026-05-23',st:'active',pct:20,priority:'now',cost:15000,notes:`Owner: Brandon\nTom quote is $15k and they can start a few days after permit issuance.\nBlockers: permit + sprinkler scheduling.\nCash assumption: using Tom's quoted $15k as the working framing/drywall spend anchor.`},
 {id:'s2b',cat:'structural',n:'Framing prep: electrical moved around removed wall',s:'2026-04-15',e:'2026-04-15',st:'done',pct:100,priority:'soon',cost:0,notes:`Completed.`},
-{id:'h1',cat:'hvac',n:'Vault HVAC vent modification',s:'2026-04-07',e:'2026-04-16',st:'done',pct:100,priority:'soon',cost:300,notes:`Owner: Brandon\nStatus: completed.`},
-{id:'h1b',cat:'hvac',n:'Schedule Dynamic Fire Protection for sprinkler-head moves',s:'2026-04-16',e:'2026-04-18',st:'active',pct:15,priority:'now',cost:1200,notes:`Owner: Brandon\nNext step: get on the calendar immediately so framing is not blocked.`},
+{id:'h1',cat:'hvac',n:'Vault HVAC vent modification',s:'2026-04-07',e:'2026-04-16',st:'done',pct:100,priority:'soon',cost:300,notes:`Owner: Brandon\nStatus: completed.\nCash assumption: small parts / vent modification placeholder only.`},
+{id:'h1b',cat:'hvac',n:'Schedule Dynamic Fire Protection for sprinkler-head moves',s:'2026-04-16',e:'2026-04-18',st:'active',pct:15,priority:'now',cost:1500,notes:`Owner: Brandon\nNext step: get on the calendar immediately so framing is not blocked.\nCash assumption: placeholder for moving a small number of sprinkler heads, should be replaced with real Dynamic Fire Protection quote once scheduled.`},
 {id:'sec2',cat:'security',n:'Compare Lloyd vs Per Mar and choose direction',s:'2026-04-14',e:'2026-04-21',st:'active',pct:65,priority:'soon',cost:0,notes:`Owner: Brandon / Morpheus\nNext step: on-site Per Mar meeting tomorrow around 10:30 to 2.`},
-{id:'sec4',cat:'security',n:'Checkpoint window dimensions + Hallmark quote path',s:'2026-04-15',e:'2026-04-18',st:'active',pct:45,priority:'soon',cost:2500,notes:`Hallmark Glass RFQ sent. Need exact field dimensions.`},
-{id:'i1c',cat:'interior',n:'Finish floor drain patch / vinyl insert',s:'2026-04-15',e:'2026-04-18',st:'active',pct:80,priority:'soon',cost:50,notes:`Need adhesive / seam sealer.`},
-{id:'i2',cat:'interior',n:'Bathroom remodel materials + work',s:'2026-04-14',e:'2026-05-21',st:'active',pct:20,priority:'later',cost:2500,notes:`Wallpaper, tile, toilet, sink still moving.`},
-{id:'i3',cat:'interior',n:'ADA grab bars',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,priority:'later',cost:150,notes:`Easy win once time opens up.`},
+{id:'sec4',cat:'security',n:'Checkpoint window dimensions + Hallmark quote path',s:'2026-04-15',e:'2026-04-18',st:'active',pct:45,priority:'soon',cost:3200,notes:`Hallmark Glass RFQ sent. Need exact field dimensions.\nTwin City Garage RFQ also sent.\nCash assumption: placeholder for a modest custom glazing / pass-through package, not final.`},
+{id:'i1c',cat:'interior',n:'Finish floor drain patch / vinyl insert',s:'2026-04-15',e:'2026-04-18',st:'active',pct:80,priority:'soon',cost:40,notes:`Need adhesive / seam sealer.\nCash assumption: small material-only purchase.`},
+{id:'i2',cat:'interior',n:'Bathroom remodel materials + work',s:'2026-04-14',e:'2026-05-21',st:'active',pct:20,priority:'later',cost:3500,notes:`Wallpaper, tile, toilet, sink still moving.\nCash assumption: moderate DIY bathroom spend placeholder for remaining finishes/fixtures.`},
+{id:'i3',cat:'interior',n:'ADA grab bars',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,priority:'later',cost:0,notes:`Easy win once time opens up.\nCash assumption: supplies already purchased, so no new spend currently assumed.`},
 {id:'e1',cat:'exterior',n:'Pick up steel doors from Home Depot',s:'2026-04-17',e:'2026-04-21',st:'todo',pct:0,priority:'soon',cost:0,notes:`Needed on site before framing/drywall.`},
-{id:'e2',cat:'exterior',n:'Parking lot contractor selection',s:'2026-05-01',e:'2026-05-20',st:'todo',pct:0,priority:'later',cost:12000,notes:`Still pending follow-up.`},
+{id:'e2',cat:'exterior',n:'Parking lot contractor selection',s:'2026-05-01',e:'2026-05-20',st:'todo',pct:0,priority:'later',cost:18000,notes:`Still pending follow-up.\nCash assumption: placeholder for a meaningful paving / lot scope, needs replacement with real contractor pricing.`},
 {id:'c5',cat:'compliance',n:'Lock day-stock vs true-vault direction',s:'2026-04-14',e:'2026-04-24',st:'active',pct:70,priority:'soon',cost:0,notes:`Preferred path remains split day-stock vs true vault.`},
-{id:'c5b',cat:'compliance',n:'Lock rolling-shutter opening size and place order',s:'2026-04-16',e:'2026-04-17',st:'active',pct:40,priority:'now',cost:6500,notes:`Tomorrow's top priority. One month lead time risk.`},
-{id:'c1',cat:'compliance',n:'SOP + operating plan drafting',s:'2026-04-21',e:'2026-05-14',st:'todo',pct:0,priority:'later',cost:3000,notes:`Kick off once design/build path is clearer.`},
+{id:'c5b',cat:'compliance',n:'Lock rolling-shutter opening size and place order',s:'2026-04-16',e:'2026-04-17',st:'active',pct:40,priority:'now',cost:2800,notes:`Tomorrow's top priority. One month lead time risk.\nTwin City Garage RFQ sent.\nCash assumption: currently modeling a cheaper Menards-style steel door / rolling-door path until a better quote comes in. Main risk is not just price, it is whether the lower-cost door still meets security, durability, mounting, and operational needs.`},
+{id:'c1',cat:'compliance',n:'SOP + operating plan drafting',s:'2026-04-21',e:'2026-05-14',st:'todo',pct:0,priority:'later',cost:2500,notes:`Kick off once design/build path is clearer.\nCash assumption: working placeholder for Canopyspire / compliance drafting help.`},
 {id:'c2',cat:'compliance',n:'Final Plan of Record assembly & OCM submission',s:'2026-05-21',e:'2026-05-28',st:'todo',pct:0,priority:'later',cost:0,notes:`Late-May target still matters for Aug 1.`}
 ];
 function days(a,b){return (b-a)/(864e5)}
