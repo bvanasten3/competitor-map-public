@@ -12,13 +12,25 @@
     "cupStatus": "cup-pending",
     "owner": "Brandon (My Dealer LLC)",
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Direct Intel - 2026-03-03",
     "farmBillNotes": null,
     "notes": "Target opening August 1, 2026. Bayport buildout in progress. Bayport location is next to the post office on 3rd Street. Address still needs street number verification, current pin is placed on the correct 3rd St N block by the Bayport post office.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Hunter Game LLC / Hunter Capital",
@@ -33,13 +45,25 @@
     "cupStatus": "cup-approved",
     "owner": "Hunter Game LLC / Hunter Capital",
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Wabasha local research / city records tracking",
     "farmBillNotes": null,
     "notes": "CUP approved in Wabasha County research pass. State license status still pending verification.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Silver Cannabis Co.",
@@ -54,13 +78,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Was listed as 'Opening Soon (Feb/Mar 2026)' \u2014 needs status verification. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "low",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Simply Crafted Cannabis",
@@ -75,13 +111,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Strong online presence, diverse product line per earlier intel. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "RISE Stillwater",
@@ -96,13 +144,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Legacy entry from earlier intel. Needs verification against current OCM medical/adult-use retail list before keeping on the live map. Unable to reliably confirm a Stillwater RISE location at this address, so coordinates are left null pending verification.",
     "lastVerified": "2026-04-12",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "low",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Turning Leaf",
@@ -117,13 +177,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://shopturningleaf.com/retail-locations/stillwater-mn/",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Located off Hwy 36 by Kowalski's per earlier intel. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. Markets itself like a dispensary but sells hemp-derived products under 0.3% THC, not cannabis.",
     "lastVerified": "2026-04-15",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://shopturningleaf.com/retail-locations/stillwater-mn/"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Mango Cannabis",
@@ -138,13 +216,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Joseph's Restaurant location. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "low",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "HyMN LLC",
@@ -159,13 +249,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "low",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Power Plant Cannabis Shop II",
@@ -180,13 +282,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "low",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Cryptic Stock Movement",
@@ -201,13 +315,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Mall area location. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "low",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Green Canopy",
@@ -222,13 +348,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://www.greencanopymn.com/lakeland-dispensary",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": null,
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://www.greencanopymn.com/lakeland-dispensary"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Canna Club St. Croix",
@@ -243,13 +387,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Drive-through dispensary, opened Jan 2026. Needs address verification. Could not reliably confirm a specific business/address for this entry, so coordinates are left null pending verification.",
     "lastVerified": "2026-04-12",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Legacy Cannabis",
@@ -264,13 +420,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://legacycannabismn.com/woodbury",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Previously marked 'Mezzobusiness'.",
     "lastVerified": "2026-04-12",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://legacycannabismn.com/woodbury"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Green Goods Woodbury",
@@ -285,13 +459,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://visitgreengoods.com/locations/woodbury-mn/",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://visitgreengoods.com/locations/woodbury-mn/"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "The Green Room",
@@ -306,13 +498,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": "Farm Bill implications for hemp post-2026.",
     "notes": "Boutique hemp/CBD with premium pricing. Needs address verification. Search results strongly pointed to a restaurant/bar at 215 Main St S rather than a confirmed hemp retailer, so coordinates are left null pending verification.",
     "lastVerified": "2026-04-12",
-    "addedDate": "2026-04-12"
+    "addedDate": "2026-04-12",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Ignite Dispensary",
@@ -327,13 +531,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": "CBD/Hemp and Tobacco. Wisconsin license timeline uncertain.",
     "notes": "Needs address verification. Current Ignite materials for Hudson route customers to New Richmond or product placement in Hudson rather than a confirmed standalone Hudson dispensary, so coordinates are left null pending verification.",
     "lastVerified": "2026-04-12",
-    "addedDate": "2026-04-12"
+    "addedDate": "2026-04-12",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "My Dealer Bayport",
@@ -348,13 +564,25 @@
     "cupStatus": "cup-pending",
     "owner": "Brandon (My Dealer LLC)",
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Direct Intel - 2026-04-13",
     "farmBillNotes": null,
     "notes": "User provided exact address and old coordinates were replaced.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03"
+    "addedDate": "2026-03-03",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "My Dealer Wabasha",
@@ -369,13 +597,25 @@
     "cupStatus": "cup-pending",
     "owner": "Brandon (My Dealer LLC)",
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Direct Intel - 2026-04-13",
     "farmBillNotes": null,
     "notes": "User provided exact address and old coordinates were replaced.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Winona Dispensary",
@@ -390,13 +630,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://thewinonadispensary.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://thewinonadispensary.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Tranquil Gardens Dispensary",
@@ -411,13 +669,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://www.tranquilgardensdispensary.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://www.tranquilgardensdispensary.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Bloom Wellness Dispensary St. Paul",
@@ -429,13 +705,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "In-Dispensary LLC",
@@ -447,13 +735,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://in-dispensary.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://in-dispensary.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Green Box Cannabis",
@@ -465,13 +771,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Green Walker Dispensary",
@@ -483,13 +801,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "DNA Dispensary",
@@ -501,13 +831,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Green Leaf Depot",
@@ -519,13 +861,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://gldepot.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "Researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://gldepot.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Green Goods Minneapolis",
@@ -540,13 +900,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://visitgreengoods.com/locations/minneapolis-mn/",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://visitgreengoods.com/locations/minneapolis-mn/"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Fridley Dispensary",
@@ -561,13 +939,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://minnesotasdispensary.com/fridley-dispensary-2/",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://minnesotasdispensary.com/fridley-dispensary-2/"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Twin Cities Cannabis",
@@ -582,13 +978,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Green 2 Go",
@@ -603,13 +1011,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://green2go.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://green2go.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Da Spot Dispensary & Wellness",
@@ -624,13 +1050,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://daspotdispensary.net",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://daspotdispensary.net"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Legacy Cannabis Minneapolis",
@@ -645,13 +1089,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://legacycannabismn.com/minneapolis",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://legacycannabismn.com/minneapolis"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "RISE Brooklyn Park",
@@ -666,13 +1128,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://risecannabis.com/dispensaries/minnesota/brooklyn-park",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://risecannabis.com/dispensaries/minnesota/brooklyn-park"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "RISE Eagan",
@@ -687,13 +1167,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://risecannabis.com/dispensaries/minnesota/eagan",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://risecannabis.com/dispensaries/minnesota/eagan"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "RISE St. Paul",
@@ -708,13 +1206,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://risecannabis.com/dispensaries/minnesota/st-paul",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://risecannabis.com/dispensaries/minnesota/st-paul"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "RISE New Hope",
@@ -729,13 +1245,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://risecannabis.com/dispensaries/minnesota/new-hope",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://risecannabis.com/dispensaries/minnesota/new-hope"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Frostbite Dispensary",
@@ -747,13 +1281,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://frostbitedispensary.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://frostbitedispensary.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "The Lakes Dispensary",
@@ -768,13 +1320,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://thelakesdispensary.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://thelakesdispensary.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "5D Dispensary",
@@ -786,13 +1356,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://5ddispensary.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://5ddispensary.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Lit Dispensaries",
@@ -807,13 +1395,25 @@
     "cupStatus": null,
     "owner": null,
     "website": null,
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "Legacy Cannabis Duluth",
@@ -828,13 +1428,31 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://legacycannabismn.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://legacycannabismn.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   },
   {
     "name": "The Stash & Co.",
@@ -849,12 +1467,30 @@
     "cupStatus": null,
     "owner": null,
     "website": "https://thestashnco.com",
-    "socialMedia": {},
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
     "newsLinks": [],
     "source": "MN OCM / researched competitor list - 2026-04-13",
     "farmBillNotes": null,
     "notes": "Added from researched competitor list with refreshed geocoding.",
     "lastVerified": "2026-04-13",
-    "addedDate": "2026-04-13"
+    "addedDate": "2026-04-13",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official website",
+        "url": "https://thestashnco.com"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
   }
 ]
