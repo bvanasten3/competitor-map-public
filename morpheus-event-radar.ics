@@ -1,0 +1,240 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Morpheus//Event Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Morpheus Event Radar
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260129T120000
+DTEND:20260131T230000
+SUMMARY:Event Radar: Ice Dance Music Fest 2026
+LOCATION:Hilton Paper Valley Hotel\, Appleton\, WI
+DESCRIPTION:Morpheus Event Radar festival candidate\n\nConfidence: High\n\nWhy it matches: High-signal festival Brandon/Natalie already frequent\; indoor winter hotel music festival\, 3 days.\n\nSource/tickets: https://feedthedogband.com/ice-dance\n\nYouTube: Search Ic\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALZAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260426T180000
+DTEND:20260426T210000
+SUMMARY:Event Radar: The Wailers
+LOCATION:Dakota\, Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Direct reggae/Sublime/Slightly Stoopid/Stick Figure lane.\n\nSource/tickets: https://www.dakotacooks.com/event/the-wailers-apr26-2026/2026-04-26/1/\n\nRule: This is a candidate\, not a c\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALGAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260501T200000
+DTEND:20260501T223000
+SUMMARY:Event Radar: SCREAM it off SCREEN // Short Film Competition
+LOCATION:Parkway Theater\, Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: High-signal recurring favorite for Brandon/Natalie\; interactive short-film competition at Parkway.\n\nSource/tickets: https://theparkwaytheater.com/all-events/sios-may-2026\n\nYouTube: \nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALYAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260501T200000
+DTEND:20260501T230000
+SUMMARY:Event Radar: The Midnight w/ New Constellations
+LOCATION:Palace Theatre\, St. Paul
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Synthwave/electronic match for Tycho\, ODESZA\, Justice\, Gorillaz-adjacent taste.\n\nSource/tickets: https://first-avenue.com/event/2026-05-the-midnight/\n\nRule: This is a candidate\, not\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALHAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260504T190000
+DTEND:20260504T220000
+SUMMARY:Event Radar: Hippie Sabotage w/ Kembe X
+LOCATION:Fillmore Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Exact liked/top artist match.\n\nSource/tickets: https://www.livenation.com/event/vv1AkZk8gGkdD7RvC/hippie-sabotage-give-and-take-tour\n\nRule: This is a candidate\, not a commitment. De\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALIAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260505T200000
+DTEND:20260505T230000
+SUMMARY:Event Radar: The Greyboy Allstars
+LOCATION:Amsterdam Bar & Hall\, St. Paul
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Funk/jam/groove fit for Lotus\, Big Gigantic\, Gramatik\, Phish-adjacent tastes.\n\nSource/tickets: https://first-avenue.com/event/2026-05-greyboy-allstars/\n\nRule: This is a candidate\, n\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALJAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260506T190000
+DTEND:20260506T203000
+SUMMARY:Local Radar: Uproar Comedy Open Mic
+LOCATION:Bryant Lake Bowl Theater\, Minneapolis
+DESCRIPTION:Local Radar candidate\n\nConfidence: Local / Low-Medium\n\nWhy it matches: Low-commitment nearby comedy sampler\; useful if looking for something spontaneous.\n\nSource/tickets: https://www.bryantlakebowl.com/theater\n\nYouTube: Search Uproar Comedy Open M\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALWAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260506T200000
+DTEND:20260506T214500
+SUMMARY:Local Radar: Myq Kaplan at Acme
+LOCATION:Acme Comedy Company\, Minneapolis
+DESCRIPTION:Local Radar candidate\n\nConfidence: Local / Medium\n\nWhy it matches: Smart/observational comedy lane\; hyper-local Acme option.\n\nSource/tickets: https://acmecomedy.seatengine.com\n\nYouTube: Search Myq Kaplan at Acme on YouTube\n\nRule: Hyper-local / l\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALSAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260506T190000
+DTEND:20260506T220000
+SUMMARY:Event Radar: Mac DeMarco w/ Mock Media
+LOCATION:First Avenue\, Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: Medium-High\n\nWhy it matches: Indie/psych/slacker rock fit with Tame Impala\, Modest Mouse\, Glass Animals\, Gorillaz.\n\nSource/tickets: https://first-avenue.com/event/2026-05-mac-demarco/\n\nRule: This is a ca\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALKAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260509T200000
+DTEND:20260509T230000
+SUMMARY:Event Radar: Mdou Moctar solo
+LOCATION:Fine Line\, Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: Medium\n\nWhy it matches: Psychedelic guitar/world-rock energy\; interesting date-night candidate.\n\nSource/tickets: https://first-avenue.com/event/2026-05-mdou-moctar-solo/\n\nRule: This is a candidate\, not a\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALLAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260514T200000
+DTEND:20260514T214500
+SUMMARY:Local Radar: Bobcat Goldthwait at Acme
+LOCATION:Acme Comedy Company\, Minneapolis
+DESCRIPTION:Local Radar candidate\n\nConfidence: Local / Medium-High\n\nWhy it matches: Known alt/irreverent comedy name\; close venue\, possible last-minute option.\n\nSource/tickets: https://acmecomedy.seatengine.com\n\nYouTube: Search Bobcat Goldthwait at Acme on Yo\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALTAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260521T200000
+DTEND:20260521T214500
+SUMMARY:Local Radar: Craig Robinson at Acme
+LOCATION:Acme Comedy Company\, Minneapolis
+DESCRIPTION:Local Radar candidate\n\nConfidence: Local / Medium\n\nWhy it matches: Recognizable comedy/music performer\; close venue.\n\nSource/tickets: https://acmecomedy.seatengine.com\n\nYouTube: Search Craig Robinson at Acme on YouTube\n\nRule: Hyper-local / last-\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALUAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260613T193000
+DTEND:20260613T223000
+SUMMARY:Event Radar: An Acoustic Evening with Trey Anastasio
+LOCATION:Orpheum Theatre\, Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Exact Phish/Trey jam-band match\, acoustic/seated vibe.\n\nSource/tickets: https://hennepinarts.org/events/trey-anastasio-2026\n\nRule: This is a candidate\, not a commitment. Delete/decl\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALNAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260613T200000
+DTEND:20260613T230000
+SUMMARY:Event Radar: Artikal Sound System
+LOCATION:Turf Club\, St. Paul
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Modern reggae/rock lane\, strong match for Stick Figure\, The Expendables\, Slightly Stoopid.\n\nSource/tickets: https://first-avenue.com/event/2026-06-artikal-sound-system/\n\nRule: This \nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALMAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260618T200000
+DTEND:20260618T230000
+SUMMARY:Event Radar: The Motet w/ Hot Like Mars
+LOCATION:Fine Line\, Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Funk/jam/dance-groove match for Lotus\, Big Gigantic\, Gramatik.\n\nSource/tickets: https://first-avenue.com/event/2026-06-the-motet/\n\nRule: This is a candidate\, not a commitment. Delet\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALOAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260619T200000
+DTEND:20260619T214500
+SUMMARY:Local Radar: David Cross at Acme
+LOCATION:Acme Comedy Company\, Minneapolis
+DESCRIPTION:Local Radar candidate\n\nConfidence: Local / High\n\nWhy it matches: Strong smart/irreverent comedy fit near the Demetri/Tig/Mike Birbiglia side\, with more edge.\n\nSource/tickets: https://acmecomedy.seatengine.com\n\nYouTube: Search David Cross at Acme o\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALVAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260625T120000
+DTEND:20260627T230000
+SUMMARY:Event Radar: Blue Ox Music Festival 2026
+LOCATION:The Pines Music Park\, Eau Claire\, WI
+DESCRIPTION:Morpheus Event Radar festival candidate\n\nConfidence: High\n\nWhy it matches: High-signal camping/camper-van festival\; 2026 lineup includes The Dead South\, Charley Crockett\, Marcus King Band\, Sierra Hull and more. Tickets/camping require advance planning\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALaAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260711T120000
+DTEND:20260711T220000
+SUMMARY:Event Radar: Minnesota Country Club Festival — Saturday
+LOCATION:Harriet Island Regional Park\, St. Paul
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Includes Trampled by Turtles\; strong bluegrass/Americana fit.\n\nSource/tickets: https://www.minnesotacountryclubfest.com\n\nRule: This is a candidate\, not a commitment. Delete/decline/\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALPAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260712T190000
+DTEND:20260712T223000
+SUMMARY:Event Radar: Paul Oakenfold + The Crystal Method
+LOCATION:First Avenue\, Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: Medium-High\n\nWhy it matches: Electronic/trip-hop/club legacy fit for Justice\, Moby\, Massive Attack\, Tycho\, ODESZA.\n\nSource/tickets: https://first-avenue.com/event/2026-07-paul-oakenfold-and-the-crystal-met\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALQAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260717T120000
+DTEND:20260719T220000
+SUMMARY:Event Radar: Minnesota Yacht Club Festival
+LOCATION:Harriet Island Regional Park\, St. Paul
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: Medium-High\n\nWhy it matches: Broad indie/alt fit: The Strokes\, Lord Huron\, Atmosphere\, Cage the Elephant\, The Black Keys\, etc.\n\nSource/tickets: https://www.minnesotayachtclubfestival.com\n\nRule: This is a\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALRAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260806T100000
+DTEND:20260808T230000
+SUMMARY:Event Radar: People Fest 2026
+LOCATION:Driftless Music Gardens\, Hillsboro\, WI
+DESCRIPTION:Morpheus Event Radar festival candidate\n\nConfidence: High\n\nWhy it matches: High-signal Driftless Music Gardens / People Fest style camping event\; Brandon specifically called out this venue/festival lane.\n\nSource/tickets: https://driftlessmusicgarden\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALcAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260818T193000
+DTEND:20260818T230000
+SUMMARY:Event Radar: LCD Soundsystem w/ Victoryland
+LOCATION:Armory\, Minneapolis
+DESCRIPTION:Morpheus Event Radar candidate\n\nConfidence: High\n\nWhy it matches: Exact top-artist match from Spotify profile\; Armory is also on the close/local venue watch list. Tickets on sale Fri May 1 10 AM\, presale Thu Apr 30 10 AM per First Avenue listing.\n\nS\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALXAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp7CT2S7Lw2lOCH@morpheus-event-radar
+DTSTAMP:20260426T203438Z
+DTSTART:20260924T120000
+DTEND:20260927T180000
+SUMMARY:Event Radar: Boats and Bluegrass 2026
+LOCATION:Prairie Island Campground\, Winona\, MN
+DESCRIPTION:Morpheus Event Radar festival candidate\n\nConfidence: High\n\nWhy it matches: High-signal recurring camper-van/bluegrass festival in Winona\; full-weekend ticket includes camping and boat rentals.\n\nSource/tickets: https://www.eventbrite.com/e/boats-and-\nOutlook link: https://outlook.office365.com/owa/?itemid=AAMkAGFjNWNjY2Q0LTIzYmMtNGQ0Mi1hOTcwLTc1YWEyMjdmNzAzMABGAAAAAADY1Dp%2B7CT2S7Lw2lOCHulgBwBN7UOyMfheRJF%2FN0EoBYd3AADQfuxSAABN7UOyMfheRJF%2FN0EoBYd3AADQgALbAAA%3D&exvsurl=1&path=/calendar/item
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
