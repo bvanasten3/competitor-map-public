@@ -86,8 +86,8 @@
     "name": "Mango Cannabis",
     "address": "14608 60th St N, Oak Park Heights, MN",
     "location": {
-      "lat": 45.0354737,
-      "lng": -92.8087497
+      "lat": 45.036558,
+      "lng": -92.810664
     },
     "status": "cup-approved",
     "category": "cannabis",
@@ -102,8 +102,8 @@
     "newsLinks": [],
     "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "Joseph's Restaurant location. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. CUP approved Oct. 28, 2025; March 2026 design review confirms Mango at 14608 60th St N.",
-    "lastVerified": "2026-04-25",
+    "notes": "Joseph's Restaurant location. CUP approved Oct. 28, 2025; March 2026 design review confirms Mango at 14608 60th St N. Coordinates QA updated 2026-04-26 using Washington County / Met Council official address point; PID 33.030.20.43.0045.",
+    "lastVerified": "2026-04-26",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [
@@ -124,14 +124,16 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "official-address-point",
+    "geocodeSource": "Washington County / Met Council official address point; PID 33.030.20.43.0045"
   },
   {
     "name": "HyMN LLC",
     "address": "13999 60th St N, Oak Park Heights, MN",
     "location": {
-      "lat": 45.035118,
-      "lng": -92.82282
+      "lat": 45.035262,
+      "lng": -92.823296
     },
     "status": "cup-approved",
     "category": "cannabis",
@@ -146,8 +148,8 @@
     "newsLinks": [],
     "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. CUP approved Jan. 13, 2026 at 13999 60th St N; OCM preliminary mezzobusiness retail noted in city record.",
-    "lastVerified": "2026-04-25",
+    "notes": "CUP approved Jan. 13, 2026 at 13999 60th St N; OCM preliminary mezzobusiness retail noted in city record. Coordinates QA updated 2026-04-26 using Washington County / Met Council official address point; PID 05.029.20.11.0137.",
+    "lastVerified": "2026-04-26",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [
@@ -163,14 +165,16 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "official-address-point",
+    "geocodeSource": "Washington County / Met Council official address point; PID 05.029.20.11.0137"
   },
   {
     "name": "Power Plant Cannabis Shop II",
     "address": "13435 60th St N, Oak Park Heights, MN",
     "location": {
-      "lat": 45.0358129,
-      "lng": -92.8349081
+      "lat": 45.035442,
+      "lng": -92.834685
     },
     "status": "conditional-cup-approved",
     "category": "cannabis",
@@ -185,8 +189,8 @@
     "newsLinks": [],
     "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. CUP approved Jan. 27, 2026, but conditional because it was the fifth OPH cannabis retail CUP application and city code caps cannabis retailers at four.",
-    "lastVerified": "2026-04-25",
+    "notes": "CUP approved Jan. 27, 2026, but conditional because it was the fifth OPH cannabis retail CUP application and city code caps cannabis retailers at four. Coordinates QA updated 2026-04-26 using Washington County / Met Council official address point; PID 05.029.20.21.0031.",
+    "lastVerified": "2026-04-26",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [
@@ -202,14 +206,16 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "official-address-point",
+    "geocodeSource": "Washington County / Met Council official address point; PID 05.029.20.21.0031"
   },
   {
     "name": "St. Croix Cannabis",
     "address": "14303 60th St N, Oak Park Heights, MN 55082",
     "location": {
-      "lat": 45.0355787,
-      "lng": -92.8168663
+      "lat": 45.035226,
+      "lng": -92.816739
     },
     "status": "cup-approved",
     "category": "cannabis",
@@ -224,7 +230,7 @@
     "newsLinks": [],
     "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "City Council Resolution 26-01-13 approved CUP Jan. 27, 2026 for retail cannabis dispensary at 14303 60th St N. March 23, 2026 CUP recording packet says St. Croix Cannabis received OCM preapproval for a microbusiness license with retail endorsement. Coordinates geocoded from exact address via Nominatim on 2026-04-26.",
+    "notes": "City Council Resolution 26-01-13 approved CUP Jan. 27, 2026 for retail cannabis dispensary at 14303 60th St N. March 23, 2026 CUP recording packet says St. Croix Cannabis received OCM preapproval for a microbusiness license with retail endorsement. Coordinates geocoded from exact address via Nominatim on 2026-04-26. Coordinates QA updated 2026-04-26 using Washington County / Met Council official address point; PID 04.029.20.21.0005.",
     "lastVerified": "2026-04-26",
     "addedDate": "2026-04-26",
     "menuUrl": null,
@@ -246,14 +252,16 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "official-address-point",
+    "geocodeSource": "Washington County / Met Council official address point; PID 04.029.20.21.0005"
   },
   {
     "name": "Cryptic Stock Movement",
     "address": "14729 60th St N, Oak Park Heights, MN",
     "location": {
-      "lat": 45.03548,
-      "lng": -92.805995
+      "lat": 45.035058,
+      "lng": -92.808598
     },
     "status": "cup-process",
     "category": "cannabis",
@@ -268,8 +276,8 @@
     "newsLinks": [],
     "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "Mall area location. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. Official OPH planning report confirms CUP process at 14729 60th St N.",
-    "lastVerified": "2026-04-25",
+    "notes": "Mall area location. Official OPH planning report confirms CUP process at 14729 60th St N. Coordinates QA updated 2026-04-26 using Washington County parcel point / manual placement; PID 04.029.20.12.0025; multi-tenant center so storefront/suite may need later manual refinement.",
+    "lastVerified": "2026-04-26",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [
@@ -285,7 +293,9 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "parcel-point-manual",
+    "geocodeSource": "Washington County parcel point / manual placement; PID 04.029.20.12.0025; multi-tenant center so storefront/suite may need later manual refinement"
   },
   {
     "name": "Green Canopy",
