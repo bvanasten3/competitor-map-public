@@ -45,15 +45,10 @@
                 var map = L.map('map').setView([45.0, -92.8], 9);
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19 }).addTo(map);
 
-                var manualOverrides = {
-                    'Silver Cannabis Co.': { lat: 45.03979, lng: -92.82045, source: 'manual verified override' },
-                    'Simply Crafted Cannabis': { lat: 45.03623, lng: -92.81756, source: 'manual verified override' },
-                    'Turning Leaf': { lat: 45.03468, lng: -92.84535, source: 'manual verified override' },
-                    'Mango Cannabis': { lat: 45.03547, lng: -92.80802, source: 'manual verified override' },
-                    'HyMN LLC': { lat: 45.03512, lng: -92.82205, source: 'manual verified override' },
-                    'Power Plant Cannabis Shop II': { lat: 45.03581, lng: -92.83415, source: 'manual verified override' },
-                    'Cryptic Stock Movement': { lat: 45.03548, lng: -92.80532, source: 'manual verified override' }
-                };
+                // Coordinates are intentionally sourced from competitors.json.
+                // Do not override them here; coordinate QA belongs in the data file so
+                // the map, future dashboards, and future app all use the same truth.
+                var manualOverrides = {};
 
                 function esc(v) {
                     return String(v == null ? '' : v)
