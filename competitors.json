@@ -205,6 +205,50 @@
     }
   },
   {
+    "name": "St. Croix Cannabis",
+    "address": "14303 60th St N, Oak Park Heights, MN 55082",
+    "location": {
+      "lat": 45.0355787,
+      "lng": -92.8168663
+    },
+    "status": "cup-approved",
+    "category": "cannabis",
+    "licenseType": "microbusiness-retail-endorsement",
+    "cupStatus": "cup-approved",
+    "owner": "Richard Zimmerman / St Croix Cannabis LLC",
+    "website": null,
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [],
+    "source": "Oak Park Heights municipal records",
+    "farmBillNotes": null,
+    "notes": "City Council Resolution 26-01-13 approved CUP Jan. 27, 2026 for retail cannabis dispensary at 14303 60th St N. March 23, 2026 CUP recording packet says St. Croix Cannabis received OCM preapproval for a microbusiness license with retail endorsement. Coordinates geocoded from exact address via Nominatim on 2026-04-26.",
+    "lastVerified": "2026-04-26",
+    "addedDate": "2026-04-26",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "municipal-record",
+        "label": "OPH City Council Resolution 26-01-13 CUP",
+        "url": "https://public.cityofoakparkheights.com/WebLink/DocView.aspx?id=124626&dbid=0&repo=OPH"
+      },
+      {
+        "type": "municipal-record",
+        "label": "OPH CUP recording packet",
+        "url": "https://public.cityofoakparkheights.com/WebLink/DocView.aspx?id=124779&dbid=0&repo=OPH"
+      }
+    ],
+    "confidence": "high",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
+  },
+  {
     "name": "Cryptic Stock Movement",
     "address": "14729 60th St N, Oak Park Heights, MN",
     "location": {
@@ -366,7 +410,7 @@
   },
   {
     "name": "Green Goods Woodbury",
-    "address": "803 Bielenberg Dr, Building F5, Woodbury, MN 55125",
+    "address": "803 Bielenberg Drive, Building F5, Suite 101, Woodbury, MN 55125",
     "location": {
       "lat": 44.9471682,
       "lng": -92.952413
@@ -384,8 +428,8 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
-    "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
-    "lastVerified": "2026-04-25",
+    "notes": "Official Green Goods site confirms adult-use retail at 803 Bielenberg Drive, Building F5, Suite 101. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
+    "lastVerified": "2026-04-26",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [
@@ -770,6 +814,165 @@
       }
     ],
     "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
+  },
+  {
+    "name": "Pot Mama's - France Ave",
+    "address": "4528 France Ave S, Minneapolis, MN 55410",
+    "location": {
+      "lat": 44.920474,
+      "lng": -93.3292211
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": null,
+    "cupStatus": null,
+    "owner": null,
+    "website": "https://www.pot-mamas.com",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://www.cbsnews.com/minnesota/news/pot-mamas-cannabis-dispensaries-twin-cities/"
+    ],
+    "source": "Official operator site + CBS Minnesota",
+    "farmBillNotes": null,
+    "notes": "Operator menu lists 4528 France Ave S. CBS reports Pot Mama's opened Edina and Mendota Heights locations in April 2026; France Ave address may be Edina-area with Minneapolis postal city. Coordinates geocoded from exact address via Nominatim on 2026-04-26.",
+    "lastVerified": "2026-04-26",
+    "addedDate": "2026-04-26",
+    "menuUrl": "https://www.pot-mamas.com/menu",
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official site",
+        "url": "https://www.pot-mamas.com"
+      },
+      {
+        "type": "official-menu",
+        "label": "Official menu",
+        "url": "https://www.pot-mamas.com/menu"
+      },
+      {
+        "type": "local-news",
+        "label": "CBS Minnesota opening article",
+        "url": "https://www.cbsnews.com/minnesota/news/pot-mamas-cannabis-dispensaries-twin-cities/"
+      }
+    ],
+    "confidence": "high",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
+  },
+  {
+    "name": "Pot Mama's - Mendota Heights",
+    "address": "1155 Centre Pointe Dr, Suite 6, Mendota Heights, MN 55120",
+    "location": {
+      "lat": 44.8817087,
+      "lng": -93.1500981
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "recreational-retail",
+    "cupStatus": null,
+    "owner": null,
+    "website": "https://www.pot-mamas.com",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://www.cbsnews.com/minnesota/news/pot-mamas-cannabis-dispensaries-twin-cities/"
+    ],
+    "source": "Official operator site + Leafly + CBS Minnesota",
+    "farmBillNotes": null,
+    "notes": "Official operator site and menu list Mendota Heights address. Leafly lists license CUL-L24-000045-02-AUR. Coordinates geocoded from exact building address via Nominatim on 2026-04-26.",
+    "lastVerified": "2026-04-26",
+    "addedDate": "2026-04-26",
+    "menuUrl": "https://www.pot-mamas.com/menu",
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official site",
+        "url": "https://www.pot-mamas.com"
+      },
+      {
+        "type": "official-menu",
+        "label": "Official menu",
+        "url": "https://www.pot-mamas.com/menu"
+      },
+      {
+        "type": "discovery-crosscheck",
+        "label": "Leafly listing",
+        "url": "https://www.leafly.com/dispensary-info/pot-mama-s-mendota-heights"
+      },
+      {
+        "type": "local-news",
+        "label": "CBS Minnesota opening article",
+        "url": "https://www.cbsnews.com/minnesota/news/pot-mamas-cannabis-dispensaries-twin-cities/"
+      }
+    ],
+    "confidence": "high",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    }
+  },
+  {
+    "name": "Anoka Cannabis Company",
+    "address": "839 East River Road, Anoka, MN 55303",
+    "location": {
+      "lat": 45.1865908,
+      "lng": -93.3758203
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "municipal-retail",
+    "cupStatus": null,
+    "owner": "City of Anoka",
+    "website": "https://www.anokamn.gov/860/Anoka-Cannabis-Company",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://www.fox9.com/news/minnesotas-first-municipal-cannabis-dispensary-opens-anoka-feb-2026",
+      "https://www.mprnews.org/story/2026/02/05/anoka-municipal-cannabis-dispensary-opening-sparks-focus-on-government-role"
+    ],
+    "source": "Official municipal page + local news",
+    "farmBillNotes": null,
+    "notes": "City-owned dispensary; construction complete Jan. 2026, ribbon cutting Feb. 5, grand opening Feb. 6. Coordinates geocoded from exact address via Nominatim on 2026-04-26.",
+    "lastVerified": "2026-04-26",
+    "addedDate": "2026-04-26",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "municipal-record",
+        "label": "Official Anoka Cannabis Company page",
+        "url": "https://www.anokamn.gov/860/Anoka-Cannabis-Company"
+      },
+      {
+        "type": "local-news",
+        "label": "FOX 9 opening article",
+        "url": "https://www.fox9.com/news/minnesotas-first-municipal-cannabis-dispensary-opens-anoka-feb-2026"
+      },
+      {
+        "type": "local-news",
+        "label": "MPR opening article",
+        "url": "https://www.mprnews.org/story/2026/02/05/anoka-municipal-cannabis-dispensary-opening-sparks-focus-on-government-role"
+      }
+    ],
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
