@@ -1,38 +1,5 @@
 [
   {
-    "name": "My Dealer",
-    "address": "3rd St N, Bayport, MN 55003",
-    "location": {
-      "lat": 45.0178193,
-      "lng": -92.7792413
-    },
-    "status": "pre-build",
-    "category": "cannabis",
-    "licenseType": "retail",
-    "cupStatus": "cup-pending",
-    "owner": "Brandon (My Dealer LLC)",
-    "website": null,
-    "socialMedia": {
-      "instagram": null,
-      "facebook": null
-    },
-    "newsLinks": [],
-    "source": "Direct Intel - 2026-03-03",
-    "farmBillNotes": null,
-    "notes": "Target opening August 1, 2026. Bayport buildout in progress. Bayport location is next to the post office on 3rd Street. Address still needs street number verification, current pin is placed on the correct 3rd St N block by the Bayport post office.",
-    "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03",
-    "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "medium",
-    "communitySentiment": {
-      "summary": null,
-      "confidence": null,
-      "lastChecked": null,
-      "sources": []
-    }
-  },
-  {
     "name": "Hunter Game LLC / Hunter Capital",
     "address": "330 2nd St W, Wabasha, MN 55981",
     "location": {
@@ -52,111 +19,23 @@
     "newsLinks": [],
     "source": "Wabasha local research / city records tracking",
     "farmBillNotes": null,
-    "notes": "CUP approved in Wabasha County research pass. State license status still pending verification.",
-    "lastVerified": "2026-04-13",
+    "notes": "CUP approved in Wabasha County research pass. State license status still pending verification. Likely real CUP approval, but still needs official Wabasha County board packet/minutes link before treating as fully sourced.",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-04-13",
     "menuUrl": null,
-    "sourceLinks": [],
+    "sourceLinks": [
+      {
+        "type": "secondary-news",
+        "label": "CitizenPortal Wabasha CUP article",
+        "url": "https://citizenportal.ai/articles/6725364/wabasha-county-approves-two-cannabis-retail-conditional-use-permits-cites-limited-local-authority"
+      },
+      {
+        "type": "secondary-news",
+        "label": "Q-Media Wabasha retail cannabis article",
+        "url": "https://www.q-mediagroup.com/post/wabasha-co-retail-cannabis"
+      }
+    ],
     "confidence": "medium",
-    "communitySentiment": {
-      "summary": null,
-      "confidence": null,
-      "lastChecked": null,
-      "sources": []
-    }
-  },
-  {
-    "name": "Silver Cannabis Co.",
-    "address": "1778 Greeley St S, Stillwater, MN",
-    "location": {
-      "lat": 45.039786,
-      "lng": -92.821154
-    },
-    "status": "unknown",
-    "category": "cannabis",
-    "licenseType": null,
-    "cupStatus": null,
-    "owner": null,
-    "website": null,
-    "socialMedia": {
-      "instagram": null,
-      "facebook": null
-    },
-    "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
-    "farmBillNotes": null,
-    "notes": "Was listed as 'Opening Soon (Feb/Mar 2026)' \u2014 needs status verification. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
-    "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03",
-    "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "low",
-    "communitySentiment": {
-      "summary": null,
-      "confidence": null,
-      "lastChecked": null,
-      "sources": []
-    }
-  },
-  {
-    "name": "Simply Crafted Cannabis",
-    "address": "1420 Frontage Rd W, Stillwater, MN",
-    "location": {
-      "lat": 45.0363816,
-      "lng": -92.826375
-    },
-    "status": "active",
-    "category": "cannabis",
-    "licenseType": null,
-    "cupStatus": null,
-    "owner": null,
-    "website": null,
-    "socialMedia": {
-      "instagram": null,
-      "facebook": null
-    },
-    "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
-    "farmBillNotes": null,
-    "notes": "Strong online presence, diverse product line per earlier intel. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
-    "lastVerified": "2026-04-13",
-    "addedDate": "2026-03-03",
-    "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "medium",
-    "communitySentiment": {
-      "summary": null,
-      "confidence": null,
-      "lastChecked": null,
-      "sources": []
-    }
-  },
-  {
-    "name": "RISE Stillwater",
-    "address": "1325 Curtis Ct #100, Stillwater, MN",
-    "location": {
-      "lat": null,
-      "lng": null
-    },
-    "status": "unknown",
-    "category": "cannabis",
-    "licenseType": null,
-    "cupStatus": null,
-    "owner": null,
-    "website": null,
-    "socialMedia": {
-      "instagram": null,
-      "facebook": null
-    },
-    "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
-    "farmBillNotes": null,
-    "notes": "Legacy entry from earlier intel. Needs verification against current OCM medical/adult-use retail list before keeping on the live map. Unable to reliably confirm a Stillwater RISE location at this address, so coordinates are left null pending verification.",
-    "lastVerified": "2026-04-12",
-    "addedDate": "2026-03-03",
-    "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "low",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -210,10 +89,10 @@
       "lat": 45.0354737,
       "lng": -92.8087497
     },
-    "status": "pending",
+    "status": "cup-approved",
     "category": "cannabis",
     "licenseType": null,
-    "cupStatus": null,
+    "cupStatus": "cup-approved",
     "owner": null,
     "website": null,
     "socialMedia": {
@@ -221,14 +100,25 @@
       "facebook": null
     },
     "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
+    "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "Joseph's Restaurant location. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
-    "lastVerified": "2026-04-13",
+    "notes": "Joseph's Restaurant location. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. CUP approved Oct. 28, 2025; March 2026 design review confirms Mango at 14608 60th St N.",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "low",
+    "sourceLinks": [
+      {
+        "type": "municipal-record",
+        "label": "OPH CUP approval record",
+        "url": "https://public.cityofoakparkheights.com/WebLink/DocView.aspx?id=124124&dbid=0&repo=OPH"
+      },
+      {
+        "type": "municipal-record",
+        "label": "OPH March 2026 design review",
+        "url": "https://public.cityofoakparkheights.com/WebLink/DocView.aspx?id=124745&dbid=0&repo=OPH"
+      }
+    ],
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -243,10 +133,10 @@
       "lat": 45.035118,
       "lng": -92.82282
     },
-    "status": "pending",
+    "status": "cup-approved",
     "category": "cannabis",
     "licenseType": null,
-    "cupStatus": null,
+    "cupStatus": "cup-approved",
     "owner": null,
     "website": null,
     "socialMedia": {
@@ -254,14 +144,20 @@
       "facebook": null
     },
     "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
+    "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
-    "lastVerified": "2026-04-13",
+    "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. CUP approved Jan. 13, 2026 at 13999 60th St N; OCM preliminary mezzobusiness retail noted in city record.",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "low",
+    "sourceLinks": [
+      {
+        "type": "municipal-record",
+        "label": "OPH CUP approval record",
+        "url": "https://public.cityofoakparkheights.com/WebLink/DocView.aspx?id=124510&dbid=0&repo=OPH"
+      }
+    ],
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -276,10 +172,10 @@
       "lat": 45.0358129,
       "lng": -92.8349081
     },
-    "status": "pending",
+    "status": "conditional-cup-approved",
     "category": "cannabis",
     "licenseType": null,
-    "cupStatus": null,
+    "cupStatus": "conditional-cup-approved",
     "owner": null,
     "website": null,
     "socialMedia": {
@@ -287,14 +183,20 @@
       "facebook": null
     },
     "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
+    "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
-    "lastVerified": "2026-04-13",
+    "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. CUP approved Jan. 27, 2026, but conditional because it was the fifth OPH cannabis retail CUP application and city code caps cannabis retailers at four.",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "low",
+    "sourceLinks": [
+      {
+        "type": "municipal-record",
+        "label": "OPH conditional CUP approval record",
+        "url": "https://public.cityofoakparkheights.com/WebLink/DocView.aspx?id=124627&dbid=0&repo=OPH"
+      }
+    ],
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -309,10 +211,10 @@
       "lat": 45.03548,
       "lng": -92.805995
     },
-    "status": "pending",
+    "status": "cup-process",
     "category": "cannabis",
     "licenseType": null,
-    "cupStatus": null,
+    "cupStatus": "cup-process",
     "owner": null,
     "website": null,
     "socialMedia": {
@@ -320,14 +222,20 @@
       "facebook": null
     },
     "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
+    "source": "Oak Park Heights municipal records",
     "farmBillNotes": null,
-    "notes": "Mall area location. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
-    "lastVerified": "2026-04-13",
+    "notes": "Mall area location. Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable. Official OPH planning report confirms CUP process at 14729 60th St N.",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "low",
+    "sourceLinks": [
+      {
+        "type": "municipal-record",
+        "label": "OPH planning report",
+        "url": "https://public.cityofoakparkheights.com/WebLink/DocView.aspx?id=123765&dbid=0&repo=OPH"
+      }
+    ],
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -356,7 +264,7 @@
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": null,
-    "lastVerified": "2026-04-13",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [
@@ -366,7 +274,7 @@
         "url": "https://www.greencanopymn.com/lakeland-dispensary"
       }
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -381,7 +289,7 @@
       "lat": null,
       "lng": null
     },
-    "status": "active",
+    "status": "low-confidence",
     "category": "cannabis",
     "licenseType": null,
     "cupStatus": null,
@@ -392,14 +300,14 @@
       "facebook": null
     },
     "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
+    "source": "Legacy entry; unverified in 2026-04-25 cleanup",
     "farmBillNotes": null,
-    "notes": "Drive-through dispensary, opened Jan 2026. Needs address verification. Could not reliably confirm a specific business/address for this entry, so coordinates are left null pending verification.",
-    "lastVerified": "2026-04-12",
+    "notes": "Drive-through dispensary, opened Jan 2026. Needs address verification. Could not reliably confirm a specific business/address for this entry, so coordinates are left null pending verification. No reliable operator or municipal confirmation found for the claimed drive-through dispensary/opening; keep low-confidence pending proof.",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [],
-    "confidence": "medium",
+    "confidence": "low",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -428,7 +336,7 @@
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Previously marked 'Mezzobusiness'.",
-    "lastVerified": "2026-04-12",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [
@@ -436,9 +344,19 @@
         "type": "official-site",
         "label": "Official website",
         "url": "https://legacycannabismn.com/woodbury"
+      },
+      {
+        "type": "official-site",
+        "label": "Legacy Cannabis MN",
+        "url": "https://legacycannabismn.com"
+      },
+      {
+        "type": "official-site",
+        "label": "Legacy Woodbury dispensary page",
+        "url": "https://www.legacyglassworks.com/pages/woodbury-dispensary"
       }
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -467,7 +385,7 @@
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": null,
     "notes": "Coordinates manually corrected during Hwy 36 / Bayport cleanup pass to keep the pin on the north side of Highway 36 where applicable.",
-    "lastVerified": "2026-04-13",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [
@@ -475,42 +393,14 @@
         "type": "official-site",
         "label": "Official website",
         "url": "https://visitgreengoods.com/locations/woodbury-mn/"
+      },
+      {
+        "type": "government-source",
+        "label": "MN OCM medical cannabis locations",
+        "url": "https://mn.gov/ocm/dmc/patients/the-basics/medical-cannabis-dispensary-locations.jsp"
       }
     ],
-    "confidence": "medium",
-    "communitySentiment": {
-      "summary": null,
-      "confidence": null,
-      "lastChecked": null,
-      "sources": []
-    }
-  },
-  {
-    "name": "The Green Room",
-    "address": "Main St, Stillwater, MN",
-    "location": {
-      "lat": null,
-      "lng": null
-    },
-    "status": "active",
-    "category": "hemp",
-    "licenseType": null,
-    "cupStatus": null,
-    "owner": null,
-    "website": null,
-    "socialMedia": {
-      "instagram": null,
-      "facebook": null
-    },
-    "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
-    "farmBillNotes": "Farm Bill implications for hemp post-2026.",
-    "notes": "Boutique hemp/CBD with premium pricing. Needs address verification. Search results strongly pointed to a restaurant/bar at 215 Main St S rather than a confirmed hemp retailer, so coordinates are left null pending verification.",
-    "lastVerified": "2026-04-12",
-    "addedDate": "2026-04-12",
-    "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "medium",
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -571,12 +461,12 @@
     "newsLinks": [],
     "source": "Direct Intel - 2026-04-13",
     "farmBillNotes": null,
-    "notes": "User provided exact address and old coordinates were replaced.",
-    "lastVerified": "2026-04-13",
+    "notes": "User provided exact address and old coordinates were replaced. Canonical Bayport entry retained during 2026-04-25 cleanup; older vague duplicate removed.",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-03-03",
     "menuUrl": null,
     "sourceLinks": [],
-    "confidence": "medium",
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
@@ -605,11 +495,11 @@
     "source": "Direct Intel - 2026-04-13",
     "farmBillNotes": null,
     "notes": "User provided exact address and old coordinates were replaced.",
-    "lastVerified": "2026-04-13",
+    "lastVerified": "2026-04-25",
     "addedDate": "2026-04-13",
     "menuUrl": null,
     "sourceLinks": [],
-    "confidence": "medium",
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
