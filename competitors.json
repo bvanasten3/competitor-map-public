@@ -19,15 +19,15 @@
     "newsLinks": [],
     "source": "Wabasha local research / city records tracking",
     "farmBillNotes": null,
-    "notes": "CUP approved in Wabasha County research pass. State license status still pending verification. Likely real CUP approval, but still needs official Wabasha County board packet/minutes link before treating as fully sourced.",
-    "lastVerified": "2026-04-25",
+    "notes": "CUP approved per Wabasha County secondary/local reporting for 330 Second Street W; state license still not found in the 2026-04-20 OCM licensed cannabis businesses dataset, so keep as CUP-approved/pipeline rather than active.",
+    "lastVerified": "2026-04-27",
     "addedDate": "2026-04-13",
     "menuUrl": null,
     "sourceLinks": [
       {
         "type": "secondary-news",
         "label": "CitizenPortal Wabasha CUP article",
-        "url": "https://citizenportal.ai/articles/6725364/wabasha-county-approves-two-cannabis-retail-conditional-use-permits-cites-limited-local-authority"
+        "url": "https://citizenportal.ai/articles/6725364/minnesota/wabasha-county/Minnesota/Wabasha-County/Wabasha-County-approves-two-cannabis-retail-conditional-use-permits-cites-limited-local-authority"
       },
       {
         "type": "secondary-news",
@@ -41,7 +41,9 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "nominatim-address",
+    "geocodeSource": "Nominatim address result for 330 2nd St W; not independently parcel-verified"
   },
   {
     "name": "Turning Leaf",
@@ -80,7 +82,9 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "needs-parcel-qa",
+    "geocodeSource": "Legacy/map coordinate retained; flagged during 2026-04-27 watch-area QA for future official address-point check"
   },
   {
     "name": "Mango Cannabis",
@@ -334,7 +338,9 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "needs-parcel-qa",
+    "geocodeSource": "Legacy/map coordinate retained; flagged during 2026-04-27 watch-area QA for future official address-point check"
   },
   {
     "name": "Canna Club St. Croix",
@@ -416,7 +422,9 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "needs-parcel-qa",
+    "geocodeSource": "Legacy/map coordinate retained; flagged during 2026-04-27 watch-area QA for future official address-point check"
   },
   {
     "name": "Green Goods Woodbury",
@@ -460,7 +468,9 @@
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "needs-parcel-qa",
+    "geocodeSource": "Legacy/map coordinate retained; flagged during 2026-04-27 watch-area QA for future official address-point check"
   },
   {
     "name": "Ignite Dispensary",
@@ -530,15 +540,15 @@
   },
   {
     "name": "My Dealer Wabasha",
-    "address": "234 Main Street, Wabasha, MN 55981",
+    "address": "234 Main Street W, Wabasha, MN 55981",
     "location": {
-      "lat": 44.382686271783,
-      "lng": -92.030064239598
+      "lat": 44.3842449,
+      "lng": -92.0330942
     },
     "status": "pre-build",
     "category": "cannabis",
     "licenseType": "retail",
-    "cupStatus": "cup-pending",
+    "cupStatus": "cup-approved",
     "owner": "Brandon (My Dealer LLC)",
     "website": null,
     "socialMedia": {
@@ -548,18 +558,27 @@
     "newsLinks": [],
     "source": "Direct Intel - 2026-04-13",
     "farmBillNotes": null,
-    "notes": "User provided exact address and old coordinates were replaced.",
-    "lastVerified": "2026-04-25",
+    "notes": "Address normalized to 234 Main Street W based on Wabasha County CUP reporting; prior address omitted W and coordinates were corrected to Nominatim address result. User-provided/intended site, but retain coordinate QA until parcel/address point is confirmed.",
+    "lastVerified": "2026-04-27",
     "addedDate": "2026-04-13",
     "menuUrl": null,
-    "sourceLinks": [],
+    "sourceLinks": [
+      {
+        "type": "secondary-news",
+        "label": "CitizenPortal Wabasha CUP article",
+        "url": "https://citizenportal.ai/articles/6725364/minnesota/wabasha-county/Minnesota/Wabasha-County/Wabasha-County-approves-two-cannabis-retail-conditional-use-permits-cites-limited-local-authority",
+        "date": "2025-10-01"
+      }
+    ],
     "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "nominatim-address",
+    "geocodeSource": "Nominatim address result for 234 Main Street W; not independently parcel-verified"
   },
   {
     "name": "Winona Dispensary",
@@ -707,33 +726,61 @@
   },
   {
     "name": "Green Box Cannabis",
-    "address": "16350 Kenrick Loop Ste C, Lakeville, MN 55044",
-    "location": null,
+    "address": "16350 Kenrick Loop Ste D, Lakeville, MN 55044",
+    "location": {
+      "lat": 44.7137557,
+      "lng": -93.2823945
+    },
     "status": "active",
     "category": "cannabis",
-    "licenseType": null,
+    "licenseType": "microbusiness retail",
     "cupStatus": null,
     "owner": null,
-    "website": null,
+    "website": "https://thegreenboxcannabis.com",
     "socialMedia": {
       "instagram": null,
       "facebook": null
     },
     "newsLinks": [],
-    "source": "Researched competitor list - 2026-04-13",
+    "source": "OCM licensed cannabis businesses dataset and Weedmaps cross-check",
     "farmBillNotes": null,
-    "notes": "Added from researched competitor list with refreshed geocoding.",
-    "lastVerified": "2026-04-13",
+    "notes": "OCM lists MICRO-L24-000293 Green Box Cannabis at 16350 Kenrick Loop, Suite D Lakeville; prior map had Suite C and null coordinates. Weedmaps confirms active storefront/menu at Suite D. Coordinate is Nominatim address result; not parcel-official.",
+    "lastVerified": "2026-04-27",
     "addedDate": "2026-04-13",
-    "menuUrl": null,
-    "sourceLinks": [],
-    "confidence": "medium",
+    "menuUrl": "https://weedmaps.com/dispensaries/green-box-cannabis",
+    "sourceLinks": [
+      {
+        "type": "ocm",
+        "label": "OCM public license holder data page",
+        "url": "https://mn.gov/ocm/data-reports/application-data/",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "ocm",
+        "label": "OCM licensed cannabis businesses XLSX",
+        "url": "https://mn.gov/ocm/assets/MN_OCM_licensed_cannabis_businesses_04202026_tcm1202-714418.xlsx",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "official-site",
+        "label": "Green Box official site",
+        "url": "https://thegreenboxcannabis.com"
+      },
+      {
+        "type": "directory",
+        "label": "Green Box Weedmaps menu/listing",
+        "url": "https://weedmaps.com/dispensaries/green-box-cannabis"
+      }
+    ],
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
       "lastChecked": null,
       "sources": []
-    }
+    },
+    "geocodeQuality": "nominatim-address",
+    "geocodeSource": "Nominatim address result for 16350 Kenrick Loop; suite not parcel-verified"
   },
   {
     "name": "Green Walker Dispensary",
@@ -1595,5 +1642,342 @@
       "lastChecked": null,
       "sources": []
     }
+  },
+  {
+    "name": "Silver Therapeutics Stillwater",
+    "address": "1778 Greeley St S, Stillwater, MN 55082",
+    "location": {
+      "lat": 45.039786,
+      "lng": -92.821154
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "retail",
+    "cupStatus": null,
+    "owner": "Silver Therapeutics Cannabis Company",
+    "website": "https://silver-therapeutics.com",
+    "menuUrl": "https://silver-therapeutics.com/menus/",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [],
+    "source": "OCM licensed cannabis businesses dataset updated 2026-04-20; official operator site confirms Silver Therapeutics brand/menu infrastructure but MN page not yet prominent in search results.",
+    "farmBillNotes": null,
+    "notes": "Major new direct Bayport/Stillwater competitor: OCM lists DIS-L25-000120 Retailer, DBA Silver Therapeutics Cannabis Company, retail site 1778 Greeley Street S, Stillwater. Geocode is Nominatim house/address result for exact street address; verify parcel/address point before treating as official parcel centroid.",
+    "lastVerified": "2026-04-27",
+    "addedDate": "2026-04-27",
+    "confidence": "high",
+    "sourceLinks": [
+      {
+        "type": "ocm",
+        "label": "OCM public license holder data page",
+        "url": "https://mn.gov/ocm/data-reports/application-data/",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "ocm",
+        "label": "OCM licensed cannabis businesses XLSX",
+        "url": "https://mn.gov/ocm/assets/MN_OCM_licensed_cannabis_businesses_04202026_tcm1202-714418.xlsx",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "official-site",
+        "label": "Silver Therapeutics official site",
+        "url": "https://silver-therapeutics.com"
+      },
+      {
+        "type": "menu",
+        "label": "Silver Therapeutics menus",
+        "url": "https://silver-therapeutics.com/menus/"
+      }
+    ],
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    },
+    "geocodeQuality": "nominatim-address",
+    "geocodeSource": "Nominatim address result for 1778 Greeley St S; coordinate quality needs parcel/address-point QA"
+  },
+  {
+    "name": "Highnorth Dispensary Cottage Grove",
+    "address": "8711 E Point Douglas Rd S, Suite 108, Cottage Grove, MN 55016",
+    "location": {
+      "lat": 44.8164316,
+      "lng": -92.9296631
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "microbusiness retail",
+    "cupStatus": null,
+    "owner": "Astraeus Investment Group, LLC",
+    "website": "https://highnorthmn.com/pages/location-information",
+    "menuUrl": null,
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [],
+    "source": "OCM licensed cannabis businesses dataset plus official Highnorth location page.",
+    "farmBillNotes": null,
+    "notes": "OCM lists MICRO-L25-001459, DBA Astraeus Investment Group, LLC, Retail at 8711 E Point Douglas Rd S Unit 108. Official Highnorth page brands it as Highnorth Dispensary - Cottage Grove. Washington County / east metro competitor, but materially farther from Bayport than Stillwater/Oak Park Heights.",
+    "lastVerified": "2026-04-27",
+    "addedDate": "2026-04-27",
+    "confidence": "high",
+    "sourceLinks": [
+      {
+        "type": "ocm",
+        "label": "OCM public license holder data page",
+        "url": "https://mn.gov/ocm/data-reports/application-data/",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "ocm",
+        "label": "OCM licensed cannabis businesses XLSX",
+        "url": "https://mn.gov/ocm/assets/MN_OCM_licensed_cannabis_businesses_04202026_tcm1202-714418.xlsx",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "official-site",
+        "label": "Highnorth Cottage Grove location page",
+        "url": "https://highnorthmn.com/pages/location-information"
+      },
+      {
+        "type": "directory",
+        "label": "Cottage Grove Area Chamber listing",
+        "url": "https://business.cottagegrovechamber.org/list/member/highnorth-dispensary-1369"
+      }
+    ],
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    },
+    "geocodeQuality": "building/interpolated-business-cluster",
+    "geocodeSource": "Nominatim returned 8711 E Point Douglas Rd S shopping-center tenant points; use as shopping-center coordinate, not suite centroid"
+  },
+  {
+    "name": "La Canna",
+    "address": "1570 US-14 / US-61, La Crescent, MN 55947",
+    "location": {
+      "lat": null,
+      "lng": null
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "retail",
+    "cupStatus": null,
+    "owner": "OUIDHAUS LLC",
+    "website": "https://lacanna.co",
+    "menuUrl": null,
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [],
+    "source": "OCM licensed cannabis businesses dataset and official La Canna site.",
+    "farmBillNotes": null,
+    "notes": "SE MN / Mississippi River competitor. OCM lists DIS-L24-000062, OUIDHAUS LLC, retail at \"1570 61 US-14, La Crescent\". Official site confirms La Canna brand but reliable geocoder returned only road-segment results, so coordinates intentionally left null pending exact parcel/address verification.",
+    "lastVerified": "2026-04-27",
+    "addedDate": "2026-04-27",
+    "confidence": "high",
+    "sourceLinks": [
+      {
+        "type": "ocm",
+        "label": "OCM public license holder data page",
+        "url": "https://mn.gov/ocm/data-reports/application-data/",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "ocm",
+        "label": "OCM licensed cannabis businesses XLSX",
+        "url": "https://mn.gov/ocm/assets/MN_OCM_licensed_cannabis_businesses_04202026_tcm1202-714418.xlsx",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "official-site",
+        "label": "La Canna official site",
+        "url": "https://lacanna.co"
+      },
+      {
+        "type": "directory",
+        "label": "Weedmaps MN discovery/cross-check",
+        "url": "https://weedmaps.com/dispensaries/in/united-states/minnesota"
+      }
+    ],
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    },
+    "geocodeQuality": "needs-address-point-verification",
+    "geocodeSource": "Nominatim returned only highway/road-segment matches for 1570 US-14/US-61; no exact pin published"
+  },
+  {
+    "name": "Black Bear Dispensary Winona",
+    "address": "104 E 4th St, Winona, MN 55987",
+    "location": {
+      "lat": 44.0510223,
+      "lng": -91.6353486
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "retail",
+    "cupStatus": null,
+    "owner": "Black Bear Dispensary",
+    "website": "https://blackbeardispensary.com",
+    "menuUrl": "https://blackbeardispensary.com/store/",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [],
+    "source": "OCM licensed cannabis businesses dataset plus official Black Bear website search result noting Winona, MN.",
+    "farmBillNotes": null,
+    "notes": "SE MN competitor. OCM lists DIS-L25-000016 Retailer at 104 E 4th St, Winona. Geocode is Nominatim exact-house/address result; coordinate QA acceptable but not parcel-official.",
+    "lastVerified": "2026-04-27",
+    "addedDate": "2026-04-27",
+    "confidence": "high",
+    "sourceLinks": [
+      {
+        "type": "ocm",
+        "label": "OCM public license holder data page",
+        "url": "https://mn.gov/ocm/data-reports/application-data/",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "ocm",
+        "label": "OCM licensed cannabis businesses XLSX",
+        "url": "https://mn.gov/ocm/assets/MN_OCM_licensed_cannabis_businesses_04202026_tcm1202-714418.xlsx",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "official-site",
+        "label": "Black Bear official site",
+        "url": "https://blackbeardispensary.com"
+      },
+      {
+        "type": "menu",
+        "label": "Black Bear store/menu",
+        "url": "https://blackbeardispensary.com/store/"
+      }
+    ],
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    },
+    "geocodeQuality": "nominatim-address",
+    "geocodeSource": "Nominatim address result for 104 E 4th St; not independently parcel-verified"
+  },
+  {
+    "name": "Hempire Dispensary Rochester",
+    "address": "3135 Superior Dr NW, Suite B, Rochester, MN 55901",
+    "location": {
+      "lat": 44.056618,
+      "lng": -92.528667
+    },
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "microbusiness retail",
+    "cupStatus": null,
+    "owner": "Hempire LLC",
+    "website": "https://www.hempiredispensary.com",
+    "menuUrl": "https://www.hempiredispensary.com/products",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [],
+    "source": "OCM licensed cannabis businesses dataset, official Hempire site, and Weedmaps cross-check.",
+    "farmBillNotes": null,
+    "notes": "SE MN / Rochester competitor. OCM lists MICRO-L25-000638 Retail at 3135 NW Superior Dr Suite B. Official site and Weedmaps confirm address/menu presence.",
+    "lastVerified": "2026-04-27",
+    "addedDate": "2026-04-27",
+    "confidence": "high",
+    "sourceLinks": [
+      {
+        "type": "ocm",
+        "label": "OCM public license holder data page",
+        "url": "https://mn.gov/ocm/data-reports/application-data/",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "ocm",
+        "label": "OCM licensed cannabis businesses XLSX",
+        "url": "https://mn.gov/ocm/assets/MN_OCM_licensed_cannabis_businesses_04202026_tcm1202-714418.xlsx",
+        "date": "2026-04-20"
+      },
+      {
+        "type": "official-site",
+        "label": "Hempire official site",
+        "url": "https://www.hempiredispensary.com"
+      },
+      {
+        "type": "menu",
+        "label": "Hempire products/menu",
+        "url": "https://www.hempiredispensary.com/products"
+      },
+      {
+        "type": "directory",
+        "label": "Hempire Weedmaps listing",
+        "url": "https://weedmaps.com/dispensaries/hempire-llc"
+      }
+    ],
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    },
+    "geocodeQuality": "nominatim-address",
+    "geocodeSource": "Nominatim address result for 3135 Superior Dr NW; not independently parcel-verified"
+  },
+  {
+    "name": "984 Smith Ave S Cannabis Retail CUP",
+    "address": "984 Smith Ave S, West St. Paul, MN 55118",
+    "location": {
+      "lat": 44.9167928,
+      "lng": -93.1014058
+    },
+    "status": "municipal-process",
+    "category": "cannabis",
+    "licenseType": "retail",
+    "cupStatus": "cup-approved",
+    "owner": "Patrick Corbett / 984 Smith LLC site",
+    "website": null,
+    "menuUrl": null,
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [],
+    "source": "West St. Paul city council packet/action item dated 2026-04-13 for cannabis retail CUP at 984 Smith Ave S.",
+    "farmBillNotes": null,
+    "notes": "Pipeline metro competitor only; do not present as open. West St. Paul packet says council action was to approve a CUP for a retail cannabis business at former Camelot Cleaners, subject to state/OCM permits, parking striping, and MPCA remediation requirements.",
+    "lastVerified": "2026-04-27",
+    "addedDate": "2026-04-27",
+    "confidence": "medium",
+    "sourceLinks": [
+      {
+        "type": "municipal",
+        "label": "West St. Paul City Council action item / CUP packet",
+        "url": "https://wspmn.gov/AgendaCenter/ViewFile/Item/18378?fileID=28659",
+        "date": "2026-04-13"
+      }
+    ],
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    },
+    "geocodeQuality": "nominatim-poi-address",
+    "geocodeSource": "Nominatim Camelot Cleaners POI/address result for 984 Smith Ave S; suitable for pipeline site pin"
   }
 ]
