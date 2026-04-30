@@ -1654,7 +1654,7 @@
     "category": "cannabis",
     "licenseType": "retail",
     "cupStatus": null,
-    "owner": "Silver Therapeutics Cannabis Company",
+    "owner": "Silver Therapeutics Cannabis Company (MSO)",
     "website": "https://silver-therapeutics.com",
     "menuUrl": "https://silver-therapeutics.com/menus/",
     "socialMedia": {
@@ -1662,9 +1662,9 @@
       "facebook": null
     },
     "newsLinks": [],
-    "source": "OCM licensed cannabis businesses dataset updated 2026-04-20; official operator site confirms Silver Therapeutics brand/menu infrastructure but MN page not yet prominent in search results.",
+    "source": "OCM licensed cannabis businesses dataset updated 2026-04-20; official operator site confirms Silver Therapeutics is a multi-state operator with menu/shop infrastructure across Maine, Massachusetts, Minnesota, New York, and Vermont.",
     "farmBillNotes": null,
-    "notes": "Major new direct Bayport/Stillwater competitor: OCM lists DIS-L25-000120 Retailer, DBA Silver Therapeutics Cannabis Company, retail site 1778 Greeley Street S, Stillwater. Geocode is Nominatim house/address result for exact street address; verify parcel/address point before treating as official parcel centroid.",
+    "notes": "Major new direct Bayport/Stillwater competitor: OCM lists DIS-L25-000120 Retailer, DBA Silver Therapeutics Cannabis Company, retail site 1778 Greeley Street S, Stillwater. Silver Therapeutics is an MSO with operations/shop pages across Maine, Massachusetts, Minnesota, New York, and Vermont, so treat this as a scaled operator entering the local market rather than a single-site independent. Geocode is Nominatim house/address result for exact street address; verify parcel/address point before treating as official parcel centroid.",
     "lastVerified": "2026-04-27",
     "addedDate": "2026-04-27",
     "confidence": "high",
@@ -1699,7 +1699,15 @@
       "sources": []
     },
     "geocodeQuality": "nominatim-address",
-    "geocodeSource": "Nominatim address result for 1778 Greeley St S; coordinate quality needs parcel/address-point QA"
+    "geocodeSource": "Nominatim address result for 1778 Greeley St S; coordinate quality needs parcel/address-point QA",
+    "msoStatus": "multi-state operator",
+    "operatingStates": [
+      "Maine",
+      "Massachusetts",
+      "Minnesota",
+      "New York",
+      "Vermont"
+    ]
   },
   {
     "name": "Highnorth Dispensary Cottage Grove",
