@@ -4,70 +4,151 @@ window.BAYPORT_TRACKER_DATA = {
   heroPills: [
     {
       "className": "primary",
-      "text": "Top priority: order enlarged sales-counter countertop Apr 27"
+      "text": "Top priority: city payments/docs -> sprinkler moves -> framing start"
     },
     {
       "className": "warning",
-      "text": "Apr 28 calls: Dynamic Fire + Fairfield permit status"
+      "text": "Bayport property taxes: ~$7.5k due May 15"
     },
     {
       "className": "gold",
-      "text": "City indicated fence aisle variance is acceptable; permit expected early next week"
+      "text": "Sales counter framed + countertop ordered; sign paid, expected Jun/Jul"
     }
   ],
   notes: {
-    "nextActions": "TOP ACTIONS\n\u2022 Order the enlarged sales-counter countertop Apr 27 using the final field measurements; this unlocks the display-cabinet path.\n\u2022 Menards run: buy additional 2x4s for the sales-floor display cases; counter framing is now complete, but display-case framing needs fresh stock.\n\u2022 Apr 28: sketch the display-case structure plan before cutting lumber, including where power/conduit feeds will enter before the cases are closed.\n\u2022 Paint the 3 steel welded-frame doors for the vault/security rooms, then install electronic key hardware.\n\u2022 Poly the 4 stained wood interior doors, then install the 2 wood doors that are not blocked by unfinished wall framing; install hardware at the same time.\n\u2022 Keep pressure on fence permit approval early next week and sign permit approval by month-end.\n\u2022 Apr 28: call Dynamic Fire Protection to confirm sprinkler-head moves this week, ideally tomorrow; call Fairfield for building-permit status.\n\nWHY THIS ORDER\n\u2022 Sales-counter framing is now complete, so the fastest downstream move is countertop order -> countertop install -> custom glass field measure.\n\u2022 Door finishing is closeout work with high leverage: once paint/poly are done, hardware and access control can start moving.\n\u2022 The fence aisle issue appears de-risked after the city site visit, so the permit should now be tracked as an expected approval rather than a design fight.",
-    "decisionLog": "SECURITY\n\u2022 Lloyd still appears stronger on audit logging / perimeter access coverage.\n\u2022 Per Mar became much more credible after clarifying scope, labor, recurring charges, front/back door adders, and strike compatibility.\n\u2022 Tomorrow's on-site Per Mar visit should tighten the final choice.\n\nBUILDOUT / CASH\n\u2022 Apr 25: final coat of stain is on the 4 wood interior doors. Separate steel-door project: 3 welded-frame steel doors for the vault/security rooms are primed and need paint.\n\u2022 Apr 27: Brandon finished framing the enlarged sales counter, filling the awkward front space and creating a larger employee back-counter / bar-style work area. Countertop measurements are ready, and ordering the top is now the immediate unlock.\n\u2022 Next counter sequence: order countertop Apr 27 -> install countertop -> bring custom glass vendor out for exact dimensions / flush display fit.\n\u2022 Sales-floor display cases are the next blocked workstream: Brandon needs additional 2x4s from Menards and a structure plan Apr 28 before building them.\n\u2022 Tom / father-son crew quoted $15k for interior buildout and can start a few days after permit issuance. This is a meaningful cost improvement.\n\u2022 SAFEbuilt reviewer Jim called with permit corrections needed in the construction documents, and Studio Bliss is now working directly with Jim to resolve and resubmit.\n\u2022 City site visit with Sarah, Matt, and Public Works cleared the path for less than 24 feet between parking stalls as the aisle so the fence can fit.\n\u2022 Fence permit approval is expected early next week; sign permit approval is expected by month-end; building permit movement is expected next week.\n\u2022 Mitchell at ACT Asphalt said the parking lot quote should land tomorrow and is pricing a paved-drain approach that may eliminate the need for green space.\n\u2022 Mitchell thinks ACT Asphalt can start around May 20, which puts the parking lot on track to be started, if not completed, by the end of May.\n\nCOMPLIANCE / DESIGN\n\u2022 Preferred path remains split day-stock vs true vault, not trying to force the shutter opening to be treated as the vault itself.\n\u2022 Checkpoint window direction still leans toward fixed glazing + controlled pass-through unless a stronger restricted-access corridor is created.",
-    "globalNotes": "OPEN BLOCKERS\n\u2022 Building permit issuance is still the primary gate; some movement is expected next week.\n\u2022 Jim at SAFEbuilt has identified construction-document updates that need resubmittal.\n\u2022 Studio Bliss is working directly with Jim to resolve those comments and get the permit back over the line.\n\u2022 Dynamic Fire Protection scheduling matters because sprinkler-head moves can block framing; Brandon plans to call Apr 28 to confirm they can come this week, ideally tomorrow.\n\u2022 Display-case structure and electrical feed need a plan before those cases are framed; Brandon plans to design the structure Apr 28.\n\u2022 Security checkpoint window decision still needs to be finalized before framing.\n\nCURRENT CRITICAL PATH\n1. Building permit issuance\n2. Dynamic Fire Protection sprinkler-head scheduling\n3. Order enlarged sales-counter countertop using final measurements\n4. Paint 3 steel welded-frame doors / poly 4 stained wood doors / install available door hardware\n5. Menards 2x4 run + display-case structure/electrical-feed plan before framing cases\n6. Vault garage door / rolling shutter sizing and order\n7. Finalize security window direction before framing\n8. Framing / drywall start\n9. Rough-in and system installs\n10. SOP / operating plan + Plan of Record\n11. OCM review / inspection / opening\n\nRECENT WINS\n\u2022 Final coat of stain completed on the wood interior doors\n\u2022 Enlarged primary sales-counter framing completed, including the awkward front space now converted into a larger employee bar/work counter\n\u2022 City site visit indicated the fence aisle width plan is acceptable even under 24 feet\n\u2022 Ceiling paint completed and lights/sprinklers restored\n\u2022 Vault HVAC vent modification completed\n\u2022 Remaining HVAC vent fixed\n\u2022 Thermostat moved\n\u2022 Electrical relocated around the wall being removed\n\u2022 Fence permit submitted\n\u2022 Hallmark Glass RFQ sent\n\u2022 Tom quoted $15k and can start quickly after permit\n\u2022 SAFEbuilt reviewer Jim gave comments, and Studio Bliss is now directly resolving the permit resubmittal items\n\nPROCUREMENT / WAITING\n\u2022 Menards run: additional 2x4s for the sales-floor display cases after the structure plan is sketched; sales counter no longer needs framing lumber\n\u2022 Countertop order should be placed Apr 27 from the final enlarged sales-counter measurements\n\u2022 Custom glass vendor should field-measure after quartz is installed so the display glass fits flush and exact\n\u2022 3 steel doors from Home Depot are on site and primed; next step is paint\n\u2022 Bathroom wallpaper + tile still need to be ordered\n\u2022 ACT Asphalt quote expected with paved-drain option that may avoid green-space requirement\n\u2022 ACT Asphalt believes parking lot work can start around May 20, with goal to have it started, if not completed, by end of May\n\u2022 2nd air filtration unit for front still needs to be purchased\n\nSPEND SNAPSHOT\n\u2022 Construction in Process register attached Apr 16 shows ending balance / spend to date of $27,979.93\n\u2022 P&L screenshot shows total expenses of $17,185.82 plus other expenses of $12,313.25, largely interest expense\n\nHARD DATES TO PROTECT\n\u2022 Fence complete by July 1, 2026\n\u2022 Parking lot complete by mid-June and no later than July 1, 2026\n\u2022 Target opening: Aug 1, 2026"
+    "nextActions": `TOP ACTIONS
+• Pay City of Bayport for permit/document release and keep receipts/docs organized for building, fence, sign, and fire-sprinkler records.
+• Confirm Dynamic Fire Protection is locked for sprinkler-head moves mid-to-late next week, target May 6-8.
+• Confirm Tom / framer start window for late next week or early the following week, target May 7-15.
+• Before framing starts: finalize security checkpoint window direction, pre-wire speaker/TV/security runs, and keep door/hardware finishing moving.
+• Sales counter is framed and countertop is ordered; next counter step is install timing, then custom glass field measure.
+
+WHY THIS ORDER
+• The permit watchlist cleanup is complete: building permit, sign permit, and fence permit are no longer open approval risks.
+• The live critical path is now document/payment admin -> sprinkler moves -> framing start, with pre-wall decisions handled before drywall closes anything.
+• The next operational risk is schedule compression: sprinklers and framing need to land cleanly next week so the buildout does not lose momentum.`,
+    "decisionLog": `PERMITS / CITY
+• May 1: Brandon confirmed the interior-wall building permit is received and can be marked complete on the dashboard.
+• May 1: sign permit review is complete. Final sign payment has been made, and Sir Metalman expects the sign to be completed in June or July.
+• May 1: fence permit is approved; fence aisle variance/signoff no longer needs active tracking.
+• May 1: primary sales counter framing is complete and the countertop has been ordered.
+
+BUILDOUT / SCHEDULE
+• Target is for Dynamic Fire Protection to move fire sprinklers mid-to-late next week, likely May 6-8.
+• Target is for the framer to begin late next week or early the following week, likely May 7-15, once permit docs and sprinkler sequencing are clear.
+• Tom / father-son crew quote remains the working framing/drywall anchor at $15k.
+• Framing readiness now depends on permit document release, sprinkler movement, security/window decisions, and any pre-wall low-voltage/electrical runs.
+
+SECURITY / DESIGN
+• Preferred path remains split day-stock vs true vault, not trying to force the shutter opening to be treated as the vault itself.
+• Checkpoint window direction still leans toward fixed glazing + controlled pass-through unless a stronger restricted-access corridor is created.`,
+    "globalNotes": `OPEN BLOCKERS / WATCHLIST
+• City payment/document pickup remains an admin/cash-flow item, but building/sign/fence approvals are no longer watchlist risks.
+• Bayport property taxes: about $7,500 due by May 15; treat as near-term cash outflow outside buildout capex.
+• Fire-sprinkler moves must be confirmed for mid-to-late next week before framing starts.
+• Framer start window is late next week or early the following week, depending on sprinkler/permit documentation timing.
+• Security checkpoint window decision still needs to be finalized before framing.
+• Speaker/TV/security pre-wire decisions should be handled before drywall closes walls.
+
+CURRENT CRITICAL PATH
+1. Finish city payment/documentation cleanup and file final docs/receipts
+2. Confirm Dynamic Fire Protection sprinkler-head moves for May 6-8 target window
+3. Confirm framer start for May 7-15 target window
+4. Finalize security window and pre-wire decisions before framing/drywall
+5. Framing / drywall start
+6. Rough-in and system installs
+7. SOP / operating plan + Plan of Record
+8. OCM review / inspection / opening
+
+RECENT WINS
+• Interior-wall building permit received / marked complete
+• Sign permit review complete; final sign payment made to Sir Metalman
+• Fence permit approved; aisle variance/signoff no longer needs tracking
+• Primary sales-counter framing completed and countertop ordered
+• Final coat of stain completed on the wood interior doors
+• Ceiling paint completed and lights/sprinklers restored
+• Vault HVAC vent modification completed
+• Remaining HVAC vent fixed
+• Thermostat moved
+• Electrical relocated around the wall being removed
+
+PROCUREMENT / WAITING
+• City permit/payment documentation cleanup: collect and file final docs/receipts
+• Dynamic Fire Protection scheduling confirmation for May 6-8 target window
+• Framer/Tom start confirmation for May 7-15 target window
+• Countertop is ordered; next step is install timing, then custom glass field measurement
+• 3 steel doors from Home Depot are on site and primed; next step is paint
+• Bathroom wallpaper + tile still need to be ordered
+• ACT Asphalt quote / parking lot scope still needs to be locked
+• 2nd air filtration unit for front still needs to be purchased
+
+SPEND SNAPSHOT
+• Bayport property taxes: about $7,500 due May 15; non-capitalized cash outflow, but important for runway.
+• City permit/payment receipts should be filed as final docs are collected.
+• Construction in Process register attached Apr 16 shows ending balance / spend to date of $27,979.93
+• P&L screenshot shows total expenses of $17,185.82 plus other expenses of $12,313.25, largely interest expense
+
+HARD DATES TO PROTECT
+• Fence complete by July 1, 2026
+• Parking lot complete by mid-June and no later than July 1, 2026
+• Target opening: Aug 1, 2026`
   },
-  importantIds: ['p1','h1b','i4b','i5','p3b','s2','d1','d3','sec2','sec4','c5','c5b','c2'],
+  importantIds: ['p4','h1b','s2','sys7','d1','d3','sec2','sec4','c5','c5b','c2','e2','e2b'],
   categories: {permits:{l:'Permits / Professional',c:'var(--color-purple)'},site:{l:'Site / Exterior',c:'var(--color-success)'},framing:{l:'Framing / Doors / Openings',c:'var(--color-warning)'},mech:{l:'HVAC / Fire / Mechanical',c:'var(--color-blue)'},systems:{l:'Electrical / Low Voltage / Security',c:'var(--color-error)'},interior:{l:'Interior Finishes / Fixtures',c:'var(--color-orange)'},retail:{l:'Retail Equipment / Furniture / AV',c:'var(--color-gold)'},ops:{l:'Compliance / Ops Setup',c:'var(--color-primary)'}},
   actuals: [{year:2025,month:11,cat:'ops',amount:1200},{year:2026,month:0,cat:'permits',amount:8000},{year:2026,month:0,cat:'framing',amount:1900},{year:2026,month:1,cat:'mech',amount:500},{year:2026,month:1,cat:'framing',amount:300},{year:2026,month:2,cat:'interior',amount:2600},{year:2026,month:2,cat:'systems',amount:1200},{year:2026,month:2,cat:'permits',amount:2600},{year:2026,month:2,cat:'mech',amount:1100},{year:2026,month:2,cat:'site',amount:1400},{year:2026,month:3,cat:'framing',amount:3900},{year:2026,month:3,cat:'interior',amount:1800},{year:2026,month:3,cat:'mech',amount:1200},{year:2026,month:3,cat:'systems',amount:1479.93}],
   tasks: [
-{id:'p1',cat:'permits',n:'Building permit (interior walls)',s:'2026-04-01',e:'2026-04-30',st:'active',pct:92,priority:'now',cost:4000,notes:`Owner: Brandon / Studio Bliss / Jim at SAFEbuilt / Fairfield
-Latest update: city/building-permit movement is expected next week after the SAFEbuilt comment-resolution loop.
-Current motion: Studio Bliss is working directly with Jim to resolve and resubmit the construction-document updates.
-Next step: Brandon plans to call Fairfield Apr 28 for a building-permit status update.
-Outlook: permit still not issued, but this now looks like active comment resolution rather than a dead stop.
-Dependency: unlocks sprinkler scheduling, wall framing, and two remaining wood-door installs.
-Cash assumption: when the building permit is issued, remaining architect balance of about $4k likely becomes due.`},
-{id:'p2',cat:'permits',n:'Sign permit review',s:'2026-04-01',e:'2026-05-08',st:'active',pct:20,priority:'later',cost:250,notes:`Owner: Brandon\nNext step: keep city / Safebuild review moving.\nCash assumption: city permit/admin cost placeholder only, not full fabricated sign cost.`},
-{id:'p2b',cat:'permits',n:'Exterior sign final payment (Sir Metalman)',s:'2026-06-15',e:'2026-07-01',st:'todo',pct:0,priority:'later',cost:3000,notes:`Owner: Brandon\nCash assumption: second half owed to Sir Metalman when the exterior sign is complete.`},
+{id:'p1',cat:'permits',n:'Building permit (interior walls)',s:'2026-04-01',e:'2026-05-01',st:'done',pct:100,priority:'soon',cost:4000,notes:`Owner: Brandon / City of Bayport / Studio Bliss / SAFEbuilt / Fairfield
+May 1 update: Brandon confirmed the building permit for the interior walls is received and can be marked complete on the dashboard.
+Closeout/admin: keep formal documentation and payment receipt filed with the project records.
+Dependency cleared: framing path can now proceed once sprinkler moves and pre-wall decisions are handled.`},
+{id:'p2',cat:'permits',n:'Sign permit review',s:'2026-04-01',e:'2026-05-01',st:'done',pct:100,priority:'soon',cost:250,notes:`Owner: Brandon / City of Bayport
+May 1 update: sign permit review is complete.
+Status: no longer a dashboard watchlist item.
+Related sign vendor note: final payment has been made to Sir Metalman; completion anticipated June or July.`},
+{id:'p2b',cat:'permits',n:'Exterior sign fabrication / install (Sir Metalman)',s:'2026-05-01',e:'2026-07-31',st:'active',pct:65,priority:'later',cost:0,notes:`Owner: Sir Metalman / Brandon
+May 1 update: final payment has been made.
+Expected completion: June or July.
+Cash assumption: no remaining sign payment currently modeled after final payment; update if change orders appear.`},
 {id:'p3',cat:'permits',n:'Fence permit submission and processing',s:'2026-04-08',e:'2026-04-18',st:'done',pct:100,priority:'soon',cost:50,notes:`Owner: Brandon
 Status: submitted.`},
-{id:'p3b',cat:'site',n:'Fence permit approval + aisle-width signoff',s:'2026-04-24',e:'2026-04-29',st:'active',pct:85,priority:'now',cost:0,notes:`Owner: Brandon / City of Bayport
-Apr 24 city site visit: Sarah, Matt, and Public Works indicated Brandon can have less than 24 feet between parking spots as the aisle so there is room for the fence.
-Expected: fence permit approval early next week.
-Risk reduced: aisle-width issue appears acceptable rather than a blocker.`},
+{id:'p3b',cat:'site',n:'Fence permit approval',s:'2026-04-24',e:'2026-05-01',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon / City of Bayport
+May 1 update: fence permit is approved.
+Fence aisle variance/signoff no longer needs active dashboard tracking.
+Next workstream is fence execution timing, not permit approval.`},
+{id:'p4',cat:'permits',n:'Bayport property taxes due May 15',s:'2026-05-01',e:'2026-05-15',st:'todo',pct:0,priority:'now',cost:7500,notes:`Owner: Brandon
+May 1 cash-flow update: approximately $7,500 in Bayport property taxes is due by May 15.
+Planning treatment: non-capitalized property tax / P&L cash outflow, but include in near-term runway and estimated cash needs because it lands alongside permit, sprinkler, framing, and other buildout payments.`},
 {id:'i0a',cat:'interior',n:'Ceiling spray paint black (HVAC, sprinklers)',s:'2026-04-08',e:'2026-04-12',st:'done',pct:100,priority:'soon',cost:150,notes:`Owner: Brandon\nStatus: completed last weekend, including putting lights back up and uncovering sprinkler heads.`},
 {id:'i0b',cat:'interior',n:'Move smart thermostat to breakroom or office',s:'2026-04-15',e:'2026-04-15',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon\nStatus: completed.`},
 {id:'i0c',cat:'interior',n:'Finish floor drain patch / vinyl insert',s:'2026-04-15',e:'2026-04-16',st:'done',pct:100,priority:'soon',cost:40,notes:`Owner: Brandon\nStatus: drain fill and vinyl patch work completed; adhesive/seal step handled as part of closeout.`},
 {id:'i0d',cat:'mech',n:'Remaining HVAC vent fix',s:'2026-04-15',e:'2026-04-15',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon\nStatus: completed.`},
 {id:'i0e',cat:'interior',n:'Reinstall ceiling lights and uncover sprinkler heads',s:'2026-04-15',e:'2026-04-15',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon\nStatus: completed after ceiling paint.`},
-{id:'s2',cat:'framing',n:'Interior framing & drywall',s:'2026-04-24',e:'2026-05-23',st:'active',pct:20,priority:'now',cost:15000,notes:`Owner: Brandon
-Tom quote is $15k and they can start a few days after permit issuance.
-Blockers: permit + sprinkler scheduling.
+{id:'s2',cat:'framing',n:'Interior framing & drywall',s:'2026-05-07',e:'2026-05-29',st:'active',pct:25,priority:'now',cost:15000,notes:`Owner: Brandon / Tom father-son crew
+Tom quote is $15k.
+May 1 update: building permit is received/complete; current target is for framer to begin late next week or early the following week, likely May 7-15.
+Blockers/watchlist: sprinkler moves, checkpoint window direction, and any pre-wall low-voltage/electrical runs.
 Dependency note: two of the stained wood doors cannot be installed until the relevant walls are framed.
 Cash assumption: using Tom's quoted $15k as the working framing/drywall spend anchor.`},
 {id:'s2b',cat:'framing',n:'Framing prep: electrical moved around removed wall',s:'2026-04-15',e:'2026-04-15',st:'done',pct:100,priority:'soon',cost:0,notes:`Completed.`},
 {id:'h1',cat:'mech',n:'Vault HVAC vent modification',s:'2026-04-07',e:'2026-04-16',st:'done',pct:100,priority:'soon',cost:300,notes:`Owner: Brandon\nStatus: completed.\nCash assumption: small parts / vent modification placeholder only.`},
-{id:'h1b',cat:'mech',n:'Schedule Dynamic Fire Protection for sprinkler-head moves',s:'2026-04-16',e:'2026-04-30',st:'active',pct:20,priority:'now',cost:1500,notes:`Owner: Brandon
-Next step: call Dynamic Fire Protection Apr 28 to confirm whether they are coming to move sprinklers this week, ideally tomorrow.
-Why it matters: sprinkler-head moves can block framing and sales-floor buildout sequencing.
+{id:'h1b',cat:'mech',n:'Schedule Dynamic Fire Protection for sprinkler-head moves',s:'2026-04-16',e:'2026-05-08',st:'active',pct:55,priority:'now',cost:1500,notes:`Owner: Brandon / Dynamic Fire Protection
+Permit-status tracking can be removed from the top dashboard watchlist.
+Current focus: confirm Dynamic Fire Protection field-work timing for sprinkler-head moves mid-to-late next week, target May 6-8.
+Why it matters: sprinkler-head moves must clear before framing/drywall can start cleanly.
 Cash assumption: placeholder for moving a small number of sprinkler heads, should be replaced with real Dynamic Fire Protection quote once scheduled.`},
 {id:'sec2',cat:'systems',n:'Compare Lloyd vs Per Mar and choose direction',s:'2026-04-14',e:'2026-04-21',st:'active',pct:65,priority:'soon',cost:0,notes:`Owner: Brandon / Morpheus\nNext step: on-site Per Mar meeting tomorrow around 10:30 to 2.`},
 {id:'sec4',cat:'systems',n:'Checkpoint window dimensions + Hallmark quote path',s:'2026-04-15',e:'2026-04-18',st:'active',pct:45,priority:'soon',cost:3200,notes:`Hallmark Glass RFQ sent. Need exact field dimensions.\nTwin City Garage RFQ also sent.\nCash assumption: placeholder for a modest custom glazing / pass-through package, not final.`},
 
 {id:'i2',cat:'interior',n:'Bathroom remodel materials + work',s:'2026-04-14',e:'2026-05-21',st:'active',pct:20,priority:'later',cost:3500,notes:`Wallpaper, tile, toilet, sink still moving.\nCash assumption: moderate DIY bathroom spend placeholder for remaining finishes/fixtures.`},
-{id:'i4b',cat:'interior',n:'Primary sales-counter framing + countertop order',s:'2026-04-25',e:'2026-04-28',st:'active',pct:78,priority:'now',cost:15000,notes:`Owner: Brandon
-Apr 27 update: Brandon finished framing the enlarged sales counter. It now fills the awkward front space and creates a larger employee back-counter / bar-style work area.
-Immediate unlock: countertop measurements are ready; place the countertop order Apr 27 so display-cabinet progress is not blocked.
-Sequence: order countertop -> install countertop -> bring custom glass people out for exact dimensions so glass fits flush in the display slots.
-Cash assumption: if you do a nice countertop / nicer finish path, POS counter materials could land around $15k.`},
-{id:'i5',cat:'retail',n:'Sales-floor display cases: framing + electrical plan',s:'2026-04-28',e:'2026-05-18',st:'active',pct:10,priority:'now',cost:10000,notes:`Owner: Brandon
-Current blocker: display-cabinet progress is waiting on the countertop order plus a Menards run for additional 2x4s.
-Apr 28 plan: sketch the display-case structure plan before cutting lumber; include where power/conduit feeds enter before the case framing is closed.
-Materials: additional 2x4s needed; quantity should be set after the structure sketch.
+{id:'i4b',cat:'interior',n:'Primary sales-counter framing + countertop order',s:'2026-04-25',e:'2026-05-01',st:'done',pct:100,priority:'soon',cost:15000,notes:`Owner: Brandon
+May 1 update: primary sales-counter framing is complete and the countertop has been ordered.
+Next sequence: countertop delivery/install -> custom glass vendor field-measure for exact flush display fit.
+Status: remove from top-priority/watchlist; keep as completed milestone history.
+Cash assumption: if you do a nice countertop / nicer finish path, POS counter materials could land around $15k; update with real countertop invoice when available.`},
+{id:'i5',cat:'retail',n:'Sales-floor display cases: framing + electrical plan',s:'2026-04-28',e:'2026-05-18',st:'active',pct:10,priority:'soon',cost:10000,notes:`Owner: Brandon
+May 1 update: countertop is ordered, so display-case progress is no longer blocked by placing the countertop order.
+Next step: sketch the display-case structure plan before cutting lumber; include where power/conduit feeds enter before the case framing is closed.
+Timing note: coordinate with framing/sprinkler/pre-wire sequence so display-case work does not create rework.
 Cash assumption: display cases budgeted around $10k until DIY materials vs custom components are clearer.`},
 {id:'i6',cat:'retail',n:'TVs, kiosks, speakers, in-store AV hardware',s:'2026-05-15',e:'2026-06-10',st:'todo',pct:0,priority:'later',cost:10000,notes:`Owner: Brandon\nCash assumption: TVs, kiosks, and speakers together budgeted around $10k.`},
 {id:'sys7',cat:'systems',n:'Plan and pre-wire speaker + TV electrical runs before drywall',s:'2026-04-17',e:'2026-04-30',st:'todo',pct:0,priority:'soon',cost:1200,notes:`Owner: Brandon\nNext step: Decide speaker locations, TV locations, and any other AV display points, then buy wire and run it before framing/drywall closes the walls.\nBlocker: Need final placement decisions for speakers and TVs.\nDependency: Easier to do now while wiring/framing is open, and it will make life easier for the electrician later.\nLatest safe timing: Should be handled before drywall and ideally before framing closes the relevant areas.\nCash assumption: placeholder for speaker wire, low-voltage runs, and related pre-wire materials.`},
@@ -75,11 +156,11 @@ Cash assumption: display cases budgeted around $10k until DIY materials vs custo
 {id:'e1',cat:'site',n:'Home Depot steel doors delivered on site',s:'2026-04-17',e:'2026-04-21',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
 Status: 3 steel doors from Home Depot have been picked up and are now on site.
 Impact: reduces framing risk tied to door material availability.`},
-{id:'d1',cat:'framing',n:'Seven-door finish work: 4 wood + 3 steel',s:'2026-04-20',e:'2026-04-29',st:'active',pct:78,priority:'now',cost:250,notes:`Owner: Brandon / Natalie
+{id:'d1',cat:'framing',n:'Seven-door finish work: 4 wood + 3 steel',s:'2026-04-20',e:'2026-05-06',st:'active',pct:78,priority:'soon',cost:250,notes:`Owner: Brandon / Natalie
 Apr 25 clarification: there are two separate door projects: 4 stained wood interior doors plus 3 steel welded-frame doors for the vault/security rooms.
 Wood doors: final stain coat is complete; remaining step is clear poly on all 4 stained wood interior doors.
 Steel doors: 3 steel doors are primed; remaining step is paint, then electronic key hardware / access-control hardware.
-Install sequence: after poly, install the 2 wood doors that are not blocked by unfinished wall framing; the other 2 wood doors depend on wall framing.`},
+Install sequence: after poly, install the 2 wood doors that are not blocked by unfinished wall framing; the other 2 wood doors depend on wall framing. May 1 priority note: keep moving as a high-leverage closeout item, but city permit payment/docs, sprinklers, and framing are now ahead of it on the critical path.`},
 {id:'d2',cat:'framing',n:'Install wood doors + standard hardware',s:'2026-04-29',e:'2026-05-08',st:'todo',pct:10,priority:'soon',cost:0,notes:`Owner: Brandon
 After poly is done, install the two wood doors that are not blocked by new wall framing and install their hardware at the same time.
 The other two wood doors depend on wall framing completion.`},
