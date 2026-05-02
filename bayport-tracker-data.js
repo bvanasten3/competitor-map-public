@@ -12,7 +12,7 @@ window.BAYPORT_TRACKER_DATA = {
     },
     {
       "className": "gold",
-      "text": "Sales counter framed + countertop ordered; sign paid, expected Jun/Jul"
+      "text": "Low-voltage main runs done; counter finish details remain"
     }
   ],
   notes: {
@@ -20,8 +20,8 @@ window.BAYPORT_TRACKER_DATA = {
 • Pay City of Bayport for permit/document release and keep receipts/docs organized for building, fence, sign, and fire-sprinkler records.
 • Confirm Dynamic Fire Protection is locked for sprinkler-head moves mid-to-late next week, target May 6-8.
 • Confirm Tom / framer start window for late next week or early the following week, target May 7-15.
-• Before framing starts: finalize security checkpoint window direction, pre-wire speaker/TV/security runs, and keep door/hardware finishing moving.
-• Sales counter is framed and countertop is ordered; next counter step is install timing, then custom glass field measure.
+• Before framing starts: finalize security checkpoint window direction, confirm front-door cable reuse with security vendor, and finish the easy back-building wiring during equipment install.
+• Sales counter structure is sturdy and POS conduit is in; finish one cash-drawer support and front plywood skin, then move to countertop/install timing + custom glass field measure.
 
 WHY THIS ORDER
 • The permit watchlist cleanup is complete: building permit, sign permit, and fence permit are no longer open approval risks.
@@ -32,12 +32,13 @@ WHY THIS ORDER
 • May 1: sign permit review is complete. Final sign payment has been made, and Sir Metalman expects the sign to be completed in June or July.
 • May 1: fence permit is approved; fence aisle variance/signoff no longer needs active tracking.
 • May 1: primary sales counter framing is complete and the countertop has been ordered.
+• May 2: UV light tied to HVAC no longer clicks; main 22-gauge and 18-gauge wiring runs are complete; old telephone/legacy security wiring was removed from drop ceilings; POS conduit is run to the sales-counter terminal locations.
 
 BUILDOUT / SCHEDULE
 • Target is for Dynamic Fire Protection to move fire sprinklers mid-to-late next week, likely May 6-8.
 • Target is for the framer to begin late next week or early the following week, likely May 7-15, once permit docs and sprinkler sequencing are clear.
 • Tom / father-son crew quote remains the working framing/drywall anchor at $15k.
-• Framing readiness now depends on permit document release, sprinkler movement, security/window decisions, and any pre-wall low-voltage/electrical runs.
+• Framing readiness now depends on permit document release, sprinkler movement, security/window decisions, and only the remaining targeted low-voltage runs: easy back-building wiring during equipment install plus the front exterior/front security door cable-use question.
 
 SECURITY / DESIGN
 • Preferred path remains split day-stock vs true vault, not trying to force the shutter opening to be treated as the vault itself.
@@ -48,22 +49,27 @@ SECURITY / DESIGN
 • Fire-sprinkler moves must be confirmed for mid-to-late next week before framing starts.
 • Framer start window is late next week or early the following week, depending on sprinkler/permit documentation timing.
 • Security checkpoint window decision still needs to be finalized before framing.
-• Speaker/TV/security pre-wire decisions should be handled before drywall closes walls.
+• Most 22/18 low-voltage wiring is now run; remaining security wiring is intentionally deferred to equipment install in the back plus a vendor question on whether nearby banana cable can serve the front exterior/security door.
 
 CURRENT CRITICAL PATH
 1. Finish city payment/documentation cleanup and file final docs/receipts
 2. Confirm Dynamic Fire Protection sprinkler-head moves for May 6-8 target window
 3. Confirm framer start for May 7-15 target window
-4. Finalize security window and pre-wire decisions before framing/drywall
-5. Framing / drywall start
-6. Rough-in and system installs
-7. SOP / operating plan + Plan of Record
-8. OCM review / inspection / opening
+4. Finalize security window and front-door cable-use decision before framing/drywall
+5. Finish targeted back-building wiring during security-equipment install
+6. Framing / drywall start
+7. Rough-in and system installs
+8. SOP / operating plan + Plan of Record
+9. OCM review / inspection / opening
 
 RECENT WINS
 • Interior-wall building permit received / marked complete
 • Sign permit review complete; final sign payment made to Sir Metalman
 • Fence permit approved; aisle variance/signoff no longer needs tracking
+• UV light connected to HVAC fixed; clicking resolved
+• Main 22-gauge and 18-gauge low-voltage wiring runs completed
+• POS conduit run to sales-counter terminal locations
+• Legacy telephone/old security wiring removed from drop ceilings
 • Primary sales-counter framing completed and countertop ordered
 • Final coat of stain completed on the wood interior doors
 • Ceiling paint completed and lights/sprinklers restored
@@ -76,7 +82,7 @@ PROCUREMENT / WAITING
 • City permit/payment documentation cleanup: collect and file final docs/receipts
 • Dynamic Fire Protection scheduling confirmation for May 6-8 target window
 • Framer/Tom start confirmation for May 7-15 target window
-• Countertop is ordered; next step is install timing, then custom glass field measurement
+• Countertop is ordered; next step is finish one cash-drawer support + front plywood skin, then install timing and custom glass field measurement
 • 3 steel doors from Home Depot are on site and primed; next step is paint
 • Bathroom wallpaper + tile still need to be ordered
 • ACT Asphalt quote / parking lot scope still needs to be locked
@@ -93,7 +99,7 @@ HARD DATES TO PROTECT
 • Parking lot complete by mid-June and no later than July 1, 2026
 • Target opening: Aug 1, 2026`
   },
-  importantIds: ['p4','h1b','s2','sys7','d1','d3','sec2','sec4','c5','c5b','c2','e2','e2b'],
+  importantIds: ['p4','h1b','s2','i4c','sys7','d1','d3','sec2','sec4','c5','c5b','c2','e2','e2b'],
   categories: {permits:{l:'Permits / Professional',c:'var(--color-purple)'},site:{l:'Site / Exterior',c:'var(--color-success)'},framing:{l:'Framing / Doors / Openings',c:'var(--color-warning)'},mech:{l:'HVAC / Fire / Mechanical',c:'var(--color-blue)'},systems:{l:'Electrical / Low Voltage / Security',c:'var(--color-error)'},interior:{l:'Interior Finishes / Fixtures',c:'var(--color-orange)'},retail:{l:'Retail Equipment / Furniture / AV',c:'var(--color-gold)'},ops:{l:'Compliance / Ops Setup',c:'var(--color-primary)'}},
   actuals: [{year:2025,month:11,cat:'ops',amount:1200},{year:2026,month:0,cat:'permits',amount:8000},{year:2026,month:0,cat:'framing',amount:1900},{year:2026,month:1,cat:'mech',amount:500},{year:2026,month:1,cat:'framing',amount:300},{year:2026,month:2,cat:'interior',amount:2600},{year:2026,month:2,cat:'systems',amount:1200},{year:2026,month:2,cat:'permits',amount:2600},{year:2026,month:2,cat:'mech',amount:1100},{year:2026,month:2,cat:'site',amount:1400},{year:2026,month:3,cat:'framing',amount:3900},{year:2026,month:3,cat:'interior',amount:1800},{year:2026,month:3,cat:'mech',amount:1200},{year:2026,month:3,cat:'systems',amount:1479.93}],
   tasks: [
@@ -131,6 +137,8 @@ Dependency note: two of the stained wood doors cannot be installed until the rel
 Cash assumption: using Tom's quoted $15k as the working framing/drywall spend anchor.`},
 {id:'s2b',cat:'framing',n:'Framing prep: electrical moved around removed wall',s:'2026-04-15',e:'2026-04-15',st:'done',pct:100,priority:'soon',cost:0,notes:`Completed.`},
 {id:'h1',cat:'mech',n:'Vault HVAC vent modification',s:'2026-04-07',e:'2026-04-16',st:'done',pct:100,priority:'soon',cost:300,notes:`Owner: Brandon\nStatus: completed.\nCash assumption: small parts / vent modification placeholder only.`},
+{id:'h1c',cat:'mech',n:'Fix UV light clicking on HVAC system',s:'2026-05-01',e:'2026-05-02',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
+May 2 update: fixed the UV light connected to the HVAC system; clicking issue is resolved.`},
 {id:'h1b',cat:'mech',n:'Schedule Dynamic Fire Protection for sprinkler-head moves',s:'2026-04-16',e:'2026-05-08',st:'active',pct:55,priority:'now',cost:1500,notes:`Owner: Brandon / Dynamic Fire Protection
 Permit-status tracking can be removed from the top dashboard watchlist.
 Current focus: confirm Dynamic Fire Protection field-work timing for sprinkler-head moves mid-to-late next week, target May 6-8.
@@ -141,17 +149,27 @@ Cash assumption: placeholder for moving a small number of sprinkler heads, shoul
 
 {id:'i2',cat:'interior',n:'Bathroom remodel materials + work',s:'2026-04-14',e:'2026-05-21',st:'active',pct:20,priority:'later',cost:3500,notes:`Wallpaper, tile, toilet, sink still moving.\nCash assumption: moderate DIY bathroom spend placeholder for remaining finishes/fixtures.`},
 {id:'i4b',cat:'interior',n:'Primary sales-counter framing + countertop order',s:'2026-04-25',e:'2026-05-01',st:'done',pct:100,priority:'soon',cost:15000,notes:`Owner: Brandon
-May 1 update: primary sales-counter framing is complete and the countertop has been ordered.
-Next sequence: countertop delivery/install -> custom glass vendor field-measure for exact flush display fit.
-Status: remove from top-priority/watchlist; keep as completed milestone history.
+May 2 update: sales-counter framing is sturdy; plywood/electrical materials were procured; conduit is run to the POS terminal locations.
+Completed milestone: primary sales-counter framing and countertop order.
+Remaining finish work is tracked separately: one more cash-drawer support plus plywood on the front of the framing.
 Cash assumption: if you do a nice countertop / nicer finish path, POS counter materials could land around $15k; update with real countertop invoice when available.`},
+{id:'i4c',cat:'interior',n:'Sales-counter finish: cash drawer support + front plywood skin',s:'2026-05-02',e:'2026-05-06',st:'active',pct:75,priority:'soon',cost:0,notes:`Owner: Brandon
+May 2 update: plywood and electrical supplies are on hand, frame is sturdy, and POS conduit is already run.
+Remaining: add one more cash-drawer support and plywood to the front of the framing.
+Next sequence after this: countertop delivery/install timing -> custom glass vendor field-measure for exact flush display fit.`},
 {id:'i5',cat:'retail',n:'Sales-floor display cases: framing + electrical plan',s:'2026-04-28',e:'2026-05-18',st:'active',pct:10,priority:'soon',cost:10000,notes:`Owner: Brandon
 May 1 update: countertop is ordered, so display-case progress is no longer blocked by placing the countertop order.
 Next step: sketch the display-case structure plan before cutting lumber; include where power/conduit feeds enter before the case framing is closed.
 Timing note: coordinate with framing/sprinkler/pre-wire sequence so display-case work does not create rework.
 Cash assumption: display cases budgeted around $10k until DIY materials vs custom components are clearer.`},
 {id:'i6',cat:'retail',n:'TVs, kiosks, speakers, in-store AV hardware',s:'2026-05-15',e:'2026-06-10',st:'todo',pct:0,priority:'later',cost:10000,notes:`Owner: Brandon\nCash assumption: TVs, kiosks, and speakers together budgeted around $10k.`},
-{id:'sys7',cat:'systems',n:'Plan and pre-wire speaker + TV electrical runs before drywall',s:'2026-04-17',e:'2026-04-30',st:'todo',pct:0,priority:'soon',cost:1200,notes:`Owner: Brandon\nNext step: Decide speaker locations, TV locations, and any other AV display points, then buy wire and run it before framing/drywall closes the walls.\nBlocker: Need final placement decisions for speakers and TVs.\nDependency: Easier to do now while wiring/framing is open, and it will make life easier for the electrician later.\nLatest safe timing: Should be handled before drywall and ideally before framing closes the relevant areas.\nCash assumption: placeholder for speaker wire, low-voltage runs, and related pre-wire materials.`},
+{id:'sys7',cat:'systems',n:'Low-voltage / security / AV pre-wire before drywall',s:'2026-04-17',e:'2026-05-06',st:'active',pct:85,priority:'soon',cost:1200,notes:`Owner: Brandon
+May 2 update: rest of the 22-gauge and 18-gauge wiring is run.
+Remaining intentional open items: easy wiring in the back of the building, best done during security-equipment install, and a front security/front exterior door question. Ask the security vendor whether the banana cable running directly by that door can be used before pulling another banana cable or another 22/18 set.
+Dependency: finish before drywall closes relevant walls, but do not duplicate cable pulls until vendor confirms the front-door path.
+Cash assumption: placeholder for speaker wire, low-voltage runs, and related pre-wire materials.`},
+{id:'sys8',cat:'systems',n:'Remove legacy ceiling wiring clutter',s:'2026-05-01',e:'2026-05-02',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
+May 2 update: removed old telephone and likely old security wiring from the drop ceilings so new vs old wiring is less confusing.`},
 {id:'i3',cat:'interior',n:'ADA grab bars',s:'2026-04-14',e:'2026-04-28',st:'todo',pct:0,priority:'later',cost:0,notes:`Easy win once time opens up.\nCash assumption: supplies already purchased, so no new spend currently assumed.`},
 {id:'e1',cat:'site',n:'Home Depot steel doors delivered on site',s:'2026-04-17',e:'2026-04-21',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
 Status: 3 steel doors from Home Depot have been picked up and are now on site.
