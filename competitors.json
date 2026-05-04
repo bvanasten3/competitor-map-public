@@ -319,17 +319,22 @@
       "facebook": null
     },
     "newsLinks": [],
-    "source": "Competitors.md (from 2026-03-03 intel)",
+    "source": "Official Lakeland dispensary page + official menu",
     "farmBillNotes": null,
-    "notes": null,
-    "lastVerified": "2026-04-25",
+    "notes": "Official page confirms Lakeland Shores dispensary positioning and direct Dutchie-style menu. Page language says recreational and medical cannabis products, and direct menu categories include hemp-derived THC flower/edibles. Keep active; category may need Morpheus judgment if distinguishing state cannabis vs hemp-derived menu taxonomy.",
+    "lastVerified": "2026-05-04",
     "addedDate": "2026-03-03",
-    "menuUrl": null,
+    "menuUrl": "https://greencanopymn.dispensary.shop/rec/menu",
     "sourceLinks": [
       {
         "type": "official-site",
-        "label": "Official website",
+        "label": "Official Lakeland dispensary page",
         "url": "https://www.greencanopymn.com/lakeland-dispensary"
+      },
+      {
+        "type": "official-menu",
+        "label": "Green Canopy shop/menu",
+        "url": "https://greencanopymn.dispensary.shop/rec/menu"
       }
     ],
     "confidence": "high",
@@ -1987,5 +1992,220 @@
     },
     "geocodeQuality": "nominatim-poi-address",
     "geocodeSource": "Nominatim Camelot Cleaners POI/address result for 984 Smith Ave S; suitable for pipeline site pin"
+  },
+  {
+    "name": "Waabigwan Mashkiki East Grand Forks",
+    "address": "926 Central Avenue NE, East Grand Forks, MN 56721",
+    "location": null,
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "tribal-off-reservation-retail",
+    "cupStatus": null,
+    "owner": "White Earth Nation / Waabigwan Mashkiki",
+    "website": "https://waabigwan.com/our-dispensaries/",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://mncannabishub.com/news/waabigwan-mashkiki-east-grand-forks-opens-may-2026",
+      "https://knoxradio.com/2026/04/30/gfpd-issues-warning-over-weed-dispensary/"
+    ],
+    "source": "Official operator site + local/news reporting",
+    "notes": "Waabigwan official dispensary page confirms East Grand Forks location; MN Cannabis Hub reports ribbon cutting Apr. 28 and retail sales began May 1, 2026 at 926 Central Avenue NE. Cross-border ND traffic likely relevant. Consumption lounge planned 6–8 weeks later per local reporting.",
+    "lastVerified": "2026-05-04",
+    "addedDate": "2026-05-04",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Waabigwan dispensaries page",
+        "url": "https://waabigwan.com/our-dispensaries/"
+      },
+      {
+        "type": "local-news",
+        "label": "MN Cannabis Hub opening article",
+        "url": "https://mncannabishub.com/news/waabigwan-mashkiki-east-grand-forks-opens-may-2026"
+      },
+      {
+        "type": "local-news",
+        "label": "KNOX Grand Forks police warning / address confirmation",
+        "url": "https://knoxradio.com/2026/04/30/gfpd-issues-warning-over-weed-dispensary/"
+      }
+    ],
+    "confidence": "high",
+    "geocodeQuality": "needs-geocode",
+    "geocodeSource": "Exact address verified by news/local cross-check; researcher did not geocode coordinates this run."
+  },
+  {
+    "name": "Flame & Flora",
+    "address": "2571 Credit Union Drive, Prior Lake, MN",
+    "location": null,
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "tribal-retail",
+    "cupStatus": null,
+    "owner": "Shakopee Mdewakanton Sioux Community",
+    "website": "https://flameandfloramn.com/",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/flameandfloramn",
+      "facebook": "https://www.facebook.com/profile.php?id=61579895720969"
+    },
+    "newsLinks": [
+      "https://www.cbsnews.com/minnesota/news/flame-flora-new-cannabis-dispensary-prior-lake-opening/"
+    ],
+    "source": "Official SMSC announcement + CBS Minnesota opening report",
+    "notes": "SMSC official announcement says Flame & Flora is on SMSC land at 2571 Credit Union Drive, Prior Lake; CBS Minnesota reports doors opened Apr. 11, 2026 and that it is licensed under the SMSC cannabis ordinance consistent with Minnesota law.",
+    "lastVerified": "2026-05-04",
+    "addedDate": "2026-05-04",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-tribal-source",
+        "label": "SMSC announcement",
+        "url": "https://shakopeedakota.org/shakopee-mdewakanton-sioux-community-to-open-cannabis-dispensary-in-prior-lake-this-spring/"
+      },
+      {
+        "type": "official-site",
+        "label": "Flame & Flora site / age gate",
+        "url": "https://flameandfloramn.com/"
+      },
+      {
+        "type": "local-news",
+        "label": "CBS Minnesota opening article",
+        "url": "https://www.cbsnews.com/minnesota/news/flame-flora-new-cannabis-dispensary-prior-lake-opening/"
+      }
+    ],
+    "confidence": "high",
+    "geocodeQuality": "needs-geocode",
+    "geocodeSource": "Exact address verified by SMSC official source; researcher did not geocode coordinates this run."
+  },
+  {
+    "name": "Farmer's Cannabis Co.",
+    "address": "124 Minnesota Ave N, Aitkin, MN 56431",
+    "location": {
+      "lat": 46.5332356,
+      "lng": -93.7063238
+    },
+    "status": "publicly-announced",
+    "category": "cannabis",
+    "licenseType": null,
+    "cupStatus": null,
+    "owner": null,
+    "website": "https://farmerscannabisco.com/",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://www.youtube.com/watch?v=_opBkybDqOY"
+    ],
+    "source": "Official operator site + local TV report/discovery",
+    "notes": "Official visit page confirms exact address and adult-use retail visit policies. WDIO/YouTube report dated Apr. 14, 2026 said Farmer's Cannabis Co. hoped to open by end of April and continue delivery in Duluth/Aitkin. Mark as publicly-announced until Morpheus confirms current open/active status from menu, OCM, or operator social.",
+    "lastVerified": "2026-05-04",
+    "addedDate": "2026-05-04",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Official site",
+        "url": "https://farmerscannabisco.com/"
+      },
+      {
+        "type": "official-site",
+        "label": "Official visit/address page",
+        "url": "https://farmerscannabisco.com/visit/"
+      },
+      {
+        "type": "local-news-video",
+        "label": "WDIO/YouTube late-April opening target",
+        "url": "https://www.youtube.com/watch?v=_opBkybDqOY"
+      }
+    ],
+    "confidence": "medium-high",
+    "geocodeQuality": "operator-google-maps-link",
+    "geocodeSource": "Coordinates embedded in official visit page Google Maps URL for 124 Minnesota Ave N."
+  },
+  {
+    "name": "Weed Wishes",
+    "address": "Cook, MN",
+    "location": null,
+    "status": "active",
+    "category": "cannabis",
+    "licenseType": "microbusiness",
+    "cupStatus": null,
+    "owner": "John and Heather Chaulklin",
+    "website": "https://thcgummystore.myshopify.com",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://www.timberjay.com/stories/weed-wishes-begins-cannabis-sales-at-their-cook-shop,25620"
+    ],
+    "source": "Local news + operator hemp-era site",
+    "notes": "Timberjay reports Weed Wishes (MICRO-L25-000345) received OCM license Apr. 1 and began marijuana sales to the public shortly after; co-owned by John and Heather Chaulklin. Official Shopify site confirms Weed Wishes Smoke Shop is in Cook and lists phone/products, but accessible text did not expose exact street address. Do not place pin until exact address is verified.",
+    "lastVerified": "2026-05-04",
+    "addedDate": "2026-05-04",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "local-news",
+        "label": "Timberjay opening/license article",
+        "url": "https://www.timberjay.com/stories/weed-wishes-begins-cannabis-sales-at-their-cook-shop,25620"
+      },
+      {
+        "type": "official-site",
+        "label": "Weed Wishes Smoke Shop site",
+        "url": "https://thcgummystore.myshopify.com"
+      }
+    ],
+    "confidence": "medium-high",
+    "geocodeQuality": "no-exact-address",
+    "geocodeSource": "No exact street address verified in accessible sources."
+  },
+  {
+    "name": "Waabigwan Mashkiki Chanhassen",
+    "address": "951 W 78th St, Chanhassen, MN 55317",
+    "location": null,
+    "status": "publicly-announced",
+    "category": "cannabis",
+    "licenseType": "tribal-off-reservation-retail-pipeline",
+    "cupStatus": null,
+    "owner": "White Earth Nation / Waabigwan Mashkiki",
+    "website": "https://waabigwan.com/our-dispensaries/",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://krocnews.com/ixp/65/p/minnesota-tribal-dispensary-growth/",
+      "https://mncannabishub.com/news/waabigwan-mashkiki-east-grand-forks-opens-may-2026"
+    ],
+    "source": "Official operator site + local reporting",
+    "notes": "Waabigwan official page confirms Chanhassen expansion but fetched official page text did not include the street address. KROC/MN Cannabis Hub report 951 W 78th St and describe event-space/adult-use-experience potential. Keep as publicly-announced/pipeline until operator page or municipal record confirms open status.",
+    "lastVerified": "2026-05-04",
+    "addedDate": "2026-05-04",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Waabigwan dispensaries page",
+        "url": "https://waabigwan.com/our-dispensaries/"
+      },
+      {
+        "type": "local-news",
+        "label": "KROC expansion/address article",
+        "url": "https://krocnews.com/ixp/65/p/minnesota-tribal-dispensary-growth/"
+      },
+      {
+        "type": "local-news",
+        "label": "MN Cannabis Hub East Grand Forks article with Chanhassen note",
+        "url": "https://mncannabishub.com/news/waabigwan-mashkiki-east-grand-forks-opens-may-2026"
+      }
+    ],
+    "confidence": "medium-high",
+    "geocodeQuality": "needs-official-address-confirmation",
+    "geocodeSource": "Street address from local/news source, not from fetched official operator text; leave coordinates null pending official/parcel confirmation."
   }
 ]
