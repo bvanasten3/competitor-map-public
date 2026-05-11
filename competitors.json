@@ -484,7 +484,7 @@
       "lat": null,
       "lng": null
     },
-    "status": "active",
+    "status": "low-confidence",
     "category": "hemp",
     "licenseType": null,
     "cupStatus": null,
@@ -497,18 +497,74 @@
     "newsLinks": [],
     "source": "Competitors.md (from 2026-03-03 intel)",
     "farmBillNotes": "CBD/Hemp and Tobacco. Wisconsin license timeline uncertain.",
-    "notes": "Needs address verification. Current Ignite materials for Hudson route customers to New Richmond or product placement in Hudson rather than a confirmed standalone Hudson dispensary, so coordinates are left null pending verification.",
-    "lastVerified": "2026-04-12",
+    "notes": "Standalone Hudson dispensary remains unverified. 2026-05-05 quick pass found stronger current evidence for Highnorth Dispensary - Hudson at 502 2nd St #110; keep Ignite as low-confidence only unless a separate official Hudson storefront/source appears.",
+    "lastVerified": "2026-05-05",
     "addedDate": "2026-04-12",
     "menuUrl": null,
     "sourceLinks": [],
-    "confidence": "medium",
+    "confidence": "low",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
       "lastChecked": null,
       "sources": []
     }
+  },
+  {
+    "name": "Highnorth Dispensary - Hudson",
+    "address": "502 2nd St #110, Hudson, WI 54016",
+    "location": {
+      "lat": 44.9750019,
+      "lng": -92.7565645
+    },
+    "status": "active",
+    "category": "hemp",
+    "licenseType": null,
+    "cupStatus": null,
+    "owner": null,
+    "website": "https://highnorthwi.com/",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [],
+    "source": "Official Highnorth site/contact/menu pages plus Nominatim business/address geocode",
+    "farmBillNotes": "Wisconsin THC-A/hemp retail competitor. Highnorth states THC-A flower, joints, and moonrocks are available in-store at its Hudson, WI location; not a Minnesota OCM cannabis license.",
+    "notes": "Active Hudson storefront with official phone/contact source and official flower/category page pointing shoppers to the Hudson in-store pickup menu. Material WI commuter-flow competitor for Bayport even if categorized as hemp/THCA rather than MN cannabis.",
+    "lastVerified": "2026-05-05",
+    "addedDate": "2026-05-05",
+    "menuUrl": "https://highnorth-hudson.dispensary.shop",
+    "sourceLinks": [
+      {
+        "type": "official-site",
+        "label": "Highnorth Wisconsin official site",
+        "url": "https://highnorthwi.com/"
+      },
+      {
+        "type": "official-site",
+        "label": "Highnorth contact page",
+        "url": "https://highnorthwi.com/contact/"
+      },
+      {
+        "type": "official-site",
+        "label": "Highnorth flower category / Hudson in-store pickup note",
+        "url": "https://highnorthwi.com/product-category/flower/"
+      },
+      {
+        "type": "menu",
+        "label": "Highnorth Hudson in-store pickup menu",
+        "url": "https://highnorth-hudson.dispensary.shop"
+      }
+    ],
+    "confidence": "high",
+    "communitySentiment": {
+      "summary": "Google business result showed 65 reviews during 2026-05-05 monitoring pass; not yet sentiment-analyzed.",
+      "confidence": "low",
+      "lastChecked": "2026-05-05",
+      "sources": []
+    },
+    "geocodeQuality": "nominatim-business-node",
+    "geocodeSource": "Nominatim business node for High North Dispensary at 502 Second Street, Hudson"
   },
   {
     "name": "My Dealer Bayport",
@@ -1649,70 +1705,62 @@
     }
   },
   {
-    "name": "Silver Therapeutics Stillwater",
+    "name": "Silver Therapeutics Cannabis Company Stillwater Dispensary",
     "address": "1778 Greeley St S, Stillwater, MN 55082",
-    "location": {
-      "lat": 45.039786,
-      "lng": -92.821154
-    },
+    "location": null,
     "status": "active",
     "category": "cannabis",
     "licenseType": "retail",
     "cupStatus": null,
-    "owner": "Silver Therapeutics Cannabis Company (MSO)",
-    "website": "https://silver-therapeutics.com",
-    "menuUrl": "https://silver-therapeutics.com/menus/",
+    "owner": "Silver Therapeutics / Silver Cannabis Company",
+    "website": "https://silver-therapeutics.com/location/medical-and-recreational-cannabis-dispensary-in-stillwater-silver-cannabis/",
     "socialMedia": {
       "instagram": null,
       "facebook": null
     },
     "newsLinks": [],
-    "source": "OCM licensed cannabis businesses dataset updated 2026-04-20; official operator site confirms Silver Therapeutics is a multi-state operator with menu/shop infrastructure across Maine, Massachusetts, Minnesota, New York, and Vermont.",
+    "source": "OCM public licensing index snippet + official operator site + Google Business profile",
     "farmBillNotes": null,
-    "notes": "Major new direct Bayport/Stillwater competitor: OCM lists DIS-L25-000120 Retailer, DBA Silver Therapeutics Cannabis Company, retail site 1778 Greeley Street S, Stillwater. Silver Therapeutics is an MSO with operations/shop pages across Maine, Massachusetts, Minnesota, New York, and Vermont, so treat this as a scaled operator entering the local market rather than a single-site independent. Geocode is Nominatim house/address result for exact street address; verify parcel/address point before treating as official parcel centroid.",
-    "lastVerified": "2026-04-27",
+    "notes": "Official Silver page says Stillwater's first licensed recreational and medical cannabis dispensary is now open at 1778 Greeley St S, with daily 10am-9pm hours and both recreational/medical shop links. Google indexed OCM public licensing data snippet lists Silver Therapeutics Cannabis Company, Retail, 1778 Greeley Street S, Stillwater, MN 55082. This is a meaningful reversal from prior low-confidence/removed Silver entry; keep active, but geocode via official parcel/address point before placing pin.",
+    "lastVerified": "2026-05-11",
     "addedDate": "2026-04-27",
-    "confidence": "high",
+    "menuUrl": "https://silver-therapeutics.com/stores/st-stillwater-mn",
     "sourceLinks": [
       {
-        "type": "ocm",
-        "label": "OCM public license holder data page",
-        "url": "https://mn.gov/ocm/data-reports/application-data/",
-        "date": "2026-04-20"
-      },
-      {
-        "type": "ocm",
-        "label": "OCM licensed cannabis businesses XLSX",
-        "url": "https://mn.gov/ocm/assets/MN_OCM_licensed_cannabis_businesses_04202026_tcm1202-714418.xlsx",
-        "date": "2026-04-20"
+        "type": "government-source-indexed-snippet",
+        "label": "OCM public licensing data indexed result",
+        "url": "https://mn.gov/ocm/public-licensing-data/index.jsp"
       },
       {
         "type": "official-site",
-        "label": "Silver Therapeutics official site",
-        "url": "https://silver-therapeutics.com"
+        "label": "Silver Stillwater location page",
+        "url": "https://silver-therapeutics.com/location/medical-and-recreational-cannabis-dispensary-in-stillwater-silver-cannabis/"
       },
       {
-        "type": "menu",
-        "label": "Silver Therapeutics menus",
-        "url": "https://silver-therapeutics.com/menus/"
+        "type": "official-menu",
+        "label": "Silver Stillwater recreational shop",
+        "url": "https://silver-therapeutics.com/stores/st-stillwater-mn"
+      },
+      {
+        "type": "official-menu",
+        "label": "Silver Stillwater medical shop",
+        "url": "https://silver-therapeutics.com/stores/silver-therapeutics-stillwater-med"
+      },
+      {
+        "type": "google-business-profile",
+        "label": "Google profile surfaced address/phone/hours",
+        "url": "https://www.google.com/search?q=%22Silver+Cannabis+Company%22+Stillwater+Minnesota"
       }
     ],
+    "confidence": "high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
       "lastChecked": null,
       "sources": []
     },
-    "geocodeQuality": "nominatim-address",
-    "geocodeSource": "Nominatim address result for 1778 Greeley St S; coordinate quality needs parcel/address-point QA",
-    "msoStatus": "multi-state operator",
-    "operatingStates": [
-      "Maine",
-      "Massachusetts",
-      "Minnesota",
-      "New York",
-      "Vermont"
-    ]
+    "geocodeQuality": "needs-parcel-geocode",
+    "geocodeSource": "Exact address verified; coordinates intentionally left null until parcel/address-point QA. Do not reuse old/removed Silver coordinates."
   },
   {
     "name": "Highnorth Dispensary Cottage Grove",
@@ -1833,60 +1881,57 @@
   {
     "name": "Black Bear Dispensary Winona",
     "address": "104 E 4th St, Winona, MN 55987",
-    "location": {
-      "lat": 44.0510223,
-      "lng": -91.6353486
-    },
+    "location": null,
     "status": "active",
     "category": "cannabis",
     "licenseType": "retail",
     "cupStatus": null,
-    "owner": "Black Bear Dispensary",
-    "website": "https://blackbeardispensary.com",
-    "menuUrl": "https://blackbeardispensary.com/store/",
+    "owner": "Black Bear Wellness MN LLC",
+    "website": "https://blackbeardispensary.com/",
     "socialMedia": {
       "instagram": null,
       "facebook": null
     },
-    "newsLinks": [],
-    "source": "OCM licensed cannabis businesses dataset plus official Black Bear website search result noting Winona, MN.",
+    "newsLinks": [
+      "https://www.facebook.com/news8000/posts/black-bear-dispensary-opened-its-doors-in-winona-with-a-grand-opening-celebratio/1611067217524518/"
+    ],
+    "source": "OCM public licensing index snippet + Google/Weedmaps discovery + social/news cross-check",
     "farmBillNotes": null,
-    "notes": "SE MN competitor. OCM lists DIS-L25-000016 Retailer at 104 E 4th St, Winona. Geocode is Nominatim exact-house/address result; coordinate QA acceptable but not parcel-official.",
-    "lastVerified": "2026-04-27",
+    "notes": "Google indexed OCM public licensing data snippet lists Black Bear Wellness MN LLC / Black Bear Dispensary, Retail, 104 E 4th Street, Winona, MN 55987. Google profile and Weedmaps discovery show active adult-use menu/listing; News 8 Now Facebook post reports grand opening Apr. 13, 2026. Official website is mostly Western PA / generic and did not expose a clean Winona page in fetched text, so keep confidence medium-high rather than high.",
+    "lastVerified": "2026-05-11",
     "addedDate": "2026-04-27",
-    "confidence": "high",
+    "menuUrl": "https://weedmaps.com/dispensaries/black-bear-weed-dispensary-winona",
     "sourceLinks": [
       {
-        "type": "ocm",
-        "label": "OCM public license holder data page",
-        "url": "https://mn.gov/ocm/data-reports/application-data/",
-        "date": "2026-04-20"
-      },
-      {
-        "type": "ocm",
-        "label": "OCM licensed cannabis businesses XLSX",
-        "url": "https://mn.gov/ocm/assets/MN_OCM_licensed_cannabis_businesses_04202026_tcm1202-714418.xlsx",
-        "date": "2026-04-20"
+        "type": "government-source-indexed-snippet",
+        "label": "OCM public licensing data indexed result",
+        "url": "https://mn.gov/ocm/public-licensing-data/index.jsp"
       },
       {
         "type": "official-site",
-        "label": "Black Bear official site",
-        "url": "https://blackbeardispensary.com"
+        "label": "Black Bear Dispensary website",
+        "url": "https://blackbeardispensary.com/"
       },
       {
-        "type": "menu",
-        "label": "Black Bear store/menu",
-        "url": "https://blackbeardispensary.com/store/"
+        "type": "social-news",
+        "label": "News 8 Now grand opening post",
+        "url": "https://www.facebook.com/news8000/posts/black-bear-dispensary-opened-its-doors-in-winona-with-a-grand-opening-celebratio/1611067217524518/"
+      },
+      {
+        "type": "discovery-menu",
+        "label": "Weedmaps Winona listing/menu",
+        "url": "https://weedmaps.com/dispensaries/black-bear-weed-dispensary-winona"
       }
     ],
+    "confidence": "medium-high",
     "communitySentiment": {
       "summary": null,
       "confidence": null,
       "lastChecked": null,
       "sources": []
     },
-    "geocodeQuality": "nominatim-address",
-    "geocodeSource": "Nominatim address result for 104 E 4th St; not independently parcel-verified"
+    "geocodeQuality": "needs-geocode",
+    "geocodeSource": "Exact address verified from OCM indexed snippet; coordinates not recommended until parcel/address-point QA."
   },
   {
     "name": "Hempire Dispensary Rochester",
@@ -2087,7 +2132,7 @@
       "lat": 46.5332356,
       "lng": -93.7063238
     },
-    "status": "publicly-announced",
+    "status": "active",
     "category": "cannabis",
     "licenseType": null,
     "cupStatus": null,
@@ -2101,8 +2146,8 @@
       "https://www.youtube.com/watch?v=_opBkybDqOY"
     ],
     "source": "Official operator site + local TV report/discovery",
-    "notes": "Official visit page confirms exact address and adult-use retail visit policies. WDIO/YouTube report dated Apr. 14, 2026 said Farmer's Cannabis Co. hoped to open by end of April and continue delivery in Duluth/Aitkin. Mark as publicly-announced until Morpheus confirms current open/active status from menu, OCM, or operator social.",
-    "lastVerified": "2026-05-04",
+    "notes": "Upgrade from publicly-announced to active. Official visit page verifies 124 Minnesota Ave N, Aitkin, MN 56431 and Google Business profile shows live store hours/phone. Exact coordinates remain supported by official Google Maps URL embedded on operator visit page.",
+    "lastVerified": "2026-05-11",
     "addedDate": "2026-05-04",
     "menuUrl": null,
     "sourceLinks": [
@@ -2117,14 +2162,14 @@
         "url": "https://farmerscannabisco.com/visit/"
       },
       {
-        "type": "local-news-video",
-        "label": "WDIO/YouTube late-April opening target",
-        "url": "https://www.youtube.com/watch?v=_opBkybDqOY"
+        "type": "google-business-profile",
+        "label": "Google profile with active hours",
+        "url": "https://www.google.com/search?q=%22Farmer%27s+Cannabis+Co.%22+Aitkin+open+menu+May+2026"
       }
     ],
-    "confidence": "medium-high",
+    "confidence": "high",
     "geocodeQuality": "operator-google-maps-link",
-    "geocodeSource": "Coordinates embedded in official visit page Google Maps URL for 124 Minnesota Ave N."
+    "geocodeSource": "Official visit page embeds Google Maps URL for 124 Minnesota Ave N with coordinates 46.5332356,-93.7063238."
   },
   {
     "name": "Weed Wishes",
@@ -2207,5 +2252,101 @@
     "confidence": "medium-high",
     "geocodeQuality": "needs-official-address-confirmation",
     "geocodeSource": "Street address from local/news source, not from fetched official operator text; leave coordinates null pending official/parcel confirmation."
+  },
+  {
+    "name": "Camelot Cannabis",
+    "address": "Smith Avenue and Bernard Street, West St. Paul, MN",
+    "location": null,
+    "status": "cup-approved",
+    "category": "cannabis",
+    "licenseType": null,
+    "cupStatus": "cup-approved",
+    "owner": null,
+    "website": null,
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://weststpaulreader.com/2026/04/14/west-st-paul-city-council-recap-april-13-2026/",
+      "https://weststpaulreader.com/2026/03/16/camelot-cleaners-to-camelot-cannabis/"
+    ],
+    "source": "Local planning/news coverage",
+    "farmBillNotes": null,
+    "notes": "West St. Paul Reader reports City Council unanimously approved a CUP on Apr. 13, 2026 for Camelot Cannabis at the former Camelot Cleaners on Smith Avenue / Smith and Bernard. Still needs state approval and likely site plan approval; exact street number was not verified in accessible sources, so do not place a pin yet.",
+    "lastVerified": "2026-05-11",
+    "addedDate": "2026-05-11",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "local-news-planning",
+        "label": "West St. Paul Council recap - CUP approved",
+        "url": "https://weststpaulreader.com/2026/04/14/west-st-paul-city-council-recap-april-13-2026/"
+      },
+      {
+        "type": "local-news-planning",
+        "label": "Planning Commission / Camelot Cleaners proposal",
+        "url": "https://weststpaulreader.com/2026/03/16/camelot-cleaners-to-camelot-cannabis/"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    },
+    "geocodeQuality": "no-exact-address",
+    "geocodeSource": "Only intersection/building description verified; leave coordinates null pending exact address and official city packet."
+  },
+  {
+    "name": "Green Goods Miller Hill Duluth",
+    "address": "2202 Maple Grove Road, Duluth, MN",
+    "location": null,
+    "status": "publicly-announced-pipeline",
+    "category": "cannabis",
+    "licenseType": null,
+    "cupStatus": null,
+    "owner": "Vireo Growth / Green Goods",
+    "website": "https://visitgreengoods.com/",
+    "socialMedia": {
+      "instagram": null,
+      "facebook": null
+    },
+    "newsLinks": [
+      "https://mncannabishub.com/news/grandmas-miller-hill-closes-green-goods-duluth-2026"
+    ],
+    "source": "Local/cannabis news reporting; official location page not yet found",
+    "farmBillNotes": null,
+    "notes": "MN Cannabis Hub reports Grandma's Miller Hill at 2202 Maple Grove Road closed May 3, 2026 after selling the building to Vireo Growth, operator of Green Goods. Vireo reportedly confirmed purchase/use for cannabis retail serving medical and recreational customers, but no official Green Goods location page, opening date, or city approval record was found in this quick pass. Treat as pipeline, likely late-2026, not active.",
+    "lastVerified": "2026-05-11",
+    "addedDate": "2026-05-11",
+    "menuUrl": null,
+    "sourceLinks": [
+      {
+        "type": "local-news",
+        "label": "MN Cannabis Hub - Grandma's Miller Hill / Green Goods pipeline",
+        "url": "https://mncannabishub.com/news/grandmas-miller-hill-closes-green-goods-duluth-2026"
+      },
+      {
+        "type": "official-site",
+        "label": "Green Goods locations site",
+        "url": "https://visitgreengoods.com/"
+      },
+      {
+        "type": "company-site",
+        "label": "Vireo Growth",
+        "url": "https://vireogrowth.com/"
+      }
+    ],
+    "confidence": "medium",
+    "communitySentiment": {
+      "summary": null,
+      "confidence": null,
+      "lastChecked": null,
+      "sources": []
+    },
+    "geocodeQuality": "needs-official-confirmation",
+    "geocodeSource": "Exact address from news for former restaurant; coordinates left null until official operator/city record confirms dispensary site."
   }
 ]
