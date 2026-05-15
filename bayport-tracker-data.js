@@ -12,16 +12,17 @@ window.BAYPORT_TRACKER_DATA = {
     },
     {
       "className": "gold",
-      "text": "Toilet installed; Menards parts + electrical wall runs next"
+      "text": "Counters picked up; door hardware/electronic strikes moving"
     }
   ],
   notes: {
     "nextActions": `TOP ACTIONS
 • Complete all electrical / low-voltage runs inside walls before scheduling the framing inspection; inspector said electrical runs must be complete first.
-• Tomorrow Menards run: pick up toilet water supply line, bathroom sink parts already in cart, and the quartz countertop.
+• May 15 field-work target: install the final electronic strike once the special saw blade / part arrives; then install one more steel door with hardware and one wood-door hardware set.
+• Next Menards run: pick up a #7 drill bit for automatic door closers and shims for the two remaining wood doors.
 • Map remaining in-wall electrical needs: customer-facing light controls, exterior sign feed path, IT-room conflict cleanup, POS/display/security locations, and any low-voltage pulls before drywall.
 • After electrical/low-voltage runs are complete, schedule the framing inspection.
-• Continue door/access-control work when the electrical inspection-prep constraint is under control: 3 electronic strikes still need installation.
+• Continue door/access-control work: 2 of 3 electronic strikes are installed; final strike is waiting on the special saw blade / part expected May 15.
 
 WHY THIS ORDER
 • Framing is complete, but the inspection is now blocked by required electrical runs rather than city availability.
@@ -33,6 +34,7 @@ WHY THIS ORDER
 • May 1: fence permit is approved; fence aisle variance/signoff no longer needs active tracking.
 • May 7: Brandon confirmed all city permit payments are done; file receipts/docs with the building, fence, sign, and sprinkler records.
 • May 1: primary sales counter framing is complete and the countertop has been ordered.
+• May 14: Brandon picked up the counters/countertops from Menards.
 • May 2: UV light tied to HVAC no longer clicks; main 22-gauge and 18-gauge wiring runs are complete; old telephone/legacy security wiring was removed from drop ceilings; POS conduit is run to the sales-counter terminal locations.
 
 BUILDOUT / SCHEDULE
@@ -77,6 +79,9 @@ RECENT WINS
 • Tom and crew completed steel stud framing
 • Toilet installed in bathroom; needs new water supply line from Menards
 • Bathroom sink parts identified and in cart
+• Counters/countertops picked up from Menards
+• Two of three electronic strikes installed; final strike waiting on special saw blade / part expected May 15
+• One steel-door handle/hardware set installed
 • Exterior sign electrical route determined
 • IT-room electrical conflict moved out of framing path
 • Main 22-gauge and 18-gauge low-voltage wiring runs completed
@@ -95,12 +100,14 @@ PROCUREMENT / WAITING
 • Dynamic Fire Protection service/closeout paperwork/receipt for sprinkler-head moves
 • Building framing inspection: called May 13; do not schedule until all electrical runs inside the walls are complete.
 • Electrical/smart switches/sign/low-voltage: new top priority is determining and completing all in-wall runs before framing inspection/drywall.
-• Electronic door latches: no progress May 13; keep on list after electrical inspection-prep constraint is under control.
+• Electronic door hardware: 2 of 3 electronic strikes are installed; final strike waiting on special saw blade / part expected May 15.
 • Bathroom: toilet installed May 13 but needs a new water supply line from Menards; sink parts identified and in cart.
 • Construction waste: Brandon was on the way to drop off at the dump May 13; confirm complete afterward.
 • Exterior sign: compare two color samples with Natalie before final color decision
-• Countertop is ordered; next step is finish one cash-drawer support + front plywood skin, then install timing and custom glass field measurement
-• 3 steel doors from Home Depot are on site and primed; next step is paint
+• Counters/countertops are picked up from Menards; next step is finish one cash-drawer support + front plywood skin, then install timing and custom glass field measurement
+• Steel/wood door hardware: May 15 target is final electronic strike, one more steel door with hardware, and one wood-door hardware set
+• Menards pickup needed: #7 drill bit for automatic door closers and shims for the two remaining wood doors
+• 3 steel doors from Home Depot are on site and primed; hardware/access-control install is now underway
 • Bathroom progress: paper towel holder installed, wallpaper installed, tile started; remaining bathroom sequence is clear-coat wallpaper, mortar/tile final wall, wait 24–48 hours before grout, then toilet/sink/fixture install
 • ACT Asphalt quote / parking lot scope still needs to be locked
 • 2nd air filtration unit for front still needs to be purchased
@@ -206,10 +213,11 @@ May 2 update: sales-counter framing is sturdy; plywood/electrical materials were
 Completed milestone: primary sales-counter framing and countertop order.
 Remaining finish work is tracked separately: one more cash-drawer support plus plywood on the front of the framing.
 Cash assumption: if you do a nice countertop / nicer finish path, POS counter materials could land around $15k; update with real countertop invoice when available.`},
-{id:'i4c',cat:'interior',n:'Sales-counter finish: cash drawer support + front plywood skin',s:'2026-05-02',e:'2026-05-06',st:'active',pct:75,priority:'soon',cost:0,notes:`Owner: Brandon
+{id:'i4c',cat:'interior',n:'Sales-counter finish: cash drawer support + front plywood skin',s:'2026-05-02',e:'2026-05-20',st:'active',pct:80,priority:'soon',cost:0,notes:`Owner: Brandon
 May 2 update: plywood and electrical supplies are on hand, frame is sturdy, and POS conduit is already run.
+May 14 update: Brandon picked up the counters/countertops from Menards.
 Remaining: add one more cash-drawer support and plywood to the front of the framing.
-Next sequence after this: countertop delivery/install timing -> custom glass vendor field-measure for exact flush display fit.`},
+Next sequence after this: countertop install timing -> custom glass vendor field-measure for exact flush display fit.`},
 {id:'i5',cat:'retail',n:'Sales-floor display cases: framing + electrical plan',s:'2026-04-28',e:'2026-05-18',st:'active',pct:10,priority:'soon',cost:10000,notes:`Owner: Brandon
 May 1 update: countertop is ordered, so display-case progress is no longer blocked by placing the countertop order.
 Next step: sketch the display-case structure plan before cutting lumber; include where power/conduit feeds enter before the case framing is closed.
@@ -240,18 +248,21 @@ May 2 update: removed old telephone and likely old security wiring from the drop
 {id:'e1',cat:'site',n:'Home Depot steel doors delivered on site',s:'2026-04-17',e:'2026-04-21',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
 Status: 3 steel doors from Home Depot have been picked up and are now on site.
 Impact: reduces framing risk tied to door material availability.`},
-{id:'d1',cat:'framing',n:'Seven-door finish work: 4 wood + 3 steel',s:'2026-04-20',e:'2026-05-06',st:'active',pct:78,priority:'soon',cost:250,notes:`Owner: Brandon / Natalie
+{id:'d1',cat:'framing',n:'Seven-door finish work: 4 wood + 3 steel',s:'2026-04-20',e:'2026-05-20',st:'active',pct:82,priority:'soon',cost:250,notes:`Owner: Brandon / Natalie
 Apr 25 clarification: there are two separate door projects: 4 stained wood interior doors plus 3 steel welded-frame doors for the vault/security rooms.
-Wood doors: final stain coat is complete; remaining step is clear poly on all 4 stained wood interior doors.
-Steel doors: 3 steel doors are primed; remaining step is paint, then electronic key hardware / access-control hardware.
-Install sequence: after poly, install the 2 wood doors that are not blocked by unfinished wall framing; the other 2 wood doors depend on wall framing. May 1 priority note: keep moving as a high-leverage closeout item, but city permit payment/docs, sprinklers, and framing are now ahead of it on the critical path.`},
-{id:'d2',cat:'framing',n:'Install wood doors + standard hardware',s:'2026-04-29',e:'2026-05-08',st:'todo',pct:10,priority:'soon',cost:0,notes:`Owner: Brandon
-After poly is done, install the two wood doors that are not blocked by new wall framing and install their hardware at the same time.
-The other two wood doors depend on wall framing completion.`},
-{id:'d3',cat:'systems',n:'Install electronic key hardware on 3 steel doors',s:'2026-05-15',e:'2026-05-20',st:'todo',pct:5,priority:'soon',cost:0,notes:`Owner: Brandon / security vendor as needed
-Dependency: paint the 3 steel welded-frame doors first, then install electronic key hardware / access-control hardware.
-May 12 update: now that framing is complete, Brandon can start installing electronic door latches soon.
-May 13 update: no progress installing the three electronic strikes; keep on list, but electrical wall runs for framing inspection are now the higher priority.`},
+Wood doors: final stain coat is complete; two wood doors remain to install and need shims from Menards; door handles can be installed as each door is hung.
+Steel doors: steel-door hardware/access-control work is underway. May 14 update: Brandon installed one steel-door handle/hardware set and 2 of 3 electronic strikes.
+May 15 target: install the final electronic strike after the special saw blade / part arrives, install one more steel door with hardware, and install one wood-door hardware set.
+Procurement: pick up shims for the remaining wood doors and a #7 drill bit for automatic door closers on the next Menards run.`},
+{id:'d2',cat:'framing',n:'Install wood doors + standard hardware',s:'2026-04-29',e:'2026-05-20',st:'active',pct:35,priority:'soon',cost:0,notes:`Owner: Brandon
+May 14 update: two wood doors remain to install. Need shims from Menards before completing those installs.
+Door handles are available and can be installed as each wood door is hung.
+May 15 target: install one wood-door hardware set if time allows after the final electronic strike and one additional steel door.`},
+{id:'d3',cat:'systems',n:'Install electronic key hardware on 3 steel doors',s:'2026-05-14',e:'2026-05-20',st:'active',pct:70,priority:'soon',cost:0,notes:`Owner: Brandon / security vendor as needed
+May 14 update: Brandon installed 2 of 3 electronic strikes and one steel-door handle/hardware set.
+Remaining: install the final electronic strike on one steel door after the special saw blade / part arrives, expected May 15.
+May 15 target: finish final electronic strike, then install one more steel door with hardware.
+Watch item: automatic closer install needs a #7 drill bit from Menards before that closer work can resume.`},
 
 {id:'e4',cat:'site',n:'Dispose Bayport construction waste / bulk drop-off',s:'2026-05-13',e:'2026-05-13',st:'active',pct:80,priority:'soon',cost:0,notes:`Owner: Brandon
 May 12 update: construction waste is ready for a bulk drop-off. Need to call the Minneapolis trash/bulk disposal place before 4:30 PM and schedule one day in advance. Goal is to complete this week.
