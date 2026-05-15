@@ -289,6 +289,10 @@ Working hypotheses from the shared MN market opinion letter: cultivation capacit
 Next step: create a supplier pipeline with multiple cultivators/manufacturers, hemp beverage brands, tested-product availability, transporter/logistics constraints, and substitution options by product category.`},
 {id:'c1',cat:'ops',n:'SOP + operating plan drafting',s:'2026-04-21',e:'2026-05-14',st:'todo',pct:0,priority:'later',cost:2500,notes:`Kick off once design/build path is clearer.\nCash assumption: working placeholder for Canopyspire / compliance drafting help.`},
 {id:'c2',cat:'ops',n:'Final Plan of Record assembly & OCM submission',s:'2026-05-21',e:'2026-05-28',st:'todo',pct:0,priority:'later',cost:0,notes:`Late-May target still matters for Aug 1.`},
-{id:'pos1',cat:'retail',n:'POS registers and hardware purchase',s:'2026-05-15',e:'2026-06-05',st:'todo',pct:0,priority:'later',cost:4800,notes:`Owner: Brandon\nCash assumption: about $1,600 per register/hardware set, currently modeled as 3 stations / units.`}
+{id:'pos1',cat:'retail',n:'POS / ecommerce / delivery platform selection + hardware',s:'2026-05-15',e:'2026-06-05',st:'active',pct:15,priority:'soon',cost:4800,notes:`Owner: Brandon / POS vendors
+May 14 update: IndicaOnline is now an active alternative to BLAZE for the POS + ecommerce + delivery platform stack. Demo is expected May 15.
+IndicaOnline decision points to confirm in demo: Ultimate/right-fit pricing around $680/mo, whether month-to-month/no contract is available, delivery platform quality, API depth/export limits, whether Morpheus/AI can easily digest financial and operational data, QuickBooks Online/accounting options or export workaround, website/ecommerce ownership/SEO/custom domain, Metrc/MN readiness, onboarding timeline, hardware requirements, support SLAs, and any hidden add-on fees.
+Compare against BLAZE apples-to-apples: POS, ecommerce/site, delivery, payments, accounting/QuickBooks, contract term, implementation timing, data/API access, and total monthly cost.
+Cash assumption: about $1,600 per register/hardware set, currently modeled as 3 stations / units; software subscription not yet finalized.`}
 ]
 };
