@@ -12,17 +12,15 @@ window.BAYPORT_TRACKER_DATA = {
     },
     {
       "className": "gold",
-      "text": "Counters picked up; door hardware/electronic strikes moving"
+      "text": "May 15/18 update: Friday procurement, strikes, one steel door, one wood hardware set, waste drop, and rear hole are complete"
     }
   ],
   notes: {
     "nextActions": `TOP ACTIONS
 • Complete all electrical / low-voltage runs inside walls before scheduling the framing inspection; inspector said electrical runs must be complete first.
-• May 15 field-work target: install the final electronic strike once the special saw blade / part arrives; then install one more steel door with hardware and one wood-door hardware set.
-• Next Menards run: pick up a #7 drill bit for automatic door closers and shims for the two remaining wood doors.
 • Map remaining in-wall electrical needs: customer-facing light controls, exterior sign feed path, IT-room conflict cleanup, POS/display/security locations, and any low-voltage pulls before drywall.
 • After electrical/low-voltage runs are complete, schedule the framing inspection.
-• Continue door/access-control work: 2 of 3 electronic strikes are installed; final strike is waiting on the special saw blade / part expected May 15.
+• Continue door/access-control closeout: all three electronic strikes are installed; two steel-door hardware sets are installed; remaining door/closer items can continue after electrical inspection-prep is under control.
 
 WHY THIS ORDER
 • Framing is complete, but the inspection is now blocked by required electrical runs rather than city availability.
@@ -35,6 +33,7 @@ WHY THIS ORDER
 • May 7: Brandon confirmed all city permit payments are done; file receipts/docs with the building, fence, sign, and sprinkler records.
 • May 1: primary sales counter framing is complete and the countertop has been ordered.
 • May 14: Brandon picked up the counters/countertops from Menards.
+• May 15/18 update from Brandon: Friday procurement and field-work carryovers are complete — #7 drill bit, wood-door shims, bathroom water supply/sink parts, IndicaOnline demo radar item, final electronic strike, one additional steel door/hardware set, one wood-door hardware set, construction waste drop-off, and rear building hole plug/seal.
 • May 2: UV light tied to HVAC no longer clicks; main 22-gauge and 18-gauge wiring runs are complete; old telephone/legacy security wiring was removed from drop ceilings; POS conduit is run to the sales-counter terminal locations.
 
 BUILDOUT / SCHEDULE
@@ -80,8 +79,11 @@ RECENT WINS
 • Toilet installed in bathroom; needs new water supply line from Menards
 • Bathroom sink parts identified and in cart
 • Counters/countertops picked up from Menards
-• Two of three electronic strikes installed; final strike waiting on special saw blade / part expected May 15
-• One steel-door handle/hardware set installed
+• All three electronic strikes installed
+• Two steel-door handle/hardware sets installed
+• One wood-door hardware set installed
+• Rear building hole plugged/sealed
+• Construction waste drop-off fully complete
 • Exterior sign electrical route determined
 • IT-room electrical conflict moved out of framing path
 • Main 22-gauge and 18-gauge low-voltage wiring runs completed
@@ -100,18 +102,18 @@ PROCUREMENT / WAITING
 • Dynamic Fire Protection service/closeout paperwork/receipt for sprinkler-head moves
 • Building framing inspection: called May 13; do not schedule until all electrical runs inside the walls are complete.
 • Electrical/smart switches/sign/low-voltage: new top priority is determining and completing all in-wall runs before framing inspection/drywall.
-• Electronic door hardware: 2 of 3 electronic strikes are installed; final strike waiting on special saw blade / part expected May 15.
-• Bathroom: toilet installed May 13 but needs a new water supply line from Menards; sink parts identified and in cart.
-• Construction waste: Brandon was on the way to drop off at the dump May 13; confirm complete afterward.
+• Electronic door hardware: all 3 electronic strikes are installed; two steel-door hardware sets are installed. Remaining door/closer closeout should be sequenced after electrical inspection-prep is controlled.
+• Bathroom: toilet installed May 13; Friday procurement for toilet water supply line and sink parts is complete. Next step is installation / fixture closeout.
+• Construction waste: drop-off is fully complete as of the May 18 update.
 • Exterior sign: compare two color samples with Natalie before final color decision
 • Counters/countertops are picked up from Menards; next step is finish one cash-drawer support + front plywood skin, then install timing and custom glass field measurement
-• Steel/wood door hardware: May 15 target is final electronic strike, one more steel door with hardware, and one wood-door hardware set
-• Menards pickup needed: #7 drill bit for automatic door closers and shims for the two remaining wood doors
+• Steel/wood door hardware: May 15 target completed — final electronic strike, one more steel door with hardware, and one wood-door hardware set. Remaining door closeout should be refreshed after Brandon confirms what is left.
+• Menards pickup: #7 drill bit for automatic door closers and shims for the two remaining wood doors are picked up.
 • 3 steel doors from Home Depot are on site and primed; hardware/access-control install is now underway
 • Bathroom progress: paper towel holder installed, wallpaper installed, tile started; remaining bathroom sequence is clear-coat wallpaper, mortar/tile final wall, wait 24–48 hours before grout, then toilet/sink/fixture install
 • ACT Asphalt quote / parking lot scope still needs to be locked
 • 2nd air filtration unit for front still needs to be purchased
-• Rear building hole: discovered May 13; needs to be plugged/sealed.
+• Rear building hole: discovered May 13 and plugged/sealed by the May 18 update.
 • Supplier pipeline: Brandon flagged MN market supply as a likely opening constraint; build redundant wholesale/vendor relationships before final OCM readiness.
 
 SPEND SNAPSHOT
@@ -202,11 +204,12 @@ Cash assumption: placeholder for moving sprinkler heads, should be replaced with
 {id:'sec2',cat:'systems',n:'Compare Lloyd vs Per Mar and choose direction',s:'2026-04-14',e:'2026-04-21',st:'active',pct:65,priority:'soon',cost:0,notes:`Owner: Brandon / Morpheus\nNext step: on-site Per Mar meeting tomorrow around 10:30 to 2.`},
 {id:'sec4',cat:'systems',n:'Checkpoint window dimensions + Hallmark quote path',s:'2026-04-15',e:'2026-04-18',st:'active',pct:45,priority:'soon',cost:3200,notes:`Hallmark Glass RFQ sent. Need exact field dimensions.\nTwin City Garage RFQ also sent.\nCash assumption: placeholder for a modest custom glazing / pass-through package, not final.`},
 
-{id:'i2',cat:'interior',n:'Bathroom remodel materials + work',s:'2026-04-14',e:'2026-05-21',st:'active',pct:85,priority:'soon',cost:3500,notes:`Owner: Brandon / Natalie
+{id:'i2',cat:'interior',n:'Bathroom remodel materials + work',s:'2026-04-14',e:'2026-05-21',st:'active',pct:90,priority:'soon',cost:3500,notes:`Owner: Brandon / Natalie
 May 10 update: big weekend progress. Paper towel holder installed; wallpaper installed; bottom ~4 feet of wall tile started.
 May 12 update: wallpaper is installed; tile is up except one wall; Brandon grouted two walls.
 May 13 update: toilet installed, but it needs a new water supply line from Menards. Sink parts are determined and in the cart.
-Remaining sequence: pick up water supply line and sink parts, connect toilet supply, finish sink/fixtures, and complete remaining tile/grout closeout.
+May 18 update: Friday procurement for toilet water supply line and sink parts is complete.
+Remaining sequence: connect toilet supply, finish sink/fixtures, and complete remaining tile/grout closeout.
 Cash assumption: moderate DIY bathroom spend placeholder for remaining finishes/fixtures.`},
 {id:'i4b',cat:'interior',n:'Primary sales-counter framing + countertop order',s:'2026-04-25',e:'2026-05-01',st:'done',pct:100,priority:'soon',cost:15000,notes:`Owner: Brandon
 May 2 update: sales-counter framing is sturdy; plywood/electrical materials were procured; conduit is run to the POS terminal locations.
@@ -248,27 +251,29 @@ May 2 update: removed old telephone and likely old security wiring from the drop
 {id:'e1',cat:'site',n:'Home Depot steel doors delivered on site',s:'2026-04-17',e:'2026-04-21',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
 Status: 3 steel doors from Home Depot have been picked up and are now on site.
 Impact: reduces framing risk tied to door material availability.`},
-{id:'d1',cat:'framing',n:'Seven-door finish work: 4 wood + 3 steel',s:'2026-04-20',e:'2026-05-20',st:'active',pct:82,priority:'soon',cost:250,notes:`Owner: Brandon / Natalie
+{id:'d1',cat:'framing',n:'Seven-door finish work: 4 wood + 3 steel',s:'2026-04-20',e:'2026-05-20',st:'active',pct:90,priority:'soon',cost:250,notes:`Owner: Brandon / Natalie
 Apr 25 clarification: there are two separate door projects: 4 stained wood interior doors plus 3 steel welded-frame doors for the vault/security rooms.
 Wood doors: final stain coat is complete; two wood doors remain to install and need shims from Menards; door handles can be installed as each door is hung.
 Steel doors: steel-door hardware/access-control work is underway. May 14 update: Brandon installed one steel-door handle/hardware set and 2 of 3 electronic strikes.
-May 15 target: install the final electronic strike after the special saw blade / part arrives, install one more steel door with hardware, and install one wood-door hardware set.
-Procurement: pick up shims for the remaining wood doors and a #7 drill bit for automatic door closers on the next Menards run.`},
-{id:'d2',cat:'framing',n:'Install wood doors + standard hardware',s:'2026-04-29',e:'2026-05-20',st:'active',pct:35,priority:'soon',cost:0,notes:`Owner: Brandon
+May 18 update: Friday field-work target is complete: final electronic strike installed, one more steel door/hardware set installed, one wood-door hardware set installed, #7 drill bit picked up, and shims picked up for wood-door work.
+Remaining: confirm exact count of wood-door hangs/handles/closers left, then close out the remaining door punch list.`},
+{id:'d2',cat:'framing',n:'Install wood doors + standard hardware',s:'2026-04-29',e:'2026-05-20',st:'active',pct:50,priority:'soon',cost:0,notes:`Owner: Brandon
 May 14 update: two wood doors remain to install. Need shims from Menards before completing those installs.
-Door handles are available and can be installed as each wood door is hung.
-May 15 target: install one wood-door hardware set if time allows after the final electronic strike and one additional steel door.`},
-{id:'d3',cat:'systems',n:'Install electronic key hardware on 3 steel doors',s:'2026-05-14',e:'2026-05-20',st:'active',pct:70,priority:'soon',cost:0,notes:`Owner: Brandon / security vendor as needed
+May 18 update: shims were picked up and one wood-door hardware set was installed Friday.
+Door handles are available and can be installed as each door is hung.
+Remaining: confirm remaining wood-door hang/handle count and finish door closeout.`},
+{id:'d3',cat:'systems',n:'Install electronic key hardware on 3 steel doors',s:'2026-05-14',e:'2026-05-20',st:'active',pct:90,priority:'soon',cost:0,notes:`Owner: Brandon / security vendor as needed
 May 14 update: Brandon installed 2 of 3 electronic strikes and one steel-door handle/hardware set.
-Remaining: install the final electronic strike on one steel door after the special saw blade / part arrives, expected May 15.
-May 15 target: finish final electronic strike, then install one more steel door with hardware.
-Watch item: automatic closer install needs a #7 drill bit from Menards before that closer work can resume.`},
+May 18 update: final electronic strike is installed, one more steel door/hardware set is installed, and the #7 drill bit was picked up for automatic closer work.
+Remaining: confirm whether the third steel-door hardware/closer set is still open, then close out the final steel-door punch list.`},
 
-{id:'e4',cat:'site',n:'Dispose Bayport construction waste / bulk drop-off',s:'2026-05-13',e:'2026-05-13',st:'active',pct:80,priority:'soon',cost:0,notes:`Owner: Brandon
-May 12 update: construction waste is ready for a bulk drop-off. Need to call the Minneapolis trash/bulk disposal place before 4:30 PM and schedule one day in advance. Goal is to complete this week.
-May 13 update: Brandon was on the way to drop off construction waste at the dump. Confirm complete after drop-off.`},
-{id:'e5',cat:'site',n:'Plug/seal rear building hole',s:'2026-05-14',e:'2026-05-18',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon
-May 13 update: discovered a hole in the rear of the building that needs to be plugged/sealed. Add to site closeout list and handle before weather/pest/security issues develop.`},
+{id:'e4',cat:'site',n:'Dispose Bayport construction waste / bulk drop-off',s:'2026-05-13',e:'2026-05-18',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
+May 12 update: construction waste was ready for a bulk drop-off.
+May 13 update: Brandon was on the way to drop off construction waste at the dump.
+May 18 update: construction waste drop-off is fully complete.`},
+{id:'e5',cat:'site',n:'Plug/seal rear building hole',s:'2026-05-14',e:'2026-05-18',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
+May 13 update: discovered a hole in the rear of the building that needed to be plugged/sealed.
+May 18 update: rear building hole is plugged/sealed.`},
 {id:'e2',cat:'site',n:'ACT Asphalt quote + parking lot scope lock',s:'2026-04-21',e:'2026-04-22',st:'active',pct:60,priority:'soon',cost:15000,notes:`Owner: Brandon / Mitchell at ACT Asphalt
 Latest update: Mitchell said the quote should be delivered tomorrow.
 Scope direction: include a paved drain approach that may avoid needing green space treatment.
@@ -289,9 +294,10 @@ Working hypotheses from the shared MN market opinion letter: cultivation capacit
 Next step: create a supplier pipeline with multiple cultivators/manufacturers, hemp beverage brands, tested-product availability, transporter/logistics constraints, and substitution options by product category.`},
 {id:'c1',cat:'ops',n:'SOP + operating plan drafting',s:'2026-04-21',e:'2026-05-14',st:'todo',pct:0,priority:'later',cost:2500,notes:`Kick off once design/build path is clearer.\nCash assumption: working placeholder for Canopyspire / compliance drafting help.`},
 {id:'c2',cat:'ops',n:'Final Plan of Record assembly & OCM submission',s:'2026-05-21',e:'2026-05-28',st:'todo',pct:0,priority:'later',cost:0,notes:`Late-May target still matters for Aug 1.`},
-{id:'pos1',cat:'retail',n:'POS / ecommerce / delivery platform selection + hardware',s:'2026-05-15',e:'2026-06-05',st:'active',pct:15,priority:'soon',cost:4800,notes:`Owner: Brandon / POS vendors
-May 14 update: IndicaOnline is now an active alternative to BLAZE for the POS + ecommerce + delivery platform stack. Demo is expected May 15.
-IndicaOnline decision points to confirm in demo: Ultimate/right-fit pricing around $680/mo, whether month-to-month/no contract is available, delivery platform quality, API depth/export limits, whether Morpheus/AI can easily digest financial and operational data, QuickBooks Online/accounting options or export workaround, website/ecommerce ownership/SEO/custom domain, Metrc/MN readiness, onboarding timeline, hardware requirements, support SLAs, and any hidden add-on fees.
+{id:'pos1',cat:'retail',n:'POS / ecommerce / delivery platform selection + hardware',s:'2026-05-15',e:'2026-06-05',st:'active',pct:30,priority:'soon',cost:4800,notes:`Owner: Brandon / POS vendors
+May 14 update: IndicaOnline became an active alternative to BLAZE for the POS + ecommerce + delivery platform stack.
+May 18 update: POS software / IndicaOnline demo radar item from Friday is complete.
+Open decision points to capture from demo or written quote: Ultimate/right-fit pricing around $680/mo, whether month-to-month/no contract is available, delivery platform quality, API depth/export limits, whether Morpheus/AI can easily digest financial and operational data, QuickBooks Online/accounting options or export workaround, website/ecommerce ownership/SEO/custom domain, Metrc/MN readiness, onboarding timeline, hardware requirements, support SLAs, and any hidden add-on fees.
 Compare against BLAZE apples-to-apples: POS, ecommerce/site, delivery, payments, accounting/QuickBooks, contract term, implementation timing, data/API access, and total monthly cost.
 Cash assumption: about $1,600 per register/hardware set, currently modeled as 3 stations / units; software subscription not yet finalized.`}
 ]
