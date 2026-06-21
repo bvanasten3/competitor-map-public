@@ -8,7 +8,7 @@ window.BAYPORT_TRACKER_DATA = {
     },
     {
       "className": "warning",
-      "text": "Field priority: paint, trim, fence, doors, counters"
+      "text": "Field priority: paint, garage doors, counters, city photo packet"
     },
     {
       "className": "gold",
@@ -17,18 +17,20 @@ window.BAYPORT_TRACKER_DATA = {
   ],
   notes: {
     "nextActions": `TOP ACTIONS
-• The June 5-7 daily command sheet / pre-drywall sprint is over. Shift the dashboard and command sheet posture to the post-drywall opening sprint.
-• Use George on field work that compresses the punch list: paint interior walls, paint trim and install trim, paint the sales-counter frame, install fence panels, install vault garage doors when they arrive at Menards, and touch up black ceiling paint.
-• Next two weeks: push FPOR prep, internal SOPs, required signage, East Metro Glass security-check windows, display counter vendor, POS vendor, Lloyd security scheduling, Legion parking agreement, and customer-facing readiness.
-• Sequence field work: paint walls/trim/counter frame -> install countertops -> window/display vendor field measurements -> security install timing.
-• Door closeout: find/buy front-door auto closer that works in the space, buy standard break-room closer, and install the on-site bathroom closer.
-• Retail readiness: order customer business cards from CrutchCards, start website updates with Blaze if Blaze is selected, and visit Stillwater/Lakeland dispensaries to capture signs, traffic, product availability, supply insights, and ATM/customer fees.
+• Drywall crew is working on site this week and the property is messy. Treat Wednesday/Thursday as procurement, calls, planning, and FPOR/document work unless a site visit is truly necessary.
+• City closeout: rear fence and landscaping are complete; take the parking lot/fence/plant photo packet and provide it to the City.
+• Post-paint field block: garage doors and counters are on site. Install garage doors immediately after painting if practical, and try to use painting-crew labor for lifting/assistance before that crew leaves.
+• Post-paint AV block: speakers and amp are purchased; install dispensary music system after wall/trim paint is complete.
+• Near-term solo/helper work: install floor transitions, schedule East Metro Glass final measurements, and keep painter scheduling / paint supply locked.
+• Before Friday: build the sign plan, buy odor mitigation / filtration items, source the breakroom vent + Z-Wave outlet path, and dig into cash management / cash transport options.
+• Early next week: ceiling touch-ups, Lloyd install timing with Spencer after paint, final electrical install, security film, fire-protection devices, fire marshal inspection scheduling, and Wabasha closing timing.
+• Continue FPOR docs in Codex, especially inventory control, accounting, and QA open items.
 
 WHY THIS ORDER
-• The wall-close sprint protected the drywall handoff; the next constraint is converting the space into an inspectable, operations-ready retail store.
-• Paint/trim/counter work unlocks countertops, windows/display measurements, and Lloyd security scheduling.
-• FPOR, SOPs, signage, POS, parking, and competitor walk-throughs are the highest-leverage non-field work for opening readiness.
-• Final OCM Plan of Record submission is tied to store operations readiness, not just drawings: security, POS, required signs, smoke alarms, local approvals, and inspection details must be ready enough to pass.`,
+• Avoiding the site while drywall is active preserves time and sanity; the work that can move now is scheduling, procurement, documents, and cash/security decisions.
+• Paint/ceiling touch-up must happen before Lloyd/security install, final fire-protection wall-mounted devices, garage-door install, counter install, and final AV install where possible.
+• Photos, signage, odor mitigation, cash handling, and FPOR drafts are low-mess tasks that still move the opening path forward.
+• The weekend field list should be batched around helper availability so Brandon is not doing two-person cleanup/fence/garage-door work alone.`,
     "decisionLog": `PERMITS / CITY
 • May 1: Brandon confirmed the interior-wall building permit is received and can be marked complete on the dashboard.
 • May 1: sign permit review is complete. Final sign payment has been made, and Sir Metalman expects the sign to be completed in June or July.
@@ -39,6 +41,8 @@ WHY THIS ORDER
 • Jun 4: Brandon confirmed electrical inspection and framing inspection are complete.
 • Jun 4 evening: Brandon defined the June 5-7 pre-drywall sprint: tarps/protection, 6-inch window-frame supports, vault-wall speaker wire, alarm/camera wiring audit/access ports, bathroom trim if time allows, FPOR/SOP drafting, city CO/fire marshal communications, fire/CO detectors, OCM/door/ADA signs, fence completion, and sales-counter wall backing.
 • Jun 9: Brandon said the 3-day daily command sheet sprint is over. Next two weeks should focus on FPOR, internal SOPs, signage, security-check windows, display counter vendor, POS vendor, security scheduling, parking agreement, floor transitions, drawer hardware, counters, auto closers, customer business cards, website/POS integration, and local dispensary visits.
+• Jun 17: Brandon said drywall people are working at the property this week and the site is messy, so near-term work should shift toward before-Friday procurement/calls/FPOR planning, then Friday/weekend helper and solo field blocks.
+• Jun 21: Brandon confirmed the rear fence and landscaping are complete. Remaining city action is to take pictures and provide them to the City.
 • May 1: primary sales counter framing is complete and the countertop has been ordered.
 • May 14: Brandon picked up the counters/countertops from Menards.
 • May 15/18 update from Brandon: Friday procurement and field-work carryovers are complete — #7 drill bit, wood-door shims, bathroom water supply/sink parts, IndicaOnline demo radar item, final electronic strike, one additional steel door/hardware set, one wood-door hardware set, construction waste drop-off, and rear building hole plug/seal.
@@ -54,12 +58,14 @@ BUILDOUT / SCHEDULE
 • Jun 4 schedule update: electrical and framing inspections are complete.
 • Jun 12 correction: sheetrock/drywall delivery and install are complete; do not surface delivery/install logistics as an active command-sheet task.
 • Jun 12 update: Brandon confirmed the wall-close sprint items are complete: 6-inch supports on both window frames, pre-drywall tarps/staging, sales-counter wall backing, smart switches/security-linked lighting, bathroom GFCI/smart switch closeout, Frontier Fire invoice payment, wood doors/standard hardware, and the speaker/alarm/camera wiring audit.
+• Jun 21: counters and garage doors are now on site. Garage-door install should happen immediately after painting if possible, ideally with lifting/help from the painting crew.
 
 SECURITY / DESIGN
 • May 28: Brandon compared Per Mar and Lloyd, signed with Lloyd, and Lloyd is financing the cost. Expected install timing is about one week after drywall is done.
 • Preferred path remains split day-stock vs true vault, not trying to force the shutter opening to be treated as the vault itself.
 • Checkpoint window direction still leans toward fixed glazing + controlled pass-through unless a stronger restricted-access corridor is created.`,
     "globalNotes": `OPEN BLOCKERS / WATCHLIST
+• Drywall crew/site-mess constraint this week: avoid unnecessary Bayport time until Friday/weekend; use the messy-site window for calls, ordering, FPOR, cash/security planning, and vendor scheduling.
 • City permit payments are complete; remaining admin is filing receipts/docs with the permit records.
 • Dynamic Fire Protection sprinkler-head move scheduling is complete; file service/closeout paperwork and receipt once available.
 • Electrical inspection and framing inspection are complete; keep inspection records/photos with the buildout file.
@@ -67,19 +73,17 @@ SECURITY / DESIGN
 • Final OCM Plan of Record submission requires operations-ready store state: security system, POS setup, required OCM signs, smoke alarms, parking/local approval support, and miscellaneous inspection readiness.
 • Security checkpoint window path: lock East Metro Glass if the revised $2k security-check window path still holds.
 • Low-voltage pre-drywall work is complete and documented; preserve photos/notes for Lloyd/security install reference.
-• George helper list: interior walls/trim/trim install, sales-counter frame paint, fence panels, vault garage-door install after Menards pickup, and black ceiling touch-up.
+• George/helper list: interior walls/trim/trim install, sales-counter frame paint, vault garage-door install after paint, and black ceiling touch-up.
 
 CURRENT CRITICAL PATH
-1. Paint interior walls, trim, and sales-counter frame; complete trim installation
-2. Finish fence panels/fabric/hardware and install vault garage doors when Menards pickup is ready
-3. Lock East Metro Glass security-check windows and display counter vendor
-4. Install countertops after counter frame paint and wall paint are complete
-5. Lock POS vendor and start Blaze website update only if Blaze remains the POS path
-6. Schedule Lloyd security installation once plaster/paint timing is clear enough to give an install window
-7. FPOR prep, internal SOPs, required signage procurement, and fire/CO/door closer readiness
-8. Finalize and sign Legion parking lot agreement
-9. Visit Stillwater and Lakeland dispensaries for competitive operating notes
-10. Final Plan of Record assembly, OCM review / inspection / opening
+1. Before Friday: signage plan/procurement, odor mitigation, breakroom vent/Z-Wave path, cash management/transport research, and FPOR docs
+2. City photo packet: take parking lot, completed fence, and landscaping photos; provide to City for local approval/CUP/fence closeout evidence.
+3. Paint block: painters on site if scheduled; confirm enough paint and defer Lloyd/fire wall devices until after paint/ceiling touch-up
+4. Immediately after paint: install garage doors with painter-crew/helper labor if available, then install counters once wall paint/frame paint is ready
+5. Early next week: ceiling touch-ups, Lloyd timing with Spencer, final electric install, security film install, fire-protection devices, and AV/music install
+6. After fire-protection devices are installed: schedule fire marshal inspection with the City immediately
+7. Keep Wabasha 2026-06-30 purchase close timing visible while making Bayport spend commitments
+8. Continue FPOR inventory control, accounting, and QA plans plus remaining open SOP/Plan of Record sections
 
 RECENT WINS
 • Interior-wall building permit received / marked complete
@@ -103,6 +107,7 @@ RECENT WINS
 • Framing inspection complete
 • Parking lot fully paved / complete
 • Fence posts installed
+• Rear fence and landscaping complete
 • June 5-7 work plan captured as pre-drywall sprint
 • June 5-7 pre-drywall / daily command sheet sprint closed on Jun 9
 • June 6: bathroom trim completed
@@ -134,6 +139,12 @@ RECENT WINS
 • Electrical relocated around the wall being removed
 
 PROCUREMENT / WAITING
+• Near-term command-sheet grouping from Jun 17:
+  - Jun 21 update: rear fence and landscaping are complete; only City photo submission remains.
+  - Jun 21 update: garage doors and counters are on site; garage-door install should follow painting and ideally use painting-crew labor for assistance.
+  - Brandon solo/helper work: install floor transitions, take Bayport city photos, schedule East Metro Glass final measurements, schedule painters and verify/buy paint.
+  - Before Friday: signs, odor mitigation, breakroom vent/Z-Wave outlet, cash management, cash transport, FPOR docs.
+  - Early next week: ceiling touch-ups, Lloyd timing with Spencer, fire-protection devices/fire marshal, Wabasha close timing, final electric, security film.
 • City permit/payment documentation cleanup: file paid permit receipts/docs
 • Dynamic Fire Protection service/closeout paperwork/receipt for sprinkler-head moves
 • Building framing inspection: complete as of Jun 4 Brandon update.
@@ -148,8 +159,8 @@ PROCUREMENT / WAITING
 • Menards pickup: #7 drill bit for automatic door closers and shims for the two remaining wood doors are picked up.
 • 3 steel doors from Home Depot are on site and primed; hardware/access-control install is now underway
 • Bathroom progress: ADA bars, paper towel holder, sink, new toilet, soap dispenser, trim, outlet, and switch are complete as of Jun 6.
-• Rear fence: posts are installed; remaining work is fence panels/fabric/hardware.
-• George helper work queue: paint interior walls/trim, install trim, paint sales-counter frame, install fence panels, install vault garage doors when they arrive at Menards, and touch up black ceiling paint.
+• Rear fence and landscaping: complete; take pictures and provide them to the City for closeout/local approval support.
+• George/helper work queue: paint interior walls/trim, install trim, paint sales-counter frame, install vault garage doors after paint, and touch up black ceiling paint.
 • City approval path: draft communication asking Bayport what is needed for certificate of occupancy, fire marshal/official approvals, and inspection timing.
 • OCM signage/safety: install fire alarm and carbon monoxide detectors; order required OCM/door/ADA/handicap signs after verifying exact language.
 • Parking lot paving is fully complete.
@@ -178,7 +189,7 @@ HARD DATES TO PROTECT
 • Parking lot complete by mid-June and no later than July 1, 2026
 • Target opening: Aug 1, 2026`
   },
-  importantIds: ['i7','e2c','c2','c8','c6','sec4','ret2','pos1','sec2','c9','i8','d4','p6','ret3','d3'],
+  importantIds: ['bf1','bf2','bf3','bf4','bf5','bf6','i7','e2c','c2','c8','c6','sec4','ret2','pos1','sec2','i8','d4','p6','d3'],
   categories: {permits:{l:'Permits / Professional',c:'var(--color-purple)'},site:{l:'Site / Exterior',c:'var(--color-success)'},framing:{l:'Framing / Doors / Openings',c:'var(--color-warning)'},mech:{l:'HVAC / Fire / Mechanical',c:'var(--color-blue)'},systems:{l:'Electrical / Low Voltage / Security',c:'var(--color-error)'},interior:{l:'Interior Finishes / Fixtures',c:'var(--color-orange)'},retail:{l:'Retail Equipment / Furniture / AV',c:'var(--color-gold)'},ops:{l:'Compliance / Ops Setup',c:'var(--color-primary)'}},
   actuals: [
     {year:2025,month:11,cat:'ops',amount:1200},
@@ -223,13 +234,15 @@ Status: submitted.`},
 May 1 update: fence permit is approved.
 Fence aisle variance/signoff no longer needs active dashboard tracking.
 May 7 update: city permit payment is complete. Next workstream is fence execution timing, not permit approval.`},
-{id:'e2c',cat:'site',n:'Finish rear fence panels/fabric after posts',s:'2026-06-01',e:'2026-06-09',st:'active',pct:60,priority:'now',cost:0,notes:`Owner: Brandon / ACT Asphalt coordination
+{id:'e2c',cat:'site',n:'Rear fence and landscaping complete',s:'2026-06-01',e:'2026-06-21',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon / ACT Asphalt coordination
 May 28 update: ACT Asphalt is actively installing the parking lot and should be done this week.
 Important next step: install the fence Monday or Tuesday, June 1-2, so ACT Asphalt can touch up that area.
 Jun 4 update: fence posts are installed; remaining work is installing the fence panels/fabric/hardware.
 Jun 9 update: George can help install the fence panels.
-Execution notes: confirm panel/fabric, gates/hardware, line tension, and any paving-edge touch-up access needs. Photograph the completed fence for the project record.
-Dependency: parking lot is now fully paved; fence closeout is the remaining exterior/site task.`},
+Jun 17 update: move fence-panel hanging into the Friday/weekend helper block with Natalie/wife help because the site is messy while drywall people are working.
+Jun 21 update: Brandon confirmed the rear fence and landscaping are complete.
+Closeout: take parking lot/fence/landscaping photos and provide them to the City for local approval/CUP/fence closeout support. Keep photos in the project record.
+Dependency cleared: parking lot, fence, and landscaping physical work are complete; only documentation submission remains.`},
 {id:'p4',cat:'permits',n:'Bayport property taxes paid',s:'2026-05-01',e:'2026-05-08',st:'done',pct:100,priority:'soon',cost:7476.75,notes:`Owner: Brandon
 May 8 update: Brandon paid Bayport property taxes. Actual total paid: $7,476.75.
 Planning treatment: non-capitalized property tax / P&L cash outflow, but include in near-term runway and cash-flow history because it landed alongside permit, sprinkler, framing, and other buildout payments.`},
@@ -284,10 +297,12 @@ Install timing: Lloyd should be able to install about one week after drywall is 
 Dependency: electrical and framing inspections are complete; sheetrock/drywall install is complete.
 OCM relevance: security system must be operations-ready for final Plan of Record / inspection readiness.
 Jun 9 update: schedule security installation after paint/plaster timing is known; send Lloyd an estimated install window once plaster will likely be done.
+Jun 17 update: coordinate Lloyd security install timing with Spencer after paint is complete or credibly scheduled; Brandon wants things painted first.
 Next step: confirm final install date once paint/plaster timing is firm enough and preserve contract/install documentation with OCM readiness records.`},
 {id:'sec4',cat:'systems',n:'Security-check windows: lock East Metro Glass',s:'2026-04-15',e:'2026-06-23',st:'active',pct:65,priority:'now',cost:2000,notes:`Owner: Brandon / East Metro Glass
 May 28 update: Brandon requested a revised quote from East Metro Glass for custom windows and display cases.
 Jun 9 update: Brandon wants to lock in the security-check windows with East Metro Glass if the $2k path is still valid.
+Jun 17 update: schedule East Metro Glass to come out for final measurements, possibly Saturday if available.
 Next step: confirm exact field dimensions after drywall/finish constraints are clear, accept/lock the East Metro Glass window path if scope/price still works, and separate security-check windows from display counter vendor selection if needed.
 Cash assumption: update placeholder from $3.2k to about $2k for security-check windows once quote is confirmed.`},
 
@@ -309,11 +324,12 @@ May 2 update: sales-counter framing is sturdy; plywood/electrical materials were
 Completed milestone: primary sales-counter framing and countertop order.
 Remaining finish work is tracked separately: one more cash-drawer support plus plywood on the front of the framing.
 Cash assumption: if you do a nice countertop / nicer finish path, POS counter materials could land around $15k; update with real countertop invoice when available.`},
-{id:'i4c',cat:'interior',n:'Quartz counter install after drywall / painting',s:'2026-05-02',e:'2026-06-21',st:'active',pct:80,priority:'soon',cost:0,notes:`Owner: Brandon
+{id:'i4c',cat:'interior',n:'Counter install after painting',s:'2026-05-02',e:'2026-06-28',st:'active',pct:85,priority:'soon',cost:0,notes:`Owner: Brandon
 May 2 update: plywood and electrical supplies are on hand, frame is sturdy, and POS conduit is already run.
 May 14 update: Brandon picked up the counters/countertops from Menards.
 May 28 update: quartz counter is on site.
-Remaining: install and secure quartz to the sales counter, but wait until drywall and painting are done because it will be secured to one of the walls.
+Jun 21 update: counters are on site now.
+Remaining: install and secure counters to the sales counter, but wait until drywall and painting are done because they secure to one of the walls.
 Next sequence after this: countertop install timing -> custom glass vendor field-measure for exact flush display fit.`},
 {id:'i4d',cat:'interior',n:'Add backing for securing sales counter to wall',s:'2026-06-05',e:'2026-06-07',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon
 Jun 4 evening update: add backing/blocking for securing the sales counter to the wall before drywall.
@@ -325,7 +341,11 @@ May 1 update: countertop is ordered, so display-case progress is no longer block
 Next step: sketch the display-case structure plan before cutting lumber; include where power/conduit feeds enter before the case framing is closed.
 Timing note: coordinate with framing/sprinkler/pre-wire sequence so display-case work does not create rework.
 Cash assumption: display cases budgeted around $10k until DIY materials vs custom components are clearer.`},
-{id:'i6',cat:'retail',n:'TVs, kiosks, speakers, in-store AV hardware',s:'2026-05-15',e:'2026-06-10',st:'todo',pct:0,priority:'later',cost:10000,notes:`Owner: Brandon\nCash assumption: TVs, kiosks, and speakers together budgeted around $10k.`},
+{id:'i6',cat:'retail',n:'Install dispensary music / AV after paint',s:'2026-06-21',e:'2026-06-30',st:'active',pct:35,priority:'soon',cost:10000,notes:`Owner: Brandon
+Jun 21 update: Brandon bought speakers and an amp for dispensary music.
+Sequence: install music system after wall/trim paint is done so equipment, mounts, and wiring are not exposed to paint/plaster mess. Preserve the pre-drywall speaker-wire documentation for locating paths.
+Scope: speakers, amp, source/control path, volume-zone practicality, power/surge protection, and clean cable management.
+Cash assumption: TVs, kiosks, speakers, and AV hardware together remain budgeted around $10k until real invoices are reconciled.`},
 {id:'sys10',cat:'systems',n:'Complete in-wall electrical / common-wire work',s:'2026-05-13',e:'2026-06-04',st:'done',pct:100,priority:'soon',cost:0,notes:`Owner: Brandon / electrician as needed
 May 13 update: Brandon called the framing inspection contact and was told all electrical runs need to be complete before the framing inspection can be scheduled.
 Scope to determine/complete: electrical needs within walls, customer-safe light controls, exterior sign feed path, POS/display/security locations, low-voltage routes, and any remaining wall-open electrical cleanup.
@@ -395,9 +415,12 @@ Jun 4 update: parking lot is fully paved and complete.
 Closeout: lock final documentation/payment status and keep final quote/invoice/payment docs with the project record.
 Cash assumption: placeholder for remaining payment at completion until final quote/invoice documentation is confirmed.`},
 {id:'c5',cat:'ops',n:'Lock day-stock vs true-vault direction',s:'2026-04-14',e:'2026-04-24',st:'active',pct:70,priority:'soon',cost:0,notes:`Preferred path remains split day-stock vs true vault.`},
-{id:'c5b',cat:'ops',n:'Lock rolling-shutter opening size and place order',s:'2026-04-16',e:'2026-04-30',st:'active',pct:40,priority:'soon',cost:5000,notes:`One month lead time risk remains, but the immediate field-work priority is now the sales-counter frame / quartz order path.
+{id:'c5b',cat:'ops',n:'Install vault garage doors after paint',s:'2026-04-16',e:'2026-06-30',st:'active',pct:75,priority:'now',cost:5000,notes:`One month lead time risk has largely shifted from ordering to installation timing.
 Twin City Garage RFQ sent.
 Jun 9 update: vault garage doors are expected to arrive at Menards for pickup any day; George can help install them after pickup.
+Jun 17 update: pick up garage doors from Menards during the Friday/weekend helper block if ready.
+Jun 21 update: garage doors are on site now.
+Next step: install garage doors right after painting is done, ideally using labor/help from the painting crew for lifting and positioning before that crew leaves.
 Cash assumption: using roughly $5k as the current garage-door / rolling-shutter purchase placeholder until real quote direction lands. Main risk is not just price, it is whether the lower-cost door still meets security, durability, mounting, and operational needs.`},
 {id:'c3',cat:'ops',n:'Build opening supplier pipeline / inventory redundancy',s:'2026-05-20',e:'2026-07-01',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon / Morpheus research support
 May 13 market-intel note: Brandon flagged that securing supply will likely be challenging when Bayport opens. Treat supplier relationship-building as an operating critical path, not a late purchasing task.
@@ -415,6 +438,7 @@ Jun 9 update: FPOR prep is a next-two-weeks priority after the 3-day daily comma
 Submission readiness is not just drawings: the store needs to be operations-ready enough to pass inspection.
 Required readiness buckets: security system installed/ready, POS set up, OCM-required signs installed, smoke alarms in place, and miscellaneous inspection-readiness items closed.
 Dependencies: electrical inspection, framing inspection, and sheetrock/drywall install are complete; Lloyd security install should follow after paint/plaster timing is clear enough to schedule.
+Jun 17 update: continue drafting FPOR docs in Codex. Current starts exist for inventory control, accounting, and QA plans; remaining open items should be resolved before final assembly.
 Next step: build a Plan of Record / operations-ready checklist and map each item to owner, evidence needed, and dependency.`},
 {id:'c8',cat:'ops',n:'Identify/start key OCM SOP documents',s:'2026-06-05',e:'2026-06-23',st:'active',pct:10,priority:'now',cost:0,notes:`Owner: Brandon / Morpheus support
 Jun 4 evening update: Brandon wants to identify and begin working on key SOP documents for OCM review during the weekend sprint.
@@ -430,8 +454,9 @@ Next step: draft a short city email asking for the CO path, fire marshal/fire in
 May 28 update: final OCM submission will require required signs, smoke alarms, and miscellaneous readiness details.
 Jun 4 evening update: Brandon wants to install the fire alarm and carbon monoxide detectors and order signs to meet OCM compliance on doors, ADA/handicap, and related requirements.
 Jun 9 update: procure all signage needed during the next two weeks.
+Jun 17 update: start the sign plan before Friday: restroom, handicap/ADA, employee-only, labor/employment signs, OCM/restricted-area signs, and any required fire/safety signs. Procure signs as needed and begin hanging where possible.
 Current OCM retailer inspection list sign prompts include: restricted-access-area signage stating “WARNING: RESTRICTED AREA, AUTHORIZED PERSONNEL ONLY”; product storage entrance sign stating “Restricted access. Authorized personnel only”; notice that operating a motor vehicle under the influence of intoxicating cannabinoids is illegal; notice that cannabis/hemp products are only intended for individuals at least 21 years of age; and conspicuous signage at each point of ingress into the retail area stating “No persons under 21 allowed.” Verify exact final sign language and placement before ordering.
-Next step: compile the required-signage, ADA/handicap, door/restricted-area, fire alarm, and carbon monoxide detector list, then convert it into a store walk-through punch list.
+Next step: compile the required-signage, ADA/handicap, door/restricted-area, fire alarm, and carbon monoxide detector list, then convert it into a store walk-through punch list. After ceiling touch-up paint is done, install fire-protection devices, including wall-mounted items, and schedule the fire marshal inspection immediately with the City.
 Do not assume readiness until each sign/alarm/location requirement has an owner and evidence/photo path.`},
 {id:'h1d',cat:'mech',n:'Pay Frontier Fire invoice',s:'2026-06-12',e:'2026-06-12',st:'done',pct:100,priority:'soon',cost:1440,notes:`Owner: Brandon
 May 28 update: remind Brandon to pay Frontier Fire $1,440 before Jun 26.
@@ -440,10 +465,13 @@ Jun 12 update: Brandon confirmed complete.
 Closeout: file receipt with fire/sprinkler records.`},
 {id:'i7',cat:'interior',n:'Paint interior walls, trim, and sales-counter frame',s:'2026-06-10',e:'2026-06-23',st:'todo',pct:0,priority:'now',cost:0,notes:`Owner: Brandon / George
 Jun 9 update: George can help paint interior walls, paint trim, install trim, paint the sales-counter frame, and touch up black ceiling paint.
+Jun 17 update: schedule painters for Monday/Tuesday next week and confirm enough paint is onsite; buy more if needed. If George/painter can also handle drop-ceiling touch-ups, combine scopes.
+Jun 21 coordination: if a painting crew is used, ask whether they can help install the on-site garage doors immediately after painting while labor is still available.
 Sequence: paint walls and trim before final countertop install; paint sales-counter frame before countertop install; use ceiling touch-up as a focused punch-list pass, not an open-ended repaint.
 Dependency: drywall/plaster readiness.`},
 {id:'i8',cat:'interior',n:'Finish floor transitions + kitchen drawer hardware',s:'2026-06-10',e:'2026-06-23',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon
 Jun 9 update: next-two-weeks punch list includes finish floor transitions and install kitchen drawer hardware.
+Jun 17 update: floor transitions are a Brandon-solo Friday/weekend task if the site is workable around drywall mess.
 Sequence: do after messy paint/plaster work where possible; photograph completion for closeout record.`},
 {id:'d4',cat:'framing',n:'Door closer closeout: front, break room, bathroom',s:'2026-06-10',e:'2026-06-23',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon
 Jun 9 update: front door needs an auto closer plan that works in the space and then purchase; break room needs a standard closer purchased; bathroom closer is already on site and needs install.
@@ -453,11 +481,38 @@ Jun 9 update: finalize the parking lot agreement with the Legion and get it sign
 OCM/local-readiness relevance: preserve signed agreement with the local approval / FPOR support packet.`},
 {id:'ret2',cat:'retail',n:'Lock display counter vendor',s:'2026-06-10',e:'2026-06-23',st:'todo',pct:0,priority:'now',cost:0,notes:`Owner: Brandon
 Jun 9 update: lock in display counter vendor during the next two weeks.
+Jun 17 update: decide how to complete the sales-counter front during the Friday/weekend helper block, then align vendor/custom work with that finish path.
 Dependency: coordinate with wall paint, counter frame paint, countertop install, POS terminal layout, and East Metro Glass/security-check window decisions.`},
 {id:'ret3',cat:'retail',n:'Customer business cards + website/POS update',s:'2026-06-10',e:'2026-06-23',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon / Morpheus support
 Jun 9 update: order new customer business cards from CrutchCards and start updating the website with Blaze if Blaze is selected for POS.
 Business card source: https://crutchcards.com/
 Dependency: do not overbuild website work until POS vendor is locked; if Blaze wins, align website/menu/ecommerce language with the Blaze implementation path.`},
+{id:'bf1',cat:'site',n:'Weekend helper block: cleanup and post-paint staging',s:'2026-06-19',e:'2026-06-21',st:'active',pct:50,priority:'soon',cost:0,notes:`Owner: Brandon / Natalie
+Jun 17 update: drywall people are working at the property this week and the site is super messy, so avoid unnecessary time there until Friday/weekend.
+Helper-needed work: hang fence panels, pick up garage doors from Menards, clean up interior, clean up front windows, and determine how to complete the sales-counter front.
+Jun 21 update: fence/landscaping are complete and garage doors are on site, so remove those from procurement/physical-fence work. Remaining value is cleanup, front-window cleanup, sales-counter front decision, and staging garage-door install for immediately after paint.
+Sequence: photograph cleaned windows/interior and completed fence/landscaping for the project record and City evidence packet.`},
+{id:'bf2',cat:'site',n:'Bayport city photo set: parking lot, fence, plants',s:'2026-06-19',e:'2026-06-21',st:'todo',pct:0,priority:'now',cost:0,notes:`Owner: Brandon
+Jun 17 update: capture City of Bayport photo evidence for parking lot, fence, and plants during the Friday/weekend solo block.
+Jun 21 update: fence and landscaping are complete; this is now a documentation/submission task, not a physical-work task.
+Output: save/send a clean photo set that can support local approval, CUP/fence closeout, parking lot completion, and project records.`},
+{id:'bf3',cat:'interior',n:'Schedule painters for Monday/Tuesday and confirm paint supply',s:'2026-06-17',e:'2026-06-21',st:'todo',pct:0,priority:'now',cost:0,notes:`Owner: Brandon / painter or George
+Jun 17 update: schedule painters for Monday/Tuesday next week and verify enough paint is onsite; buy more if needed.
+Dependency: painting should happen before Lloyd security install, wall-mounted fire-protection devices, and final cosmetic closeout. Include sales-counter front/frame and ceiling touch-up scope if painter/George can handle it.`},
+{id:'bf4',cat:'interior',n:'Ceiling touch-ups after drywall / paint',s:'2026-06-22',e:'2026-06-28',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon / George / painter
+Jun 17 update: fix up drop-down ceilings early next week, or have George/painter handle it the following week.
+Sequence: complete ceiling touch-up paint before installing wall-mounted fire-protection devices and before locking Lloyd security install timing if device placement could create rework.`},
+{id:'bf5',cat:'systems',n:'Final electric + security film scheduling',s:'2026-06-22',e:'2026-06-30',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon / electrician / security film vendor
+Jun 17 update: schedule electrician for final electric install and schedule security film install on front windows.
+Dependency: coordinate with painters, East Metro Glass final measurements, security-check windows, Lloyd install, and any fire/security wall-mounted devices so vendors are not tripping over each other.`},
+{id:'bf6',cat:'ops',n:'Cash handling and transport plan',s:'2026-06-17',e:'2026-06-24',st:'todo',pct:0,priority:'now',cost:0,notes:`Owner: Brandon / Morpheus research support
+Jun 17 update: dig into cash management plan: cash recycler vs deposit safe and counter, expected cost/benefit, and whether cash transport vendors have recommendations.
+Transport options to compare: United Prairie Bank partner path, NST, Empyreal, and any viable local/bank-supported cannabis cash transport option.
+Output: short recommendation with startup cost, recurring cost, operational friction, security/compliance fit, and Wabasha/Bayport cash sensitivity before committing.`},
+{id:'bf7',cat:'mech',n:'Odor mitigation + breakroom vent procurement',s:'2026-06-17',e:'2026-06-21',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon
+Jun 17 update: buy odor mitigation devices for the vault and front security checkpoint room, plus a carbon filter for the breakroom vent.
+Also buy/source the breakroom cooking vent and a way to run it from a Z-Wave outlet.
+Decision point: keep this practical and code-safe; avoid overbuilding before the final HVAC/electrical path is clear.`},
 {id:'c9',cat:'ops',n:'Visit Stillwater/Lakeland dispensaries for operating intel',s:'2026-06-10',e:'2026-06-23',st:'todo',pct:0,priority:'soon',cost:0,notes:`Owner: Brandon / Morpheus support
 Jun 9 update: visit local dispensaries in Stillwater and Lakeland to identify ways My Dealer can be better.
 Capture: signs, customer quantity/flow, product availability, supply insights, ATM/customer fees, checkout friction, parking/arrival feel, menu clarity, staff flow, and visible merchandising.
@@ -467,8 +522,9 @@ May 14 update: IndicaOnline became an active alternative to BLAZE for the POS + 
 May 18 update: POS software / IndicaOnline demo radar item from Friday is complete.
 May 28 update: POS setup is a required operations-ready bucket for final OCM Plan of Record / inspection readiness.
 Jun 9 update: lock in POS vendor during the next two weeks. If Blaze is selected, start updating the website with Blaze.
+Jun 21 update: Brandon wants a direct Sweed vs Blaze comparison before locking the POS path.
 Open decision points to capture from demo or written quote: Ultimate/right-fit pricing around $680/mo, whether month-to-month/no contract is available, delivery platform quality, API depth/export limits, whether Morpheus/AI can easily digest financial and operational data, QuickBooks Online/accounting options or export workaround, website/ecommerce ownership/SEO/custom domain, Metrc/MN readiness, onboarding timeline, hardware requirements, support SLAs, and any hidden add-on fees.
-Compare against BLAZE apples-to-apples: POS, ecommerce/site, delivery, payments, accounting/QuickBooks, contract term, implementation timing, data/API access, and total monthly cost.
+Compare Sweed against BLAZE apples-to-apples: POS, ecommerce/site, delivery, payments, accounting/QuickBooks, contract term, implementation timing, data/API access, MN/Metrc readiness, support reputation, and total monthly cost.
 Cash assumption: about $1,600 per register/hardware set, currently modeled as 3 stations / units; software subscription not yet finalized.`}
 ]
 };
